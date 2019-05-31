@@ -4,6 +4,8 @@
     <list default="true" id="9a7c5221-581e-4dc1-b2a9-fae3e0c08bad" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/extracted_rules.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/extracted_rules.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature_ranges.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/feature_ranges.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/simplified_rules.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/simplified_rules.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/expertsystems/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/expertsystems/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/expertsystems/rule_miner.py" beforeDir="false" afterPath="$PROJECT_DIR$/expertsystems/rule_miner.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/expertsystems/tree.png" beforeDir="false" />
@@ -16,10 +18,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/expertsystems$training.coverage" NAME="training Coverage Results" MODIFIED="1559305345146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/expertsystems" />
+    <SUITE FILE_PATH="coverage/expertsystems$training.coverage" NAME="training Coverage Results" MODIFIED="1559305711771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/expertsystems" />
     <SUITE FILE_PATH="coverage/expertsystems$expolre_fuzzy.coverage" NAME="expolre_fuzzy Coverage Results" MODIFIED="1559293801435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/expertsystems" />
-    <SUITE FILE_PATH="coverage/expertsystems$extract_fuzzy_rules.coverage" NAME="extract_fuzzy_rules Coverage Results" MODIFIED="1559304120799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/expertsystems" />
-    <SUITE FILE_PATH="coverage/expertsystems$extracting_ranges.coverage" NAME="extracting_ranges Coverage Results" MODIFIED="1559302769976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/expertsystems" />
+    <SUITE FILE_PATH="coverage/expertsystems$extract_fuzzy_rules.coverage" NAME="extract_fuzzy_rules Coverage Results" MODIFIED="1559305719127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/expertsystems" />
+    <SUITE FILE_PATH="coverage/expertsystems$extracting_ranges.coverage" NAME="extracting_ranges Coverage Results" MODIFIED="1559305716150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/expertsystems" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-816739954">
@@ -36,7 +38,7 @@
         <counts>
           <entry key="csv" value="3" />
           <entry key="java" value="1" />
-          <entry key="json" value="10" />
+          <entry key="json" value="11" />
           <entry key="md" value="1" />
           <entry key="png" value="1" />
           <entry key="py" value="17" />
@@ -47,7 +49,7 @@
           <entry key="CSV" value="3" />
           <entry key="Image" value="1" />
           <entry key="JAVA" value="1" />
-          <entry key="JSON" value="8" />
+          <entry key="JSON" value="9" />
           <entry key="Markdown" value="1" />
           <entry key="Python" value="17" />
           <entry key="Scratch" value="2" />
@@ -75,7 +77,7 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/expertsystems/simplify_rules.py">
               <provider selected="true" editor-type-id="live-pycharm">
                 <state>
@@ -91,34 +93,19 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/data/simplified_rules.json">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="20535">
-                  <caret line="1369" column="23" selection-start-line="1369" selection-start-column="20" selection-end-line="1369" selection-end-column="23" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/expertsystems/extract_fuzzy_rules.py">
-              <provider selected="true" editor-type-id="live-pycharm">
-                <state>
-                  <first_editor relative-caret-position="256">
-                    <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
-                    <folding>
-                      <marker date="1559304106164" expanded="true" signature="161:596" ph="..." />
-                    </folding>
-                  </first_editor>
-                  <second_editor relative-caret-position="-14" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/data/feature_ranges.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="390">
-                  <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+                <state relative-caret-position="104">
+                  <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/data/simplified_rules.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="163">
+                  <caret line="4614" column="29" lean-forward="true" selection-start-line="4614" selection-start-column="29" selection-end-line="4614" selection-end-column="29" />
                 </state>
               </provider>
             </entry>
@@ -154,11 +141,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/data/extracted_rules.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="248">
-                  <caret line="104" column="24" selection-start-line="104" selection-start-column="20" selection-end-line="104" selection-end-column="24" />
+                <state relative-caret-position="60">
+                  <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
                 </state>
               </provider>
             </entry>
@@ -166,13 +153,13 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/data/boston_housing.csv">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="26" selection-start-column="22" selection-end-column="26" />
+                <state relative-caret-position="-7066">
+                  <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/expertsystems/rule_miner.py">
               <provider selected="true" editor-type-id="live-pycharm">
                 <state>
@@ -231,12 +218,16 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>rad</find>
-      <find>&quot;</find>
       <find>scale_</find>
-      <find>rad</find>
       <find>zn</find>
       <find>dis</find>
       <find>chas</find>
+      <find>nox</find>
+      <find>ptratio</find>
+      <find>tax</find>
+      <find>&quot;</find>
+      <find>rad</find>
+      <find>b</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
@@ -267,12 +258,12 @@
         <option value="$PROJECT_DIR$/expertsystems/extracting_ranges.py" />
         <option value="$PROJECT_DIR$/Readme.md" />
         <option value="$PROJECT_DIR$/expertsystems/simplify_rules.py" />
-        <option value="$PROJECT_DIR$/data/simplified_rules.json" />
         <option value="$PROJECT_DIR$/expertsystems/extract_fuzzy_rules.py" />
-        <option value="$PROJECT_DIR$/data/feature_ranges.json" />
         <option value="$PROJECT_DIR$/expertsystems/main.py" />
-        <option value="$PROJECT_DIR$/data/extracted_rules.json" />
         <option value="$PROJECT_DIR$/expertsystems/rule_miner.py" />
+        <option value="$PROJECT_DIR$/data/feature_ranges.json" />
+        <option value="$PROJECT_DIR$/data/extracted_rules.json" />
+        <option value="$PROJECT_DIR$/data/simplified_rules.json" />
       </list>
     </option>
   </component>
@@ -324,7 +315,7 @@
     <property name="SearchEverywhereHistoryKey" value="bost&#9;FILE&#9;file:///Users/igorjovic/IdeaProjects/expertsystems/data/boston_housing.csv&#10;extrac&#9;FILE&#9;file:///Users/igorjovic/IdeaProjects/expertsystems/data/extracted_rules.json&#10;extra&#9;FILE&#9;file:///Users/igorjovic/IdeaProjects/expertsystems/data/extracted_rules.json&#10;scratch&#9;ACTION&#9;NewScratchFile" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559305457129" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559305870459" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSON" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -342,7 +333,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.training">
+  <component name="RunManager" selected="Python.extract_fuzzy_rules">
     <configuration name="expolre_fuzzy" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="expertsystems" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -439,9 +430,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.training" />
         <item itemvalue="Python.extract_fuzzy_rules" />
         <item itemvalue="Python.extracting_ranges" />
+        <item itemvalue="Python.training" />
         <item itemvalue="Python.expolre_fuzzy" />
       </list>
     </recent_temporary>
@@ -459,12 +450,12 @@
       <workItem from="1559031387265" duration="9042000" />
       <workItem from="1559142466923" duration="5588000" />
       <workItem from="1559154133293" duration="1916000" />
-      <workItem from="1559292920700" duration="10365000" />
+      <workItem from="1559292920700" duration="10697000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26911000" />
+    <option name="totallyTimeSpent" value="27243000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="970" extended-state="6" />
@@ -479,12 +470,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32915717" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37015945" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37015945" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.48063782" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.38952163" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.38952163" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="SonarLint" order="10" />
@@ -652,46 +643,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/simplified_rules.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20535">
-          <caret line="1369" column="23" selection-start-line="1369" selection-start-column="20" selection-end-line="1369" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/feature_ranges.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/expertsystems/extract_fuzzy_rules.py">
-      <provider selected="true" editor-type-id="live-pycharm">
-        <state>
-          <first_editor relative-caret-position="256">
-            <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
-            <folding>
-              <marker date="1559304106164" expanded="true" signature="161:596" ph="..." />
-            </folding>
-          </first_editor>
-          <second_editor relative-caret-position="-14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/expertsystems/simplify_rules.py">
-      <provider selected="true" editor-type-id="live-pycharm">
-        <state>
-          <first_editor relative-caret-position="173">
-            <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-            <folding>
-              <marker date="1559302765554" expanded="true" signature="194:1161" ph="..." />
-            </folding>
-          </first_editor>
-          <second_editor relative-caret-position="-105" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/expertsystems/trainer.py">
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
@@ -715,17 +666,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/boston_housing.csv">
-      <provider selected="true" editor-type-id="text-editor">
+    <entry file="file://$PROJECT_DIR$/expertsystems/rule_miner.py">
+      <provider selected="true" editor-type-id="live-pycharm">
         <state>
-          <caret column="26" selection-start-column="22" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/extracted_rules.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="104" column="24" selection-start-line="104" selection-start-column="20" selection-end-line="104" selection-end-column="24" />
+          <first_editor relative-caret-position="105">
+            <caret line="7" column="81" selection-start-line="7" selection-start-column="81" selection-end-line="7" selection-end-column="81" />
+            <folding>
+              <element signature="e#0#18#0" expanded="true" />
+              <marker date="1559305552358" expanded="true" signature="105:231" ph="..." />
+              <marker date="1559305552358" expanded="true" signature="1722:1823" ph="..." />
+            </folding>
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -742,18 +694,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/expertsystems/rule_miner.py">
+    <entry file="file://$PROJECT_DIR$/expertsystems/extract_fuzzy_rules.py">
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
-          <first_editor relative-caret-position="105">
-            <caret line="7" column="81" selection-start-line="7" selection-start-column="81" selection-end-line="7" selection-end-column="81" />
+          <first_editor relative-caret-position="161">
+            <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
             <folding>
-              <element signature="e#0#18#0" expanded="true" />
-              <marker date="1559305552358" expanded="true" signature="105:231" ph="..." />
-              <marker date="1559305552358" expanded="true" signature="1722:1823" ph="..." />
+              <marker date="1559304106164" expanded="true" signature="161:596" ph="..." />
             </folding>
           </first_editor>
-          <second_editor />
+          <second_editor relative-caret-position="-105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expertsystems/simplify_rules.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="173">
+            <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+            <folding>
+              <marker date="1559302765554" expanded="true" signature="194:1161" ph="..." />
+            </folding>
+          </first_editor>
+          <second_editor relative-caret-position="-105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/feature_ranges.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/boston_housing.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7066">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/extracted_rules.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/simplified_rules.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="4614" column="29" lean-forward="true" selection-start-line="4614" selection-start-column="29" selection-end-line="4614" selection-end-column="29" />
         </state>
       </provider>
     </entry>
