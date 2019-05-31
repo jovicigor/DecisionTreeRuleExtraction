@@ -12,6 +12,7 @@ def extract_rules(tree, feature_columns):
 
     global k
     k = 0
+    rules = []
 
     def recurse(node, depth, parent):
         global k
@@ -19,22 +20,37 @@ def extract_rules(tree, feature_columns):
         if tree_.feature[node] != _tree.TREE_UNDEFINED:
             name = feature_name[node]
             threshold = tree_.threshold[node]
-            s = "{} <= {} ".format(name, threshold, node)
+
             if node == 0:
-                pathto[node] = s
+                pathto[node] = []
+                pathto[node].append(generate_condition(name, threshold, "less_or_equal"))
             else:
-                pathto[node] = pathto[parent] + ' & ' + s
+                pathto[node] = pathto[parent] + [generate_condition(name, threshold, "less_or_equal")]
 
             recurse(tree_.children_left[node], depth + 1, node)
-            s = "{} > {}".format(name, threshold)
+
             if node == 0:
-                pathto[node] = s
+                pathto[node] = []
+                pathto[node].append(generate_condition(name, threshold, "greater"))
             else:
-                pathto[node] = pathto[parent] + ' & ' + s
+                pathto[node] = pathto[parent] + [generate_condition(name, threshold, "greater")]
+
             recurse(tree_.children_right[node], depth + 1, node)
         else:
             k = k + 1
             value = tree_.value[node][0][0]
-            print(k, ')', pathto[parent], value)
+            rules.append({
+                "conditions": pathto[parent],
+                "output": value
+            })
 
     recurse(0, 1, 0)
+    return rules
+
+
+def generate_condition(feature, value, operator):
+    return {
+        "feature": feature,
+        "operator": operator,
+        "value": value
+    }
