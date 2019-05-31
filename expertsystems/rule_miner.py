@@ -2,7 +2,13 @@ import numpy as np
 from sklearn.tree import _tree
 
 
-def extract_rules(tree, feature_columns):
+def scale_back(scaler, feature_columns, name, value):
+    index = feature_columns.index(name)
+
+    return abs(value * np.sqrt(scaler.var_[index]) + value * scaler.mean_[index])
+
+
+def extract_rules(tree, feature_columns, scaler):
     tree_ = tree.tree_
     feature_name = [
         feature_columns[i] if i != _tree.TREE_UNDEFINED else "undefined!"
@@ -20,6 +26,7 @@ def extract_rules(tree, feature_columns):
         if tree_.feature[node] != _tree.TREE_UNDEFINED:
             name = feature_name[node]
             threshold = tree_.threshold[node]
+            threshold = scale_back(scaler, feature_columns, name, threshold)
 
             if node == 0:
                 pathto[node] = []

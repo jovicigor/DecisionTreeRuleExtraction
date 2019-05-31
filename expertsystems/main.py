@@ -12,7 +12,7 @@ if __name__ == '__main__':
 
     scaler, classifier = train_decision_tree(df=df, target_column=target_column, feature_columns=feature_columns)
 
-    rules = extract_rules(classifier, feature_columns=feature_columns)
+    rules = extract_rules(classifier, feature_columns=feature_columns, scaler=scaler)
 
     with open('../data/extracted_rules.json', 'w') as outfile:
         json.dump(rules, outfile)
