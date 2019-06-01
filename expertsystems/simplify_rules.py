@@ -19,10 +19,20 @@ def simplify_rule(rule):
         less_or_equal_conditions = sorted(less_or_equal_conditions, key=lambda k: k['value'])
         greater_conditions = sorted(greater_conditions, key=lambda k: k['value'], reverse=True)
 
-        if len(less_or_equal_conditions) != 0:
-            new_conditions.append(less_or_equal_conditions[0])
-        if len(greater_conditions) != 0:
-            new_conditions.append(greater_conditions[0])
+        if len(less_or_equal_conditions) != 0 and len(greater_conditions) != 0:
+            # agregate to between
+            between_condition = {
+                'feature': feature,
+                'operator': 'between',
+                'higher_value': less_or_equal_conditions[0]["value"],
+                'lower_value': greater_conditions[0]["value"]
+            }
+            new_conditions.append(between_condition)
+        else:
+            if len(less_or_equal_conditions) != 0:
+                new_conditions.append(less_or_equal_conditions[0])
+            if len(greater_conditions) != 0:
+                new_conditions.append(greater_conditions[0])
 
     return {
         'conditions': new_conditions,

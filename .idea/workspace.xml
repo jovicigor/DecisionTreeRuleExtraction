@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a7c5221-581e-4dc1-b2a9-fae3e0c08bad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/expertsystems/human_readable_rules.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/human_readable_rules.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/human_readable_rules.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/simplified_rules.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/simplified_rules.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/expertsystems/human_readable_rules.py" beforeDir="false" afterPath="$PROJECT_DIR$/expertsystems/human_readable_rules.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/expertsystems/simplify_rules.py" beforeDir="false" afterPath="$PROJECT_DIR$/expertsystems/simplify_rules.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,12 +15,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/expertsystems$human_readable_rules.coverage" NAME="human_readable_rules Coverage Results" MODIFIED="1559381611255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/expertsystems" />
+    <SUITE FILE_PATH="coverage/expertsystems$human_readable_rules.coverage" NAME="human_readable_rules Coverage Results" MODIFIED="1559382411682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/expertsystems" />
     <SUITE FILE_PATH="coverage/expertsystems$training.coverage" NAME="training Coverage Results" MODIFIED="1559379352396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/expertsystems" />
     <SUITE FILE_PATH="coverage/expertsystems$trainer.coverage" NAME="trainer Coverage Results" MODIFIED="1559379339983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/expertsystems" />
     <SUITE FILE_PATH="coverage/expertsystems$expolre_fuzzy.coverage" NAME="expolre_fuzzy Coverage Results" MODIFIED="1559293801435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/expertsystems" />
     <SUITE FILE_PATH="coverage/expertsystems$extract_fuzzy_rules.coverage" NAME="extract_fuzzy_rules Coverage Results" MODIFIED="1559379148315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/expertsystems" />
-    <SUITE FILE_PATH="coverage/expertsystems$extracting_ranges.coverage" NAME="extracting_ranges Coverage Results" MODIFIED="1559379143503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/expertsystems" />
+    <SUITE FILE_PATH="coverage/expertsystems$extracting_ranges.coverage" NAME="extracting_ranges Coverage Results" MODIFIED="1559382398640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/expertsystems" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-816739954">
@@ -34,22 +36,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="csv" value="4" />
+          <entry key="csv" value="5" />
           <entry key="java" value="1" />
-          <entry key="json" value="18" />
+          <entry key="json" value="19" />
           <entry key="md" value="2" />
           <entry key="png" value="1" />
-          <entry key="py" value="27" />
+          <entry key="py" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSV" value="4" />
+          <entry key="CSV" value="5" />
           <entry key="Image" value="1" />
           <entry key="JAVA" value="1" />
-          <entry key="JSON" value="16" />
+          <entry key="JSON" value="17" />
           <entry key="Markdown" value="2" />
-          <entry key="Python" value="27" />
+          <entry key="Python" value="29" />
           <entry key="Scratch" value="2" />
         </counts>
       </usages-collector>
@@ -58,14 +60,14 @@
           <entry key="dummy" value="18" />
           <entry key="json" value="150" />
           <entry key="md" value="410" />
-          <entry key="py" value="5464" />
+          <entry key="py" value="5860" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="410" />
           <entry key="PLAIN_TEXT" value="18" />
-          <entry key="Python" value="5464" />
+          <entry key="Python" value="5860" />
           <entry key="Scratch" value="150" />
         </counts>
       </usages-collector>
@@ -77,10 +79,10 @@
         <entry file="file://$PROJECT_DIR$/expertsystems/simplify_rules.py">
           <provider selected="true" editor-type-id="live-pycharm">
             <state>
-              <first_editor relative-caret-position="300">
-                <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <first_editor relative-caret-position="-84">
+                <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
               </first_editor>
-              <second_editor />
+              <second_editor relative-caret-position="-105" />
             </state>
           </provider>
         </entry>
@@ -89,8 +91,8 @@
         <entry file="file://$PROJECT_DIR$/expertsystems/human_readable_rules.py">
           <provider selected="true" editor-type-id="live-pycharm">
             <state>
-              <first_editor relative-caret-position="215">
-                <caret line="28" column="63" selection-start-line="28" selection-start-column="63" selection-end-line="28" selection-end-column="63" />
+              <first_editor relative-caret-position="218">
+                <caret line="33" column="83" selection-start-line="33" selection-start-column="83" selection-end-line="33" selection-end-column="83" />
                 <folding>
                   <element signature="e#0#11#0" expanded="true" />
                 </folding>
@@ -103,42 +105,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/human_readable_rules.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-139" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/venv/expert-systems/lib/python3.7/site-packages/pandas/core/internals/construction.py">
-          <provider selected="true" editor-type-id="live-pycharm">
-            <state>
-              <first_editor relative-caret-position="135">
-                <caret line="307" selection-start-line="307" selection-end-line="307" />
-              </first_editor>
-              <second_editor relative-caret-position="-105" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/simplified_rules.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-40187">
-              <caret line="1862" column="8" lean-forward="true" selection-start-line="1862" selection-start-column="8" selection-end-line="1862" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/expertsystems/extract_fuzzy_rules.py">
-          <provider selected="true" editor-type-id="live-pycharm">
-            <state>
-              <first_editor relative-caret-position="195">
-                <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-                <folding>
-                  <marker date="1559304106164" expanded="true" signature="161:596" ph="..." />
-                </folding>
-              </first_editor>
-              <second_editor />
+            <state relative-caret-position="315">
+              <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
             </state>
           </provider>
         </entry>
@@ -166,6 +134,8 @@
       <find>b</find>
       <find>conditions</find>
       <find>rad</find>
+      <find>THEN</find>
+      <find>t</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
@@ -193,15 +163,15 @@
         <option value="$PROJECT_DIR$/expertsystems/training.py" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_7.json" />
         <option value="$PROJECT_DIR$/expertsystems/extracting_ranges.py" />
-        <option value="$PROJECT_DIR$/expertsystems/simplify_rules.py" />
         <option value="$PROJECT_DIR$/expertsystems/extract_fuzzy_rules.py" />
         <option value="$PROJECT_DIR$/expertsystems/main.py" />
         <option value="$PROJECT_DIR$/Readme.md" />
         <option value="$PROJECT_DIR$/expertsystems/rule_miner.py" />
         <option value="$PROJECT_DIR$/data/extracted_rules.json" />
-        <option value="$PROJECT_DIR$/data/simplified_rules.json" />
         <option value="$PROJECT_DIR$/data/feature_ranges.json" />
         <option value="$PROJECT_DIR$/expertsystems/trainer.py" />
+        <option value="$PROJECT_DIR$/expertsystems/simplify_rules.py" />
+        <option value="$PROJECT_DIR$/data/simplified_rules.json" />
         <option value="$PROJECT_DIR$/expertsystems/human_readable_rules.py" />
       </list>
     </option>
@@ -251,10 +221,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="main&#9;FILE&#9;file:///Users/igorjovic/IdeaProjects/expertsystems/expertsystems/main.py&#10;bost&#9;FILE&#9;file:///Users/igorjovic/IdeaProjects/expertsystems/data/boston_housing.csv&#10;extrac&#9;FILE&#9;file:///Users/igorjovic/IdeaProjects/expertsystems/data/extracted_rules.json&#10;extra&#9;FILE&#9;file:///Users/igorjovic/IdeaProjects/expertsystems/data/extracted_rules.json&#10;scratch&#9;ACTION&#9;NewScratchFile" />
+    <property name="SearchEverywhereHistoryKey" value="humanreada&#9;FILE&#9;file:///Users/igorjovic/IdeaProjects/expertsystems/expertsystems/human_readable_rules.py&#10;main&#9;FILE&#9;file:///Users/igorjovic/IdeaProjects/expertsystems/expertsystems/main.py&#10;bost&#9;FILE&#9;file:///Users/igorjovic/IdeaProjects/expertsystems/data/boston_housing.csv&#10;extrac&#9;FILE&#9;file:///Users/igorjovic/IdeaProjects/expertsystems/data/extracted_rules.json&#10;extra&#9;FILE&#9;file:///Users/igorjovic/IdeaProjects/expertsystems/data/extracted_rules.json&#10;scratch&#9;ACTION&#9;NewScratchFile" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559381647195" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559382391197" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSON" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -393,10 +363,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.human_readable_rules" />
+        <item itemvalue="Python.extracting_ranges" />
         <item itemvalue="Python.training" />
         <item itemvalue="Python.trainer" />
         <item itemvalue="Python.extract_fuzzy_rules" />
-        <item itemvalue="Python.extracting_ranges" />
       </list>
     </recent_temporary>
   </component>
@@ -414,18 +384,18 @@
       <workItem from="1559142466923" duration="5588000" />
       <workItem from="1559154133293" duration="1916000" />
       <workItem from="1559292920700" duration="10961000" />
-      <workItem from="1559378089450" duration="3299000" />
+      <workItem from="1559378089450" duration="4125000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30806000" />
+    <option name="totallyTimeSpent" value="31632000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="245" y="147" width="1203" height="778" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17743325" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17743325" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -434,12 +404,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32915717" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36880466" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36880466" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.48063782" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.31924197" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.31778425" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="SonarLint" order="10" />
@@ -672,16 +642,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/expertsystems/simplify_rules.py">
-      <provider selected="true" editor-type-id="live-pycharm">
-        <state>
-          <first_editor relative-caret-position="300">
-            <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/expertsystems/extract_fuzzy_rules.py">
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
@@ -695,13 +655,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/simplified_rules.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-40187">
-          <caret line="1862" column="8" lean-forward="true" selection-start-line="1862" selection-start-column="8" selection-end-line="1862" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/venv/expert-systems/lib/python3.7/site-packages/pandas/core/internals/construction.py">
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
@@ -712,16 +665,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/simplified_rules.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2164">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expertsystems/simplify_rules.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="-84">
+            <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          </first_editor>
+          <second_editor relative-caret-position="-105" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/data/human_readable_rules.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-139" />
+        <state relative-caret-position="315">
+          <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/expertsystems/human_readable_rules.py">
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
-          <first_editor relative-caret-position="215">
-            <caret line="28" column="63" selection-start-line="28" selection-start-column="63" selection-end-line="28" selection-end-column="63" />
+          <first_editor relative-caret-position="218">
+            <caret line="33" column="83" selection-start-line="33" selection-start-column="83" selection-end-line="33" selection-end-column="83" />
             <folding>
               <element signature="e#0#11#0" expanded="true" />
             </folding>
