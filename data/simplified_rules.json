@@ -2,29 +2,24 @@
   {
     "conditions": [
       {
-        "feature": "rad",
+        "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 12.690465950691186
+        "value": 0.582999974489212
       },
       {
         "feature": "indus",
         "operator": "less_or_equal",
-        "value": 20.089401597664427
-      },
-      {
-        "feature": "ptratio",
-        "operator": "less_or_equal",
-        "value": 38.185337907366254
+        "value": 1.7599999904632568
       },
       {
         "feature": "dis  ",
         "operator": "less_or_equal",
-        "value": 6.864886376627288
+        "value": 6.243250131607056
       },
       {
-        "feature": "nox ",
+        "feature": "rad",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
+        "value": 2.5
       }
     ],
     "output": 198.0
@@ -32,34 +27,104 @@
   {
     "conditions": [
       {
-        "feature": "zn",
+        "feature": "indus",
         "operator": "less_or_equal",
-        "value": 3.516434825372351
-      },
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 12.690465950691186
+        "value": 18.789999961853027
       },
       {
         "feature": "indus",
-        "operator": "less_or_equal",
-        "value": 20.089401597664427
-      },
-      {
-        "feature": "ptratio",
         "operator": "greater",
-        "value": 38.185337907366254
+        "value": 1.7599999904632568
       },
       {
         "feature": "dis  ",
         "operator": "less_or_equal",
-        "value": 0.9438214060654699
+        "value": 4.528550148010254
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 2.5
       },
       {
         "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
+        "value": 0.582999974489212
+      },
+      {
+        "feature": "crim ",
+        "operator": "less_or_equal",
+        "value": 0.022819999838247895
+      }
+    ],
+    "output": 296.0
+  },
+  {
+    "conditions": [
+      {
+        "feature": "indus",
+        "operator": "less_or_equal",
+        "value": 3.1500000953674316
+      },
+      {
+        "feature": "indus",
+        "operator": "greater",
+        "value": 1.7599999904632568
+      },
+      {
+        "feature": "dis  ",
+        "operator": "less_or_equal",
+        "value": 4.528550148010254
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 2.5
+      },
+      {
+        "feature": "nox ",
+        "operator": "less_or_equal",
+        "value": 0.582999974489212
+      },
+      {
+        "feature": "crim ",
+        "operator": "greater",
+        "value": 0.022819999838247895
+      }
+    ],
+    "output": 276.0
+  },
+  {
+    "conditions": [
+      {
+        "feature": "indus",
+        "operator": "less_or_equal",
+        "value": 18.789999961853027
+      },
+      {
+        "feature": "indus",
+        "operator": "greater",
+        "value": 3.1500000953674316
+      },
+      {
+        "feature": "dis  ",
+        "operator": "less_or_equal",
+        "value": 2.798550009727478
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 2.5
+      },
+      {
+        "feature": "nox ",
+        "operator": "less_or_equal",
+        "value": 0.582999974489212
+      },
+      {
+        "feature": "crim ",
+        "operator": "greater",
+        "value": 0.022819999838247895
       }
     ],
     "output": 273.0
@@ -67,39 +132,39 @@
   {
     "conditions": [
       {
-        "feature": "zn",
+        "feature": "indus",
         "operator": "less_or_equal",
-        "value": 3.516434825372351
+        "value": 18.789999961853027
+      },
+      {
+        "feature": "indus",
+        "operator": "greater",
+        "value": 3.1500000953674316
+      },
+      {
+        "feature": "dis  ",
+        "operator": "less_or_equal",
+        "value": 4.528550148010254
+      },
+      {
+        "feature": "dis  ",
+        "operator": "greater",
+        "value": 2.798550009727478
       },
       {
         "feature": "rad",
         "operator": "less_or_equal",
-        "value": 12.690465950691186
-      },
-      {
-        "feature": "indus",
-        "operator": "less_or_equal",
-        "value": 20.089401597664427
-      },
-      {
-        "feature": "ptratio",
-        "operator": "greater",
-        "value": 38.185337907366254
-      },
-      {
-        "feature": "dis  ",
-        "operator": "less_or_equal",
-        "value": 0.9438214060654699
-      },
-      {
-        "feature": "dis  ",
-        "operator": "greater",
-        "value": 2.794211559443113
+        "value": 2.5
       },
       {
         "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
+        "value": 0.582999974489212
+      },
+      {
+        "feature": "crim ",
+        "operator": "greater",
+        "value": 0.022819999838247895
       }
     ],
     "output": 270.0
@@ -107,149 +172,34 @@
   {
     "conditions": [
       {
-        "feature": "zn",
+        "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 3.516434825372351
-      },
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 12.690465950691186
+        "value": 0.582999974489212
       },
       {
         "feature": "indus",
         "operator": "less_or_equal",
-        "value": 20.089401597664427
-      },
-      {
-        "feature": "ptratio",
-        "operator": "greater",
-        "value": 38.185337907366254
-      },
-      {
-        "feature": "dis  ",
-        "operator": "less_or_equal",
-        "value": 2.0567884634278975
-      },
-      {
-        "feature": "dis  ",
-        "operator": "greater",
-        "value": 0.9438214060654699
-      },
-      {
-        "feature": "nox ",
-        "operator": "less_or_equal",
-        "value": 0.16393199655673832
-      }
-    ],
-    "output": 276.0
-  },
-  {
-    "conditions": [
-      {
-        "feature": "zn",
-        "operator": "greater",
-        "value": 3.516434825372351
-      },
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 12.690465950691186
+        "value": 18.789999961853027
       },
       {
         "feature": "indus",
-        "operator": "less_or_equal",
-        "value": 20.089401597664427
-      },
-      {
-        "feature": "ptratio",
         "operator": "greater",
-        "value": 38.185337907366254
+        "value": 1.7599999904632568
       },
       {
         "feature": "dis  ",
         "operator": "less_or_equal",
-        "value": 2.0567884634278975
+        "value": 5.593350172042847
       },
       {
-        "feature": "nox ",
-        "operator": "less_or_equal",
-        "value": 0.16393199655673832
-      }
-    ],
-    "output": 296.0
-  },
-  {
-    "conditions": [
+        "feature": "dis  ",
+        "operator": "greater",
+        "value": 4.528550148010254
+      },
       {
         "feature": "rad",
         "operator": "less_or_equal",
-        "value": 12.690465950691186
-      },
-      {
-        "feature": "indus",
-        "operator": "less_or_equal",
-        "value": 20.089401597664427
-      },
-      {
-        "feature": "ptratio",
-        "operator": "greater",
-        "value": 38.185337907366254
-      },
-      {
-        "feature": "dis  ",
-        "operator": "less_or_equal",
-        "value": 6.864886376627288
-      },
-      {
-        "feature": "dis  ",
-        "operator": "greater",
-        "value": 2.0567884634278975
-      },
-      {
-        "feature": "nox ",
-        "operator": "less_or_equal",
-        "value": 0.16393199655673832
-      }
-    ],
-    "output": 265.0
-  },
-  {
-    "conditions": [
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 12.690465950691186
-      },
-      {
-        "feature": "rad",
-        "operator": "greater",
-        "value": 16.886072004723445
-      },
-      {
-        "feature": "indus",
-        "operator": "less_or_equal",
-        "value": 20.089401597664427
-      },
-      {
-        "feature": "ptratio",
-        "operator": "greater",
-        "value": 38.185337907366254
-      },
-      {
-        "feature": "dis  ",
-        "operator": "less_or_equal",
-        "value": 6.864886376627288
-      },
-      {
-        "feature": "dis  ",
-        "operator": "greater",
-        "value": 2.0567884634278975
-      },
-      {
-        "feature": "nox ",
-        "operator": "less_or_equal",
-        "value": 0.16393199655673832
+        "value": 2.5
       }
     ],
     "output": 242.0
@@ -257,169 +207,69 @@
   {
     "conditions": [
       {
-        "feature": "dis  ",
+        "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.7890380939661475
-      },
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 12.690465950691186
-      },
-      {
-        "feature": "rad",
-        "operator": "greater",
-        "value": 14.788268977707316
+        "value": 0.582999974489212
       },
       {
         "feature": "indus",
         "operator": "less_or_equal",
-        "value": 20.089401597664427
+        "value": 18.789999961853027
       },
       {
-        "feature": "nox ",
+        "feature": "indus",
+        "operator": "greater",
+        "value": 1.7599999904632568
+      },
+      {
+        "feature": "dis  ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
+        "value": 6.243250131607056
+      },
+      {
+        "feature": "dis  ",
+        "operator": "greater",
+        "value": 5.593350172042847
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 2.5
       }
     ],
-    "output": 193.0
+    "output": 265.0
   },
   {
     "conditions": [
       {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 12.690465950691186
-      },
-      {
-        "feature": "rad",
-        "operator": "greater",
-        "value": 14.788268977707316
-      },
-      {
         "feature": "indus",
         "operator": "less_or_equal",
-        "value": 19.468747767246427
+        "value": 18.789999961853027
+      },
+      {
+        "feature": "dis  ",
+        "operator": "less_or_equal",
+        "value": 6.243250131607056
       },
       {
         "feature": "ptratio",
         "operator": "less_or_equal",
-        "value": 0.9005620910425024
+        "value": 18.09999942779541
       },
       {
-        "feature": "dis  ",
+        "feature": "rad",
         "operator": "less_or_equal",
-        "value": 6.864886376627288
+        "value": 3.5
       },
       {
-        "feature": "dis  ",
+        "feature": "rad",
         "operator": "greater",
-        "value": 0.7890380939661475
+        "value": 2.5
       },
       {
         "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
-      },
-      {
-        "feature": "crim ",
-        "operator": "less_or_equal",
-        "value": 4.99514096608664
-      }
-    ],
-    "output": 252.0
-  },
-  {
-    "conditions": [
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 12.690465950691186
-      },
-      {
-        "feature": "rad",
-        "operator": "greater",
-        "value": 14.788268977707316
-      },
-      {
-        "feature": "indus",
-        "operator": "less_or_equal",
-        "value": 20.089401597664427
-      },
-      {
-        "feature": "indus",
-        "operator": "greater",
-        "value": 19.468747767246427
-      },
-      {
-        "feature": "ptratio",
-        "operator": "less_or_equal",
-        "value": 0.9005620910425024
-      },
-      {
-        "feature": "dis  ",
-        "operator": "less_or_equal",
-        "value": 6.864886376627288
-      },
-      {
-        "feature": "dis  ",
-        "operator": "greater",
-        "value": 0.7890380939661475
-      },
-      {
-        "feature": "nox ",
-        "operator": "less_or_equal",
-        "value": 0.16393199655673832
-      },
-      {
-        "feature": "crim ",
-        "operator": "less_or_equal",
-        "value": 4.99514096608664
-      }
-    ],
-    "output": 247.0
-  },
-  {
-    "conditions": [
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 12.690465950691186
-      },
-      {
-        "feature": "rad",
-        "operator": "greater",
-        "value": 14.788268977707316
-      },
-      {
-        "feature": "indus",
-        "operator": "less_or_equal",
-        "value": 20.089401597664427
-      },
-      {
-        "feature": "ptratio",
-        "operator": "less_or_equal",
-        "value": 0.9005620910425024
-      },
-      {
-        "feature": "dis  ",
-        "operator": "less_or_equal",
-        "value": 6.864886376627288
-      },
-      {
-        "feature": "dis  ",
-        "operator": "greater",
-        "value": 0.7890380939661475
-      },
-      {
-        "feature": "nox ",
-        "operator": "less_or_equal",
-        "value": 0.16393199655673832
-      },
-      {
-        "feature": "crim ",
-        "operator": "greater",
-        "value": 4.99514096608664
+        "value": 0.47599999606609344
       }
     ],
     "output": 233.0
@@ -427,39 +277,119 @@
   {
     "conditions": [
       {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 12.690465950691186
-      },
-      {
-        "feature": "rad",
-        "operator": "greater",
-        "value": 14.788268977707316
-      },
-      {
         "feature": "indus",
         "operator": "less_or_equal",
-        "value": 20.089401597664427
+        "value": 18.789999961853027
+      },
+      {
+        "feature": "dis  ",
+        "operator": "less_or_equal",
+        "value": 6.243250131607056
+      },
+      {
+        "feature": "ptratio",
+        "operator": "less_or_equal",
+        "value": 18.550000190734863
       },
       {
         "feature": "ptratio",
         "operator": "greater",
-        "value": 0.9005620910425024
+        "value": 18.09999942779541
       },
       {
-        "feature": "dis  ",
+        "feature": "rad",
         "operator": "less_or_equal",
-        "value": 6.864886376627288
+        "value": 3.5
       },
       {
-        "feature": "dis  ",
+        "feature": "rad",
         "operator": "greater",
-        "value": 0.7890380939661475
+        "value": 2.5
       },
       {
         "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
+        "value": 0.4385000020265579
+      }
+    ],
+    "output": 252.0
+  },
+  {
+    "conditions": [
+      {
+        "feature": "indus",
+        "operator": "less_or_equal",
+        "value": 18.789999961853027
+      },
+      {
+        "feature": "dis  ",
+        "operator": "less_or_equal",
+        "value": 6.243250131607056
+      },
+      {
+        "feature": "ptratio",
+        "operator": "less_or_equal",
+        "value": 18.550000190734863
+      },
+      {
+        "feature": "ptratio",
+        "operator": "greater",
+        "value": 18.09999942779541
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 3.5
+      },
+      {
+        "feature": "rad",
+        "operator": "greater",
+        "value": 2.5
+      },
+      {
+        "feature": "nox ",
+        "operator": "less_or_equal",
+        "value": 0.47599999606609344
+      },
+      {
+        "feature": "nox ",
+        "operator": "greater",
+        "value": 0.4385000020265579
+      }
+    ],
+    "output": 247.0
+  },
+  {
+    "conditions": [
+      {
+        "feature": "indus",
+        "operator": "less_or_equal",
+        "value": 4.570000052452087
+      },
+      {
+        "feature": "dis  ",
+        "operator": "less_or_equal",
+        "value": 6.243250131607056
+      },
+      {
+        "feature": "ptratio",
+        "operator": "greater",
+        "value": 18.550000190734863
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 3.5
+      },
+      {
+        "feature": "rad",
+        "operator": "greater",
+        "value": 2.5
+      },
+      {
+        "feature": "nox ",
+        "operator": "less_or_equal",
+        "value": 0.47599999606609344
       }
     ],
     "output": 222.0
@@ -467,44 +397,39 @@
   {
     "conditions": [
       {
-        "feature": "rad",
+        "feature": "indus",
         "operator": "less_or_equal",
-        "value": 12.690465950691186
-      },
-      {
-        "feature": "rad",
-        "operator": "greater",
-        "value": 14.788268977707316
+        "value": 18.789999961853027
       },
       {
         "feature": "indus",
+        "operator": "greater",
+        "value": 4.570000052452087
+      },
+      {
+        "feature": "dis  ",
         "operator": "less_or_equal",
-        "value": 20.089401597664427
+        "value": 6.243250131607056
       },
       {
         "feature": "ptratio",
         "operator": "greater",
-        "value": 0.9005620910425024
+        "value": 18.550000190734863
       },
       {
-        "feature": "dis  ",
+        "feature": "rad",
         "operator": "less_or_equal",
-        "value": 6.864886376627288
+        "value": 3.5
       },
       {
-        "feature": "dis  ",
+        "feature": "rad",
         "operator": "greater",
-        "value": 0.7890380939661475
+        "value": 2.5
       },
       {
         "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
-      },
-      {
-        "feature": "nox ",
-        "operator": "greater",
-        "value": 0.5426479610219634
+        "value": 0.47599999606609344
       }
     ],
     "output": 223.0
@@ -512,29 +437,64 @@
   {
     "conditions": [
       {
+        "feature": "nox ",
+        "operator": "less_or_equal",
+        "value": 0.582999974489212
+      },
+      {
+        "feature": "nox ",
+        "operator": "greater",
+        "value": 0.47599999606609344
+      },
+      {
+        "feature": "indus",
+        "operator": "less_or_equal",
+        "value": 18.789999961853027
+      },
+      {
         "feature": "dis  ",
         "operator": "less_or_equal",
-        "value": 6.864886376627288
+        "value": 6.243250131607056
       },
       {
         "feature": "rad",
         "operator": "less_or_equal",
-        "value": 12.690465950691186
+        "value": 3.5
+      },
+      {
+        "feature": "rad",
+        "operator": "greater",
+        "value": 2.5
+      }
+    ],
+    "output": 193.0
+  },
+  {
+    "conditions": [
+      {
+        "feature": "nox ",
+        "operator": "less_or_equal",
+        "value": 0.582999974489212
       },
       {
         "feature": "indus",
         "operator": "less_or_equal",
-        "value": 40.83971161621318
+        "value": 26.69499969482422
       },
       {
         "feature": "indus",
         "operator": "greater",
-        "value": 20.089401597664427
+        "value": 18.789999961853027
       },
       {
-        "feature": "nox ",
+        "feature": "dis  ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
+        "value": 6.243250131607056
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 3.5
       }
     ],
     "output": 188.0
@@ -542,249 +502,84 @@
   {
     "conditions": [
       {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 12.690465950691186
-      },
-      {
-        "feature": "age",
-        "operator": "less_or_equal",
-        "value": 176.14003535432107
-      },
-      {
         "feature": "indus",
         "operator": "less_or_equal",
-        "value": 40.83971161621318
-      },
-      {
-        "feature": "ptratio",
-        "operator": "less_or_equal",
-        "value": 18.536882407542624
+        "value": 26.69499969482422
       },
       {
         "feature": "dis  ",
         "operator": "greater",
-        "value": 6.864886376627288
+        "value": 6.243250131607056
+      },
+      {
+        "feature": "ptratio",
+        "operator": "less_or_equal",
+        "value": 20.40000057220459
+      },
+      {
+        "feature": "zn",
+        "operator": "less_or_equal",
+        "value": 92.5
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 3.5
       },
       {
         "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
+        "value": 0.3945000022649765
       },
       {
         "feature": "crim ",
         "operator": "less_or_equal",
-        "value": 5.104520805610774
+        "value": 0.014194999821484089
       }
     ],
-    "output": 402.0
+    "output": 300.0
   },
   {
     "conditions": [
       {
-        "feature": "b   ",
-        "operator": "less_or_equal",
-        "value": 183.19849171616536
-      },
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 12.690465950691186
-      },
-      {
-        "feature": "age",
-        "operator": "greater",
-        "value": 176.14003535432107
-      },
-      {
         "feature": "indus",
         "operator": "less_or_equal",
-        "value": 40.83971161621318
+        "value": 26.69499969482422
+      },
+      {
+        "feature": "dis  ",
+        "operator": "greater",
+        "value": 6.243250131607056
       },
       {
         "feature": "ptratio",
         "operator": "less_or_equal",
-        "value": 18.536882407542624
+        "value": 15.400000095367432
       },
       {
-        "feature": "rm ",
+        "feature": "zn",
         "operator": "less_or_equal",
-        "value": 5.547715645592622
-      },
-      {
-        "feature": "dis  ",
-        "operator": "less_or_equal",
-        "value": 15.032512481924233
-      },
-      {
-        "feature": "dis  ",
-        "operator": "greater",
-        "value": 6.864886376627288
-      },
-      {
-        "feature": "nox ",
-        "operator": "less_or_equal",
-        "value": 0.16393199655673832
-      },
-      {
-        "feature": "crim ",
-        "operator": "less_or_equal",
-        "value": 5.104520805610774
-      }
-    ],
-    "output": 241.0
-  },
-  {
-    "conditions": [
-      {
-        "feature": "b   ",
-        "operator": "less_or_equal",
-        "value": 183.19849171616536
+        "value": 92.5
       },
       {
         "feature": "rad",
         "operator": "less_or_equal",
-        "value": 12.690465950691186
-      },
-      {
-        "feature": "age",
-        "operator": "greater",
-        "value": 176.14003535432107
-      },
-      {
-        "feature": "indus",
-        "operator": "less_or_equal",
-        "value": 40.83971161621318
-      },
-      {
-        "feature": "ptratio",
-        "operator": "less_or_equal",
-        "value": 18.536882407542624
-      },
-      {
-        "feature": "rm ",
-        "operator": "greater",
-        "value": 5.547715645592622
-      },
-      {
-        "feature": "dis  ",
-        "operator": "less_or_equal",
-        "value": 15.032512481924233
-      },
-      {
-        "feature": "dis  ",
-        "operator": "greater",
-        "value": 6.864886376627288
+        "value": 3.5
       },
       {
         "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
-      },
-      {
-        "feature": "crim ",
-        "operator": "less_or_equal",
-        "value": 5.104520805610774
-      }
-    ],
-    "output": 244.0
-  },
-  {
-    "conditions": [
-      {
-        "feature": "b   ",
-        "operator": "less_or_equal",
-        "value": 183.19849171616536
-      },
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 12.690465950691186
-      },
-      {
-        "feature": "age",
-        "operator": "greater",
-        "value": 176.14003535432107
-      },
-      {
-        "feature": "indus",
-        "operator": "less_or_equal",
-        "value": 40.83971161621318
-      },
-      {
-        "feature": "ptratio",
-        "operator": "less_or_equal",
-        "value": 18.536882407542624
-      },
-      {
-        "feature": "dis  ",
-        "operator": "greater",
-        "value": 15.032512481924233
+        "value": 0.582999974489212
       },
       {
         "feature": "nox ",
-        "operator": "less_or_equal",
-        "value": 0.16393199655673832
+        "operator": "greater",
+        "value": 0.3945000022649765
       },
       {
         "feature": "crim ",
         "operator": "less_or_equal",
-        "value": 5.104520805610774
-      }
-    ],
-    "output": 216.0
-  },
-  {
-    "conditions": [
-      {
-        "feature": "lstat",
-        "operator": "less_or_equal",
-        "value": 12.794920161767571
-      },
-      {
-        "feature": "b   ",
-        "operator": "less_or_equal",
-        "value": 186.88151663649245
-      },
-      {
-        "feature": "b   ",
-        "operator": "greater",
-        "value": 183.19849171616536
-      },
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 12.690465950691186
-      },
-      {
-        "feature": "age",
-        "operator": "greater",
-        "value": 176.14003535432107
-      },
-      {
-        "feature": "indus",
-        "operator": "less_or_equal",
-        "value": 40.83971161621318
-      },
-      {
-        "feature": "ptratio",
-        "operator": "less_or_equal",
-        "value": 18.536882407542624
-      },
-      {
-        "feature": "dis  ",
-        "operator": "greater",
-        "value": 6.864886376627288
-      },
-      {
-        "feature": "nox ",
-        "operator": "less_or_equal",
-        "value": 0.16393199655673832
-      },
-      {
-        "feature": "crim ",
-        "operator": "less_or_equal",
-        "value": 5.104520805610774
+        "value": 0.014194999821484089
       }
     ],
     "output": 285.0
@@ -792,49 +587,49 @@
   {
     "conditions": [
       {
-        "feature": "lstat",
-        "operator": "less_or_equal",
-        "value": 12.794920161767571
-      },
-      {
-        "feature": "b   ",
-        "operator": "greater",
-        "value": 186.88151663649245
-      },
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 12.690465950691186
-      },
-      {
-        "feature": "age",
-        "operator": "greater",
-        "value": 176.14003535432107
-      },
-      {
         "feature": "indus",
         "operator": "less_or_equal",
-        "value": 40.83971161621318
-      },
-      {
-        "feature": "ptratio",
-        "operator": "less_or_equal",
-        "value": 18.536882407542624
+        "value": 26.69499969482422
       },
       {
         "feature": "dis  ",
         "operator": "greater",
-        "value": 6.864886376627288
+        "value": 6.243250131607056
+      },
+      {
+        "feature": "ptratio",
+        "operator": "less_or_equal",
+        "value": 20.40000057220459
+      },
+      {
+        "feature": "ptratio",
+        "operator": "greater",
+        "value": 15.400000095367432
+      },
+      {
+        "feature": "zn",
+        "operator": "less_or_equal",
+        "value": 92.5
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 3.5
       },
       {
         "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
+        "value": 0.582999974489212
+      },
+      {
+        "feature": "nox ",
+        "operator": "greater",
+        "value": 0.3945000022649765
       },
       {
         "feature": "crim ",
         "operator": "less_or_equal",
-        "value": 5.104520805610774
+        "value": 0.014194999821484089
       }
     ],
     "output": 284.0
@@ -842,594 +637,189 @@
   {
     "conditions": [
       {
-        "feature": "lstat",
-        "operator": "greater",
-        "value": 12.794920161767571
-      },
-      {
-        "feature": "b   ",
-        "operator": "greater",
-        "value": 183.19849171616536
-      },
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 12.690465950691186
-      },
-      {
-        "feature": "age",
-        "operator": "greater",
-        "value": 176.14003535432107
-      },
-      {
         "feature": "indus",
         "operator": "less_or_equal",
-        "value": 40.83971161621318
-      },
-      {
-        "feature": "ptratio",
-        "operator": "less_or_equal",
-        "value": 18.536882407542624
+        "value": 26.69499969482422
       },
       {
         "feature": "dis  ",
         "operator": "greater",
-        "value": 6.864886376627288
-      },
-      {
-        "feature": "nox ",
-        "operator": "less_or_equal",
-        "value": 0.16393199655673832
-      },
-      {
-        "feature": "crim ",
-        "operator": "less_or_equal",
-        "value": 5.104520805610774
-      }
-    ],
-    "output": 300.0
-  },
-  {
-    "conditions": [
-      {
-        "feature": "zn",
-        "operator": "less_or_equal",
-        "value": 68.63809742788169
-      },
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 12.690465950691186
-      },
-      {
-        "feature": "age",
-        "operator": "less_or_equal",
-        "value": 43.239584507292726
-      },
-      {
-        "feature": "indus",
-        "operator": "less_or_equal",
-        "value": 40.83971161621318
+        "value": 6.243250131607056
       },
       {
         "feature": "ptratio",
         "operator": "less_or_equal",
-        "value": 18.536882407542624
-      },
-      {
-        "feature": "medv",
-        "operator": "less_or_equal",
-        "value": 10.76184256841066
-      },
-      {
-        "feature": "dis  ",
-        "operator": "greater",
-        "value": 6.864886376627288
-      },
-      {
-        "feature": "nox ",
-        "operator": "less_or_equal",
-        "value": 0.16393199655673832
-      },
-      {
-        "feature": "crim ",
-        "operator": "greater",
-        "value": 5.104520805610774
-      }
-    ],
-    "output": 304.0
-  },
-  {
-    "conditions": [
-      {
-        "feature": "zn",
-        "operator": "less_or_equal",
-        "value": 116.98907614762166
-      },
-      {
-        "feature": "zn",
-        "operator": "greater",
-        "value": 68.63809742788169
-      },
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 12.690465950691186
-      },
-      {
-        "feature": "age",
-        "operator": "less_or_equal",
-        "value": 43.239584507292726
-      },
-      {
-        "feature": "indus",
-        "operator": "less_or_equal",
-        "value": 40.83971161621318
-      },
-      {
-        "feature": "ptratio",
-        "operator": "less_or_equal",
-        "value": 18.536882407542624
-      },
-      {
-        "feature": "medv",
-        "operator": "less_or_equal",
-        "value": 10.76184256841066
-      },
-      {
-        "feature": "dis  ",
-        "operator": "greater",
-        "value": 6.864886376627288
-      },
-      {
-        "feature": "nox ",
-        "operator": "less_or_equal",
-        "value": 0.16393199655673832
-      },
-      {
-        "feature": "crim ",
-        "operator": "greater",
-        "value": 5.104520805610774
-      }
-    ],
-    "output": 315.0
-  },
-  {
-    "conditions": [
-      {
-        "feature": "zn",
-        "operator": "less_or_equal",
-        "value": 116.98907614762166
-      },
-      {
-        "feature": "zn",
-        "operator": "greater",
-        "value": 68.63809742788169
-      },
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 12.690465950691186
-      },
-      {
-        "feature": "rad",
-        "operator": "greater",
-        "value": 16.886072004723445
-      },
-      {
-        "feature": "age",
-        "operator": "less_or_equal",
-        "value": 43.239584507292726
-      },
-      {
-        "feature": "indus",
-        "operator": "less_or_equal",
-        "value": 40.83971161621318
-      },
-      {
-        "feature": "ptratio",
-        "operator": "less_or_equal",
-        "value": 18.536882407542624
-      },
-      {
-        "feature": "medv",
-        "operator": "less_or_equal",
-        "value": 10.76184256841066
-      },
-      {
-        "feature": "dis  ",
-        "operator": "greater",
-        "value": 6.864886376627288
-      },
-      {
-        "feature": "nox ",
-        "operator": "less_or_equal",
-        "value": 0.16393199655673832
-      },
-      {
-        "feature": "crim ",
-        "operator": "greater",
-        "value": 5.104520805610774
-      }
-    ],
-    "output": 313.0
-  },
-  {
-    "conditions": [
-      {
-        "feature": "zn",
-        "operator": "less_or_equal",
-        "value": 116.98907614762166
-      },
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 12.690465950691186
-      },
-      {
-        "feature": "age",
-        "operator": "less_or_equal",
-        "value": 43.239584507292726
-      },
-      {
-        "feature": "indus",
-        "operator": "less_or_equal",
-        "value": 40.83971161621318
-      },
-      {
-        "feature": "ptratio",
-        "operator": "less_or_equal",
-        "value": 18.536882407542624
-      },
-      {
-        "feature": "medv",
-        "operator": "greater",
-        "value": 10.76184256841066
+        "value": 20.40000057220459
       },
       {
         "feature": "rm ",
         "operator": "less_or_equal",
-        "value": 11.58448835039095
+        "value": 6.8420000076293945
       },
-      {
-        "feature": "dis  ",
-        "operator": "greater",
-        "value": 6.864886376627288
-      },
-      {
-        "feature": "nox ",
-        "operator": "less_or_equal",
-        "value": 0.16393199655673832
-      },
-      {
-        "feature": "crim ",
-        "operator": "greater",
-        "value": 5.104520805610774
-      }
-    ],
-    "output": 329.0
-  },
-  {
-    "conditions": [
       {
         "feature": "zn",
         "operator": "less_or_equal",
-        "value": 116.98907614762166
+        "value": 92.5
       },
       {
         "feature": "rad",
         "operator": "less_or_equal",
-        "value": 12.690465950691186
-      },
-      {
-        "feature": "age",
-        "operator": "less_or_equal",
-        "value": 43.239584507292726
-      },
-      {
-        "feature": "indus",
-        "operator": "less_or_equal",
-        "value": 40.83971161621318
-      },
-      {
-        "feature": "ptratio",
-        "operator": "less_or_equal",
-        "value": 18.536882407542624
-      },
-      {
-        "feature": "ptratio",
-        "operator": "greater",
-        "value": 21.97898968487399
-      },
-      {
-        "feature": "medv",
-        "operator": "greater",
-        "value": 10.76184256841066
-      },
-      {
-        "feature": "rm ",
-        "operator": "less_or_equal",
-        "value": 11.58448835039095
-      },
-      {
-        "feature": "dis  ",
-        "operator": "greater",
-        "value": 6.864886376627288
+        "value": 3.5
       },
       {
         "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
+        "value": 0.40504999458789825
+      },
+      {
+        "feature": "crim ",
+        "operator": "less_or_equal",
+        "value": 0.020099999383091927
       },
       {
         "feature": "crim ",
         "operator": "greater",
-        "value": 5.104520805610774
+        "value": 0.014194999821484089
       }
     ],
-    "output": 335.0
+    "output": 241.0
   },
   {
     "conditions": [
       {
-        "feature": "zn",
-        "operator": "less_or_equal",
-        "value": 116.98907614762166
-      },
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 12.690465950691186
-      },
-      {
-        "feature": "age",
-        "operator": "less_or_equal",
-        "value": 43.239584507292726
-      },
-      {
         "feature": "indus",
         "operator": "less_or_equal",
-        "value": 40.83971161621318
+        "value": 26.69499969482422
+      },
+      {
+        "feature": "dis  ",
+        "operator": "greater",
+        "value": 6.243250131607056
       },
       {
         "feature": "ptratio",
         "operator": "less_or_equal",
-        "value": 18.536882407542624
-      },
-      {
-        "feature": "medv",
-        "operator": "greater",
-        "value": 10.76184256841066
+        "value": 20.40000057220459
       },
       {
         "feature": "rm ",
         "operator": "greater",
-        "value": 11.58448835039095
+        "value": 6.8420000076293945
       },
-      {
-        "feature": "dis  ",
-        "operator": "greater",
-        "value": 6.864886376627288
-      },
-      {
-        "feature": "nox ",
-        "operator": "less_or_equal",
-        "value": 0.16393199655673832
-      },
-      {
-        "feature": "crim ",
-        "operator": "greater",
-        "value": 5.104520805610774
-      }
-    ],
-    "output": 348.0
-  },
-  {
-    "conditions": [
       {
         "feature": "zn",
         "operator": "less_or_equal",
-        "value": 116.98907614762166
-      },
-      {
-        "feature": "b   ",
-        "operator": "less_or_equal",
-        "value": 189.8524885594696
+        "value": 92.5
       },
       {
         "feature": "rad",
         "operator": "less_or_equal",
-        "value": 12.690465950691186
-      },
-      {
-        "feature": "age",
-        "operator": "less_or_equal",
-        "value": 43.239584507292726
-      },
-      {
-        "feature": "age",
-        "operator": "greater",
-        "value": 103.93022035728882
-      },
-      {
-        "feature": "indus",
-        "operator": "less_or_equal",
-        "value": 40.83971161621318
-      },
-      {
-        "feature": "ptratio",
-        "operator": "less_or_equal",
-        "value": 18.536882407542624
-      },
-      {
-        "feature": "dis  ",
-        "operator": "greater",
-        "value": 6.864886376627288
+        "value": 3.5
       },
       {
         "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
+        "value": 0.40504999458789825
+      },
+      {
+        "feature": "crim ",
+        "operator": "less_or_equal",
+        "value": 0.020099999383091927
       },
       {
         "feature": "crim ",
         "operator": "greater",
-        "value": 5.104520805610774
+        "value": 0.014194999821484089
       }
     ],
-    "output": 348.0
+    "output": 244.0
   },
   {
     "conditions": [
       {
-        "feature": "zn",
-        "operator": "less_or_equal",
-        "value": 116.98907614762166
-      },
-      {
-        "feature": "b   ",
-        "operator": "less_or_equal",
-        "value": 189.8524885594696
-      },
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 12.690465950691186
-      },
-      {
-        "feature": "age",
-        "operator": "less_or_equal",
-        "value": 43.239584507292726
-      },
-      {
-        "feature": "age",
-        "operator": "greater",
-        "value": 103.93022035728882
-      },
-      {
         "feature": "indus",
         "operator": "less_or_equal",
-        "value": 40.83971161621318
-      },
-      {
-        "feature": "ptratio",
-        "operator": "less_or_equal",
-        "value": 18.536882407542624
+        "value": 26.69499969482422
       },
       {
         "feature": "dis  ",
         "operator": "greater",
-        "value": 6.864886376627288
+        "value": 6.243250131607056
+      },
+      {
+        "feature": "ptratio",
+        "operator": "less_or_equal",
+        "value": 20.40000057220459
+      },
+      {
+        "feature": "zn",
+        "operator": "less_or_equal",
+        "value": 92.5
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 3.5
       },
       {
         "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
+        "value": 0.582999974489212
+      },
+      {
+        "feature": "nox ",
+        "operator": "greater",
+        "value": 0.40504999458789825
+      },
+      {
+        "feature": "crim ",
+        "operator": "less_or_equal",
+        "value": 0.020099999383091927
       },
       {
         "feature": "crim ",
         "operator": "greater",
-        "value": 5.104520805610774
+        "value": 0.014194999821484089
       }
     ],
-    "output": 352.0
+    "output": 216.0
   },
   {
     "conditions": [
       {
-        "feature": "zn",
-        "operator": "less_or_equal",
-        "value": 116.98907614762166
-      },
-      {
-        "feature": "b   ",
-        "operator": "greater",
-        "value": 189.8524885594696
-      },
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 12.690465950691186
-      },
-      {
-        "feature": "age",
-        "operator": "less_or_equal",
-        "value": 43.239584507292726
-      },
-      {
-        "feature": "age",
-        "operator": "greater",
-        "value": 103.93022035728882
-      },
-      {
         "feature": "indus",
         "operator": "less_or_equal",
-        "value": 40.83971161621318
-      },
-      {
-        "feature": "ptratio",
-        "operator": "less_or_equal",
-        "value": 18.536882407542624
+        "value": 26.69499969482422
       },
       {
         "feature": "dis  ",
         "operator": "greater",
-        "value": 6.864886376627288
-      },
-      {
-        "feature": "nox ",
-        "operator": "less_or_equal",
-        "value": 0.16393199655673832
-      },
-      {
-        "feature": "crim ",
-        "operator": "greater",
-        "value": 5.104520805610774
-      }
-    ],
-    "output": 335.0
-  },
-  {
-    "conditions": [
-      {
-        "feature": "zn",
-        "operator": "greater",
-        "value": 116.98907614762166
-      },
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 12.690465950691186
-      },
-      {
-        "feature": "age",
-        "operator": "less_or_equal",
-        "value": 43.239584507292726
-      },
-      {
-        "feature": "indus",
-        "operator": "less_or_equal",
-        "value": 40.83971161621318
+        "value": 6.243250131607056
       },
       {
         "feature": "ptratio",
         "operator": "less_or_equal",
-        "value": 18.536882407542624
+        "value": 20.40000057220459
       },
       {
-        "feature": "dis  ",
+        "feature": "zn",
         "operator": "greater",
-        "value": 6.864886376627288
+        "value": 92.5
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 3.5
       },
       {
         "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
+        "value": 0.582999974489212
       },
       {
         "feature": "crim ",
-        "operator": "greater",
-        "value": 5.104520805610774
+        "operator": "less_or_equal",
+        "value": 0.020099999383091927
       }
     ],
     "output": 402.0
@@ -1437,39 +827,564 @@
   {
     "conditions": [
       {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 12.690465950691186
-      },
-      {
-        "feature": "age",
-        "operator": "greater",
-        "value": 43.239584507292726
-      },
-      {
         "feature": "indus",
         "operator": "less_or_equal",
-        "value": 40.83971161621318
-      },
-      {
-        "feature": "ptratio",
-        "operator": "less_or_equal",
-        "value": 18.536882407542624
+        "value": 4.850000023841858
       },
       {
         "feature": "dis  ",
         "operator": "greater",
-        "value": 6.864886376627288
+        "value": 6.243250131607056
+      },
+      {
+        "feature": "ptratio",
+        "operator": "less_or_equal",
+        "value": 20.40000057220459
+      },
+      {
+        "feature": "rm ",
+        "operator": "less_or_equal",
+        "value": 6.66100001335144
+      },
+      {
+        "feature": "medv",
+        "operator": "less_or_equal",
+        "value": 23.300000190734863
+      },
+      {
+        "feature": "zn",
+        "operator": "less_or_equal",
+        "value": 90.0
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 3.5
       },
       {
         "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
+        "value": 0.48000000417232513
       },
       {
         "feature": "crim ",
         "operator": "greater",
-        "value": 5.104520805610774
+        "value": 0.020099999383091927
+      },
+      {
+        "feature": "age",
+        "operator": "less_or_equal",
+        "value": 38.35000038146973
+      }
+    ],
+    "output": 315.0
+  },
+  {
+    "conditions": [
+      {
+        "feature": "indus",
+        "operator": "less_or_equal",
+        "value": 4.850000023841858
+      },
+      {
+        "feature": "dis  ",
+        "operator": "greater",
+        "value": 6.243250131607056
+      },
+      {
+        "feature": "ptratio",
+        "operator": "less_or_equal",
+        "value": 20.40000057220459
+      },
+      {
+        "feature": "rm ",
+        "operator": "less_or_equal",
+        "value": 6.66100001335144
+      },
+      {
+        "feature": "medv",
+        "operator": "greater",
+        "value": 23.300000190734863
+      },
+      {
+        "feature": "zn",
+        "operator": "less_or_equal",
+        "value": 90.0
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 3.5
+      },
+      {
+        "feature": "nox ",
+        "operator": "less_or_equal",
+        "value": 0.48000000417232513
+      },
+      {
+        "feature": "crim ",
+        "operator": "greater",
+        "value": 0.020099999383091927
+      },
+      {
+        "feature": "age",
+        "operator": "less_or_equal",
+        "value": 38.35000038146973
+      }
+    ],
+    "output": 313.0
+  },
+  {
+    "conditions": [
+      {
+        "feature": "indus",
+        "operator": "less_or_equal",
+        "value": 26.69499969482422
+      },
+      {
+        "feature": "indus",
+        "operator": "greater",
+        "value": 4.850000023841858
+      },
+      {
+        "feature": "dis  ",
+        "operator": "greater",
+        "value": 6.243250131607056
+      },
+      {
+        "feature": "ptratio",
+        "operator": "less_or_equal",
+        "value": 20.40000057220459
+      },
+      {
+        "feature": "rm ",
+        "operator": "less_or_equal",
+        "value": 6.66100001335144
+      },
+      {
+        "feature": "zn",
+        "operator": "less_or_equal",
+        "value": 90.0
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 3.5
+      },
+      {
+        "feature": "nox ",
+        "operator": "less_or_equal",
+        "value": 0.48000000417232513
+      },
+      {
+        "feature": "crim ",
+        "operator": "greater",
+        "value": 0.020099999383091927
+      },
+      {
+        "feature": "age",
+        "operator": "less_or_equal",
+        "value": 38.35000038146973
+      }
+    ],
+    "output": 304.0
+  },
+  {
+    "conditions": [
+      {
+        "feature": "indus",
+        "operator": "less_or_equal",
+        "value": 1.774999976158142
+      },
+      {
+        "feature": "dis  ",
+        "operator": "greater",
+        "value": 6.243250131607056
+      },
+      {
+        "feature": "ptratio",
+        "operator": "less_or_equal",
+        "value": 20.40000057220459
+      },
+      {
+        "feature": "rm ",
+        "operator": "greater",
+        "value": 6.66100001335144
+      },
+      {
+        "feature": "medv",
+        "operator": "less_or_equal",
+        "value": 28.449999809265137
+      },
+      {
+        "feature": "zn",
+        "operator": "less_or_equal",
+        "value": 90.0
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 3.5
+      },
+      {
+        "feature": "nox ",
+        "operator": "less_or_equal",
+        "value": 0.48000000417232513
+      },
+      {
+        "feature": "crim ",
+        "operator": "greater",
+        "value": 0.020099999383091927
+      },
+      {
+        "feature": "age",
+        "operator": "less_or_equal",
+        "value": 38.35000038146973
+      }
+    ],
+    "output": 335.0
+  },
+  {
+    "conditions": [
+      {
+        "feature": "indus",
+        "operator": "less_or_equal",
+        "value": 1.774999976158142
+      },
+      {
+        "feature": "dis  ",
+        "operator": "greater",
+        "value": 6.243250131607056
+      },
+      {
+        "feature": "ptratio",
+        "operator": "less_or_equal",
+        "value": 20.40000057220459
+      },
+      {
+        "feature": "rm ",
+        "operator": "greater",
+        "value": 6.66100001335144
+      },
+      {
+        "feature": "medv",
+        "operator": "greater",
+        "value": 28.449999809265137
+      },
+      {
+        "feature": "zn",
+        "operator": "less_or_equal",
+        "value": 90.0
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 3.5
+      },
+      {
+        "feature": "nox ",
+        "operator": "less_or_equal",
+        "value": 0.48000000417232513
+      },
+      {
+        "feature": "crim ",
+        "operator": "greater",
+        "value": 0.020099999383091927
+      },
+      {
+        "feature": "age",
+        "operator": "less_or_equal",
+        "value": 38.35000038146973
+      }
+    ],
+    "output": 329.0
+  },
+  {
+    "conditions": [
+      {
+        "feature": "indus",
+        "operator": "less_or_equal",
+        "value": 26.69499969482422
+      },
+      {
+        "feature": "indus",
+        "operator": "greater",
+        "value": 1.774999976158142
+      },
+      {
+        "feature": "dis  ",
+        "operator": "greater",
+        "value": 6.243250131607056
+      },
+      {
+        "feature": "ptratio",
+        "operator": "less_or_equal",
+        "value": 20.40000057220459
+      },
+      {
+        "feature": "rm ",
+        "operator": "greater",
+        "value": 6.66100001335144
+      },
+      {
+        "feature": "zn",
+        "operator": "less_or_equal",
+        "value": 90.0
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 3.5
+      },
+      {
+        "feature": "nox ",
+        "operator": "less_or_equal",
+        "value": 0.48000000417232513
+      },
+      {
+        "feature": "crim ",
+        "operator": "greater",
+        "value": 0.020099999383091927
+      },
+      {
+        "feature": "age",
+        "operator": "less_or_equal",
+        "value": 38.35000038146973
+      }
+    ],
+    "output": 348.0
+  },
+  {
+    "conditions": [
+      {
+        "feature": "indus",
+        "operator": "less_or_equal",
+        "value": 26.69499969482422
+      },
+      {
+        "feature": "dis  ",
+        "operator": "greater",
+        "value": 6.243250131607056
+      },
+      {
+        "feature": "ptratio",
+        "operator": "less_or_equal",
+        "value": 20.40000057220459
+      },
+      {
+        "feature": "lstat",
+        "operator": "less_or_equal",
+        "value": 6.704999923706055
+      },
+      {
+        "feature": "zn",
+        "operator": "less_or_equal",
+        "value": 90.0
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 3.5
+      },
+      {
+        "feature": "nox ",
+        "operator": "less_or_equal",
+        "value": 0.48000000417232513
+      },
+      {
+        "feature": "crim ",
+        "operator": "greater",
+        "value": 0.020099999383091927
+      },
+      {
+        "feature": "age",
+        "operator": "greater",
+        "value": 38.35000038146973
+      }
+    ],
+    "output": 335.0
+  },
+  {
+    "conditions": [
+      {
+        "feature": "indus",
+        "operator": "less_or_equal",
+        "value": 26.69499969482422
+      },
+      {
+        "feature": "dis  ",
+        "operator": "greater",
+        "value": 6.243250131607056
+      },
+      {
+        "feature": "ptratio",
+        "operator": "less_or_equal",
+        "value": 20.40000057220459
+      },
+      {
+        "feature": "lstat",
+        "operator": "greater",
+        "value": 6.704999923706055
+      },
+      {
+        "feature": "zn",
+        "operator": "less_or_equal",
+        "value": 41.25
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 3.5
+      },
+      {
+        "feature": "nox ",
+        "operator": "less_or_equal",
+        "value": 0.48000000417232513
+      },
+      {
+        "feature": "crim ",
+        "operator": "greater",
+        "value": 0.020099999383091927
+      },
+      {
+        "feature": "age",
+        "operator": "greater",
+        "value": 38.35000038146973
+      }
+    ],
+    "output": 352.0
+  },
+  {
+    "conditions": [
+      {
+        "feature": "indus",
+        "operator": "less_or_equal",
+        "value": 26.69499969482422
+      },
+      {
+        "feature": "dis  ",
+        "operator": "greater",
+        "value": 6.243250131607056
+      },
+      {
+        "feature": "ptratio",
+        "operator": "less_or_equal",
+        "value": 20.40000057220459
+      },
+      {
+        "feature": "lstat",
+        "operator": "greater",
+        "value": 6.704999923706055
+      },
+      {
+        "feature": "zn",
+        "operator": "less_or_equal",
+        "value": 90.0
+      },
+      {
+        "feature": "zn",
+        "operator": "greater",
+        "value": 41.25
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 3.5
+      },
+      {
+        "feature": "nox ",
+        "operator": "less_or_equal",
+        "value": 0.48000000417232513
+      },
+      {
+        "feature": "crim ",
+        "operator": "greater",
+        "value": 0.020099999383091927
+      },
+      {
+        "feature": "age",
+        "operator": "greater",
+        "value": 38.35000038146973
+      }
+    ],
+    "output": 348.0
+  },
+  {
+    "conditions": [
+      {
+        "feature": "indus",
+        "operator": "less_or_equal",
+        "value": 26.69499969482422
+      },
+      {
+        "feature": "dis  ",
+        "operator": "greater",
+        "value": 6.243250131607056
+      },
+      {
+        "feature": "ptratio",
+        "operator": "less_or_equal",
+        "value": 20.40000057220459
+      },
+      {
+        "feature": "zn",
+        "operator": "greater",
+        "value": 90.0
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 3.5
+      },
+      {
+        "feature": "nox ",
+        "operator": "less_or_equal",
+        "value": 0.48000000417232513
+      },
+      {
+        "feature": "crim ",
+        "operator": "greater",
+        "value": 0.020099999383091927
+      }
+    ],
+    "output": 402.0
+  },
+  {
+    "conditions": [
+      {
+        "feature": "indus",
+        "operator": "less_or_equal",
+        "value": 26.69499969482422
+      },
+      {
+        "feature": "dis  ",
+        "operator": "greater",
+        "value": 6.243250131607056
+      },
+      {
+        "feature": "ptratio",
+        "operator": "less_or_equal",
+        "value": 20.40000057220459
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 3.5
+      },
+      {
+        "feature": "nox ",
+        "operator": "less_or_equal",
+        "value": 0.582999974489212
+      },
+      {
+        "feature": "nox ",
+        "operator": "greater",
+        "value": 0.48000000417232513
+      },
+      {
+        "feature": "crim ",
+        "operator": "greater",
+        "value": 0.020099999383091927
       }
     ],
     "output": 422.0
@@ -1477,29 +1392,29 @@
   {
     "conditions": [
       {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 12.690465950691186
-      },
-      {
         "feature": "indus",
         "operator": "less_or_equal",
-        "value": 40.83971161621318
-      },
-      {
-        "feature": "ptratio",
-        "operator": "greater",
-        "value": 18.536882407542624
+        "value": 26.69499969482422
       },
       {
         "feature": "dis  ",
         "operator": "greater",
-        "value": 6.864886376627288
+        "value": 6.243250131607056
+      },
+      {
+        "feature": "ptratio",
+        "operator": "greater",
+        "value": 20.40000057220459
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 3.5
       },
       {
         "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
+        "value": 0.582999974489212
       }
     ],
     "output": 469.0
@@ -1507,114 +1422,34 @@
   {
     "conditions": [
       {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 8.494859080907155
-      },
-      {
-        "feature": "rad",
-        "operator": "greater",
-        "value": 12.690465950691186
-      },
-      {
         "feature": "indus",
         "operator": "less_or_equal",
-        "value": 40.83971161621318
-      },
-      {
-        "feature": "ptratio",
-        "operator": "less_or_equal",
-        "value": 11.38702335847535
+        "value": 4.010000109672546
       },
       {
         "feature": "dis  ",
         "operator": "less_or_equal",
-        "value": 2.624987328185192
-      },
-      {
-        "feature": "nox ",
-        "operator": "less_or_equal",
-        "value": 0.02782848148907846
-      }
-    ],
-    "output": 296.0
-  },
-  {
-    "conditions": [
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 8.494859080907155
-      },
-      {
-        "feature": "rad",
-        "operator": "greater",
-        "value": 12.690465950691186
-      },
-      {
-        "feature": "indus",
-        "operator": "less_or_equal",
-        "value": 40.83971161621318
+        "value": 2.8589000701904297
       },
       {
         "feature": "ptratio",
         "operator": "less_or_equal",
-        "value": 11.38702335847535
+        "value": 19.649999618530273
       },
-      {
-        "feature": "dis  ",
-        "operator": "less_or_equal",
-        "value": 2.624987328185192
-      },
-      {
-        "feature": "nox ",
-        "operator": "less_or_equal",
-        "value": 0.02782848148907846
-      },
-      {
-        "feature": "nox ",
-        "operator": "greater",
-        "value": 0.1603997830734783
-      }
-    ],
-    "output": 304.0
-  },
-  {
-    "conditions": [
       {
         "feature": "rad",
         "operator": "less_or_equal",
-        "value": 8.494859080907155
+        "value": 5.5
       },
       {
         "feature": "rad",
         "operator": "greater",
-        "value": 12.690465950691186
-      },
-      {
-        "feature": "indus",
-        "operator": "less_or_equal",
-        "value": 40.83971161621318
-      },
-      {
-        "feature": "ptratio",
-        "operator": "less_or_equal",
-        "value": 11.38702335847535
-      },
-      {
-        "feature": "dis  ",
-        "operator": "less_or_equal",
-        "value": 2.624987328185192
+        "value": 3.5
       },
       {
         "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
-      },
-      {
-        "feature": "nox ",
-        "operator": "greater",
-        "value": 0.02782848148907846
+        "value": 0.582999974489212
       }
     ],
     "output": 264.0
@@ -1622,34 +1457,124 @@
   {
     "conditions": [
       {
-        "feature": "rad",
+        "feature": "indus",
         "operator": "less_or_equal",
-        "value": 8.494859080907155
-      },
-      {
-        "feature": "rad",
-        "operator": "greater",
-        "value": 12.690465950691186
+        "value": 26.69499969482422
       },
       {
         "feature": "indus",
-        "operator": "less_or_equal",
-        "value": 40.83971161621318
-      },
-      {
-        "feature": "ptratio",
         "operator": "greater",
-        "value": 11.38702335847535
+        "value": 4.010000109672546
       },
       {
         "feature": "dis  ",
         "operator": "less_or_equal",
-        "value": 2.624987328185192
+        "value": 2.8589000701904297
+      },
+      {
+        "feature": "ptratio",
+        "operator": "less_or_equal",
+        "value": 19.649999618530273
+      },
+      {
+        "feature": "medv",
+        "operator": "less_or_equal",
+        "value": 22.350000381469727
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 5.5
+      },
+      {
+        "feature": "rad",
+        "operator": "greater",
+        "value": 3.5
       },
       {
         "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
+        "value": 0.582999974489212
+      }
+    ],
+    "output": 304.0
+  },
+  {
+    "conditions": [
+      {
+        "feature": "indus",
+        "operator": "less_or_equal",
+        "value": 26.69499969482422
+      },
+      {
+        "feature": "indus",
+        "operator": "greater",
+        "value": 4.010000109672546
+      },
+      {
+        "feature": "dis  ",
+        "operator": "less_or_equal",
+        "value": 2.8589000701904297
+      },
+      {
+        "feature": "ptratio",
+        "operator": "less_or_equal",
+        "value": 19.649999618530273
+      },
+      {
+        "feature": "medv",
+        "operator": "greater",
+        "value": 22.350000381469727
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 5.5
+      },
+      {
+        "feature": "rad",
+        "operator": "greater",
+        "value": 3.5
+      },
+      {
+        "feature": "nox ",
+        "operator": "less_or_equal",
+        "value": 0.582999974489212
+      }
+    ],
+    "output": 296.0
+  },
+  {
+    "conditions": [
+      {
+        "feature": "indus",
+        "operator": "less_or_equal",
+        "value": 26.69499969482422
+      },
+      {
+        "feature": "dis  ",
+        "operator": "less_or_equal",
+        "value": 2.8589000701904297
+      },
+      {
+        "feature": "ptratio",
+        "operator": "greater",
+        "value": 19.649999618530273
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 5.5
+      },
+      {
+        "feature": "rad",
+        "operator": "greater",
+        "value": 3.5
+      },
+      {
+        "feature": "nox ",
+        "operator": "less_or_equal",
+        "value": 0.582999974489212
       }
     ],
     "output": 384.0
@@ -1657,29 +1582,29 @@
   {
     "conditions": [
       {
-        "feature": "dis  ",
+        "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 2.624987328185192
-      },
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 13.532074198307129
-      },
-      {
-        "feature": "rad",
-        "operator": "greater",
-        "value": 12.690465950691186
+        "value": 0.582999974489212
       },
       {
         "feature": "indus",
         "operator": "less_or_equal",
-        "value": 40.83971161621318
+        "value": 26.69499969482422
       },
       {
-        "feature": "nox ",
+        "feature": "dis  ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
+        "value": 2.8589000701904297
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 16.0
+      },
+      {
+        "feature": "rad",
+        "operator": "greater",
+        "value": 5.5
       }
     ],
     "output": 432.0
@@ -1687,109 +1612,49 @@
   {
     "conditions": [
       {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 13.532074198307129
-      },
-      {
-        "feature": "rad",
-        "operator": "greater",
-        "value": 12.690465950691186
-      },
-      {
         "feature": "indus",
         "operator": "less_or_equal",
-        "value": 40.83971161621318
+        "value": 26.69499969482422
       },
       {
-        "feature": "medv",
+        "feature": "dis  ",
         "operator": "less_or_equal",
-        "value": 13.17853193002604
+        "value": 6.051599979400635
+      },
+      {
+        "feature": "dis  ",
+        "operator": "greater",
+        "value": 2.8589000701904297
       },
       {
         "feature": "ptratio",
         "operator": "less_or_equal",
-        "value": 20.072359867753462
-      },
-      {
-        "feature": "rm ",
-        "operator": "less_or_equal",
-        "value": 1.5464251923107004
-      },
-      {
-        "feature": "dis  ",
-        "operator": "less_or_equal",
-        "value": 13.023692953503229
-      },
-      {
-        "feature": "dis  ",
-        "operator": "greater",
-        "value": 2.624987328185192
-      },
-      {
-        "feature": "nox ",
-        "operator": "less_or_equal",
-        "value": 0.16393199655673832
-      },
-      {
-        "feature": "crim ",
-        "operator": "less_or_equal",
-        "value": 5.072005065673313
-      }
-    ],
-    "output": 337.0
-  },
-  {
-    "conditions": [
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 13.532074198307129
-      },
-      {
-        "feature": "rad",
-        "operator": "greater",
-        "value": 12.690465950691186
-      },
-      {
-        "feature": "indus",
-        "operator": "less_or_equal",
-        "value": 40.83971161621318
+        "value": 16.350000381469727
       },
       {
         "feature": "medv",
         "operator": "less_or_equal",
-        "value": 13.17853193002604
+        "value": 26.34999942779541
       },
       {
-        "feature": "ptratio",
+        "feature": "rad",
         "operator": "less_or_equal",
-        "value": 20.072359867753462
+        "value": 16.0
       },
       {
-        "feature": "rm ",
+        "feature": "rad",
         "operator": "greater",
-        "value": 1.5464251923107004
-      },
-      {
-        "feature": "dis  ",
-        "operator": "less_or_equal",
-        "value": 13.023692953503229
-      },
-      {
-        "feature": "dis  ",
-        "operator": "greater",
-        "value": 2.624987328185192
+        "value": 3.5
       },
       {
         "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
+        "value": 0.43800000846385956
       },
       {
         "feature": "crim ",
         "operator": "less_or_equal",
-        "value": 5.072005065673313
+        "value": 0.042990000918507576
       }
     ],
     "output": 329.0
@@ -1797,99 +1662,104 @@
   {
     "conditions": [
       {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 13.532074198307129
-      },
-      {
-        "feature": "rad",
-        "operator": "greater",
-        "value": 12.690465950691186
-      },
-      {
         "feature": "indus",
         "operator": "less_or_equal",
-        "value": 40.83971161621318
+        "value": 26.69499969482422
+      },
+      {
+        "feature": "dis  ",
+        "operator": "less_or_equal",
+        "value": 8.439650058746338
+      },
+      {
+        "feature": "dis  ",
+        "operator": "greater",
+        "value": 6.051599979400635
+      },
+      {
+        "feature": "ptratio",
+        "operator": "less_or_equal",
+        "value": 16.350000381469727
       },
       {
         "feature": "medv",
         "operator": "less_or_equal",
-        "value": 13.17853193002604
+        "value": 26.34999942779541
       },
       {
-        "feature": "ptratio",
-        "operator": "greater",
-        "value": 20.072359867753462
-      },
-      {
-        "feature": "dis  ",
+        "feature": "rad",
         "operator": "less_or_equal",
-        "value": 8.628911571443608
+        "value": 16.0
       },
       {
-        "feature": "dis  ",
+        "feature": "rad",
         "operator": "greater",
-        "value": 2.624987328185192
+        "value": 3.5
       },
       {
         "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
+        "value": 0.43800000846385956
       },
       {
         "feature": "crim ",
         "operator": "less_or_equal",
-        "value": 5.072005065673313
+        "value": 0.042990000918507576
       }
     ],
-    "output": 281.0
+    "output": 337.0
   },
   {
     "conditions": [
       {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 13.532074198307129
-      },
-      {
-        "feature": "rad",
-        "operator": "greater",
-        "value": 12.690465950691186
-      },
-      {
         "feature": "indus",
         "operator": "less_or_equal",
-        "value": 40.83971161621318
+        "value": 5.090000152587891
       },
       {
-        "feature": "medv",
+        "feature": "dis  ",
         "operator": "less_or_equal",
-        "value": 13.17853193002604
+        "value": 8.439650058746338
+      },
+      {
+        "feature": "dis  ",
+        "operator": "greater",
+        "value": 2.8589000701904297
       },
       {
         "feature": "ptratio",
         "operator": "greater",
-        "value": 20.072359867753462
+        "value": 16.350000381469727
       },
       {
-        "feature": "dis  ",
+        "feature": "medv",
         "operator": "less_or_equal",
-        "value": 13.023692953503229
+        "value": 26.34999942779541
       },
       {
-        "feature": "dis  ",
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 16.0
+      },
+      {
+        "feature": "rad",
         "operator": "greater",
-        "value": 8.628911571443608
+        "value": 3.5
       },
       {
         "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
+        "value": 0.43800000846385956
       },
       {
         "feature": "crim ",
         "operator": "less_or_equal",
-        "value": 5.072005065673313
+        "value": 0.042990000918507576
+      },
+      {
+        "feature": "age",
+        "operator": "less_or_equal",
+        "value": 30.950000762939453
       }
     ],
     "output": 280.0
@@ -1897,54 +1767,109 @@
   {
     "conditions": [
       {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 13.532074198307129
-      },
-      {
-        "feature": "rad",
-        "operator": "greater",
-        "value": 12.690465950691186
-      },
-      {
         "feature": "indus",
         "operator": "less_or_equal",
-        "value": 40.83971161621318
+        "value": 5.090000152587891
       },
       {
-        "feature": "medv",
+        "feature": "dis  ",
         "operator": "less_or_equal",
-        "value": 13.17853193002604
+        "value": 8.439650058746338
+      },
+      {
+        "feature": "dis  ",
+        "operator": "greater",
+        "value": 2.8589000701904297
       },
       {
         "feature": "ptratio",
         "operator": "greater",
-        "value": 20.072359867753462
+        "value": 16.350000381469727
       },
       {
-        "feature": "dis  ",
+        "feature": "medv",
         "operator": "less_or_equal",
-        "value": 13.023692953503229
+        "value": 26.34999942779541
       },
       {
-        "feature": "dis  ",
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 16.0
+      },
+      {
+        "feature": "rad",
         "operator": "greater",
-        "value": 2.624987328185192
+        "value": 3.5
       },
       {
         "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
+        "value": 0.43800000846385956
       },
       {
         "feature": "crim ",
         "operator": "less_or_equal",
-        "value": 5.072005065673313
+        "value": 0.042990000918507576
+      },
+      {
+        "feature": "age",
+        "operator": "greater",
+        "value": 30.950000762939453
+      }
+    ],
+    "output": 281.0
+  },
+  {
+    "conditions": [
+      {
+        "feature": "indus",
+        "operator": "less_or_equal",
+        "value": 26.69499969482422
+      },
+      {
+        "feature": "indus",
+        "operator": "greater",
+        "value": 5.090000152587891
+      },
+      {
+        "feature": "dis  ",
+        "operator": "less_or_equal",
+        "value": 8.439650058746338
+      },
+      {
+        "feature": "dis  ",
+        "operator": "greater",
+        "value": 2.8589000701904297
+      },
+      {
+        "feature": "ptratio",
+        "operator": "greater",
+        "value": 16.350000381469727
+      },
+      {
+        "feature": "medv",
+        "operator": "less_or_equal",
+        "value": 26.34999942779541
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 16.0
+      },
+      {
+        "feature": "rad",
+        "operator": "greater",
+        "value": 3.5
+      },
+      {
+        "feature": "nox ",
+        "operator": "less_or_equal",
+        "value": 0.43800000846385956
       },
       {
         "feature": "crim ",
-        "operator": "greater",
-        "value": 5.079590689279587
+        "operator": "less_or_equal",
+        "value": 0.042990000918507576
       }
     ],
     "output": 293.0
@@ -1952,39 +1877,39 @@
   {
     "conditions": [
       {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 13.532074198307129
-      },
-      {
-        "feature": "rad",
-        "operator": "greater",
-        "value": 12.690465950691186
-      },
-      {
         "feature": "indus",
         "operator": "less_or_equal",
-        "value": 40.83971161621318
-      },
-      {
-        "feature": "medv",
-        "operator": "less_or_equal",
-        "value": 13.17853193002604
+        "value": 26.69499969482422
       },
       {
         "feature": "dis  ",
         "operator": "greater",
-        "value": 13.023692953503229
+        "value": 8.439650058746338
+      },
+      {
+        "feature": "medv",
+        "operator": "less_or_equal",
+        "value": 26.34999942779541
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 16.0
+      },
+      {
+        "feature": "rad",
+        "operator": "greater",
+        "value": 3.5
       },
       {
         "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
+        "value": 0.43800000846385956
       },
       {
         "feature": "crim ",
         "operator": "less_or_equal",
-        "value": 5.072005065673313
+        "value": 0.042990000918507576
       }
     ],
     "output": 351.0
@@ -1992,49 +1917,49 @@
   {
     "conditions": [
       {
-        "feature": "b   ",
-        "operator": "less_or_equal",
-        "value": 177.60028769726935
-      },
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 13.532074198307129
-      },
-      {
-        "feature": "rad",
-        "operator": "greater",
-        "value": 12.690465950691186
-      },
-      {
         "feature": "indus",
         "operator": "less_or_equal",
-        "value": 40.83971161621318
-      },
-      {
-        "feature": "medv",
-        "operator": "greater",
-        "value": 13.17853193002604
-      },
-      {
-        "feature": "ptratio",
-        "operator": "less_or_equal",
-        "value": 24.838933488843214
+        "value": 26.69499969482422
       },
       {
         "feature": "dis  ",
         "operator": "greater",
-        "value": 2.624987328185192
+        "value": 2.8589000701904297
+      },
+      {
+        "feature": "medv",
+        "operator": "greater",
+        "value": 26.34999942779541
+      },
+      {
+        "feature": "b   ",
+        "operator": "less_or_equal",
+        "value": 392.8399963378906
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 16.0
+      },
+      {
+        "feature": "rad",
+        "operator": "greater",
+        "value": 3.5
       },
       {
         "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
+        "value": 0.43800000846385956
       },
       {
         "feature": "crim ",
         "operator": "less_or_equal",
-        "value": 5.072005065673313
+        "value": 0.042990000918507576
+      },
+      {
+        "feature": "age",
+        "operator": "less_or_equal",
+        "value": 34.64999961853027
       }
     ],
     "output": 224.0
@@ -2042,49 +1967,49 @@
   {
     "conditions": [
       {
-        "feature": "b   ",
-        "operator": "less_or_equal",
-        "value": 177.60028769726935
-      },
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 13.532074198307129
-      },
-      {
-        "feature": "rad",
-        "operator": "greater",
-        "value": 12.690465950691186
-      },
-      {
         "feature": "indus",
         "operator": "less_or_equal",
-        "value": 40.83971161621318
-      },
-      {
-        "feature": "medv",
-        "operator": "greater",
-        "value": 13.17853193002604
-      },
-      {
-        "feature": "ptratio",
-        "operator": "greater",
-        "value": 24.838933488843214
+        "value": 26.69499969482422
       },
       {
         "feature": "dis  ",
         "operator": "greater",
-        "value": 2.624987328185192
+        "value": 2.8589000701904297
+      },
+      {
+        "feature": "medv",
+        "operator": "greater",
+        "value": 26.34999942779541
+      },
+      {
+        "feature": "b   ",
+        "operator": "less_or_equal",
+        "value": 392.8399963378906
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 16.0
+      },
+      {
+        "feature": "rad",
+        "operator": "greater",
+        "value": 3.5
       },
       {
         "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
+        "value": 0.43800000846385956
       },
       {
         "feature": "crim ",
         "operator": "less_or_equal",
-        "value": 5.072005065673313
+        "value": 0.042990000918507576
+      },
+      {
+        "feature": "age",
+        "operator": "greater",
+        "value": 34.64999961853027
       }
     ],
     "output": 187.0
@@ -2092,49 +2017,99 @@
   {
     "conditions": [
       {
-        "feature": "b   ",
-        "operator": "greater",
-        "value": 177.60028769726935
-      },
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 13.532074198307129
-      },
-      {
-        "feature": "rad",
-        "operator": "greater",
-        "value": 12.690465950691186
-      },
-      {
-        "feature": "age",
-        "operator": "less_or_equal",
-        "value": 157.91565416025185
-      },
-      {
         "feature": "indus",
         "operator": "less_or_equal",
-        "value": 40.83971161621318
-      },
-      {
-        "feature": "medv",
-        "operator": "greater",
-        "value": 13.17853193002604
+        "value": 26.69499969482422
       },
       {
         "feature": "dis  ",
         "operator": "greater",
-        "value": 2.624987328185192
+        "value": 2.8589000701904297
+      },
+      {
+        "feature": "medv",
+        "operator": "greater",
+        "value": 26.34999942779541
+      },
+      {
+        "feature": "b   ",
+        "operator": "greater",
+        "value": 392.8399963378906
+      },
+      {
+        "feature": "zn",
+        "operator": "less_or_equal",
+        "value": 52.5
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 16.0
+      },
+      {
+        "feature": "rad",
+        "operator": "greater",
+        "value": 3.5
       },
       {
         "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
+        "value": 0.43800000846385956
       },
       {
         "feature": "crim ",
         "operator": "less_or_equal",
-        "value": 5.072005065673313
+        "value": 0.042990000918507576
+      }
+    ],
+    "output": 281.0
+  },
+  {
+    "conditions": [
+      {
+        "feature": "indus",
+        "operator": "less_or_equal",
+        "value": 26.69499969482422
+      },
+      {
+        "feature": "dis  ",
+        "operator": "greater",
+        "value": 2.8589000701904297
+      },
+      {
+        "feature": "medv",
+        "operator": "greater",
+        "value": 26.34999942779541
+      },
+      {
+        "feature": "b   ",
+        "operator": "greater",
+        "value": 392.8399963378906
+      },
+      {
+        "feature": "zn",
+        "operator": "greater",
+        "value": 52.5
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 16.0
+      },
+      {
+        "feature": "rad",
+        "operator": "greater",
+        "value": 3.5
+      },
+      {
+        "feature": "nox ",
+        "operator": "less_or_equal",
+        "value": 0.40700000524520874
+      },
+      {
+        "feature": "crim ",
+        "operator": "less_or_equal",
+        "value": 0.042990000918507576
       }
     ],
     "output": 226.0
@@ -2142,59 +2117,59 @@
   {
     "conditions": [
       {
-        "feature": "zn",
-        "operator": "less_or_equal",
-        "value": 116.98907614762166
-      },
-      {
-        "feature": "b   ",
-        "operator": "greater",
-        "value": 177.60028769726935
-      },
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 13.532074198307129
-      },
-      {
-        "feature": "rad",
-        "operator": "greater",
-        "value": 12.690465950691186
-      },
-      {
-        "feature": "age",
-        "operator": "greater",
-        "value": 157.91565416025185
-      },
-      {
         "feature": "indus",
         "operator": "less_or_equal",
-        "value": 40.83971161621318
-      },
-      {
-        "feature": "medv",
-        "operator": "greater",
-        "value": 13.17853193002604
-      },
-      {
-        "feature": "ptratio",
-        "operator": "less_or_equal",
-        "value": 12.445843364406056
+        "value": 3.134999930858612
       },
       {
         "feature": "dis  ",
         "operator": "greater",
-        "value": 2.624987328185192
+        "value": 2.8589000701904297
+      },
+      {
+        "feature": "medv",
+        "operator": "greater",
+        "value": 26.34999942779541
+      },
+      {
+        "feature": "b   ",
+        "operator": "greater",
+        "value": 392.8399963378906
+      },
+      {
+        "feature": "zn",
+        "operator": "less_or_equal",
+        "value": 90.0
+      },
+      {
+        "feature": "zn",
+        "operator": "greater",
+        "value": 52.5
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 16.0
+      },
+      {
+        "feature": "rad",
+        "operator": "greater",
+        "value": 3.5
       },
       {
         "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
+        "value": 0.43800000846385956
+      },
+      {
+        "feature": "nox ",
+        "operator": "greater",
+        "value": 0.40700000524520874
       },
       {
         "feature": "crim ",
         "operator": "less_or_equal",
-        "value": 5.072005065673313
+        "value": 0.042990000918507576
       }
     ],
     "output": 255.0
@@ -2202,59 +2177,54 @@
   {
     "conditions": [
       {
-        "feature": "zn",
-        "operator": "greater",
-        "value": 116.98907614762166
-      },
-      {
-        "feature": "b   ",
-        "operator": "greater",
-        "value": 177.60028769726935
-      },
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 13.532074198307129
-      },
-      {
-        "feature": "rad",
-        "operator": "greater",
-        "value": 12.690465950691186
-      },
-      {
-        "feature": "age",
-        "operator": "greater",
-        "value": 157.91565416025185
-      },
-      {
         "feature": "indus",
         "operator": "less_or_equal",
-        "value": 40.83971161621318
-      },
-      {
-        "feature": "medv",
-        "operator": "greater",
-        "value": 13.17853193002604
-      },
-      {
-        "feature": "ptratio",
-        "operator": "less_or_equal",
-        "value": 12.445843364406056
+        "value": 3.134999930858612
       },
       {
         "feature": "dis  ",
         "operator": "greater",
-        "value": 2.624987328185192
+        "value": 2.8589000701904297
+      },
+      {
+        "feature": "medv",
+        "operator": "greater",
+        "value": 26.34999942779541
+      },
+      {
+        "feature": "b   ",
+        "operator": "greater",
+        "value": 392.8399963378906
+      },
+      {
+        "feature": "zn",
+        "operator": "greater",
+        "value": 90.0
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 16.0
+      },
+      {
+        "feature": "rad",
+        "operator": "greater",
+        "value": 3.5
       },
       {
         "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
+        "value": 0.43800000846385956
+      },
+      {
+        "feature": "nox ",
+        "operator": "greater",
+        "value": 0.40700000524520874
       },
       {
         "feature": "crim ",
         "operator": "less_or_equal",
-        "value": 5.072005065673313
+        "value": 0.042990000918507576
       }
     ],
     "output": 256.0
@@ -2262,54 +2232,59 @@
   {
     "conditions": [
       {
-        "feature": "b   ",
-        "operator": "greater",
-        "value": 177.60028769726935
-      },
-      {
-        "feature": "rad",
+        "feature": "indus",
         "operator": "less_or_equal",
-        "value": 13.532074198307129
-      },
-      {
-        "feature": "rad",
-        "operator": "greater",
-        "value": 12.690465950691186
-      },
-      {
-        "feature": "age",
-        "operator": "greater",
-        "value": 157.91565416025185
+        "value": 26.69499969482422
       },
       {
         "feature": "indus",
-        "operator": "less_or_equal",
-        "value": 40.83971161621318
-      },
-      {
-        "feature": "medv",
         "operator": "greater",
-        "value": 13.17853193002604
-      },
-      {
-        "feature": "ptratio",
-        "operator": "greater",
-        "value": 12.445843364406056
+        "value": 3.134999930858612
       },
       {
         "feature": "dis  ",
         "operator": "greater",
-        "value": 2.624987328185192
+        "value": 2.8589000701904297
+      },
+      {
+        "feature": "medv",
+        "operator": "greater",
+        "value": 26.34999942779541
+      },
+      {
+        "feature": "b   ",
+        "operator": "greater",
+        "value": 392.8399963378906
+      },
+      {
+        "feature": "zn",
+        "operator": "greater",
+        "value": 52.5
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 16.0
+      },
+      {
+        "feature": "rad",
+        "operator": "greater",
+        "value": 3.5
       },
       {
         "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
+        "value": 0.43800000846385956
+      },
+      {
+        "feature": "nox ",
+        "operator": "greater",
+        "value": 0.40700000524520874
       },
       {
         "feature": "crim ",
         "operator": "less_or_equal",
-        "value": 5.072005065673313
+        "value": 0.042990000918507576
       }
     ],
     "output": 245.0
@@ -2317,89 +2292,39 @@
   {
     "conditions": [
       {
-        "feature": "b   ",
-        "operator": "greater",
-        "value": 177.60028769726935
-      },
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 13.532074198307129
-      },
-      {
-        "feature": "rad",
-        "operator": "greater",
-        "value": 12.690465950691186
-      },
-      {
         "feature": "indus",
         "operator": "less_or_equal",
-        "value": 40.83971161621318
+        "value": 26.69499969482422
       },
       {
-        "feature": "medv",
-        "operator": "greater",
-        "value": 13.17853193002604
+        "feature": "dis  ",
+        "operator": "less_or_equal",
+        "value": 5.065400123596191
       },
       {
         "feature": "dis  ",
         "operator": "greater",
-        "value": 2.624987328185192
+        "value": 2.8589000701904297
       },
-      {
-        "feature": "nox ",
-        "operator": "less_or_equal",
-        "value": 0.16393199655673832
-      },
-      {
-        "feature": "nox ",
-        "operator": "greater",
-        "value": 0.7569386128202253
-      },
-      {
-        "feature": "crim ",
-        "operator": "less_or_equal",
-        "value": 5.072005065673313
-      }
-    ],
-    "output": 281.0
-  },
-  {
-    "conditions": [
       {
         "feature": "rad",
         "operator": "less_or_equal",
-        "value": 13.532074198307129
+        "value": 16.0
       },
       {
         "feature": "rad",
         "operator": "greater",
-        "value": 12.690465950691186
-      },
-      {
-        "feature": "indus",
-        "operator": "less_or_equal",
-        "value": 40.83971161621318
-      },
-      {
-        "feature": "dis  ",
-        "operator": "less_or_equal",
-        "value": 3.5621405565453523
-      },
-      {
-        "feature": "dis  ",
-        "operator": "greater",
-        "value": 2.624987328185192
+        "value": 3.5
       },
       {
         "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
+        "value": 0.43800000846385956
       },
       {
         "feature": "crim ",
         "operator": "greater",
-        "value": 5.072005065673313
+        "value": 0.042990000918507576
       }
     ],
     "output": 398.0
@@ -2407,84 +2332,39 @@
   {
     "conditions": [
       {
-        "feature": "zn",
-        "operator": "less_or_equal",
-        "value": 79.79601622969174
-      },
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 13.532074198307129
-      },
-      {
-        "feature": "rad",
-        "operator": "greater",
-        "value": 12.690465950691186
-      },
-      {
         "feature": "indus",
         "operator": "less_or_equal",
-        "value": 18.340015597013206
-      },
-      {
-        "feature": "dis  ",
-        "operator": "less_or_equal",
-        "value": 13.459441866071845
+        "value": 4.150000095367432
       },
       {
         "feature": "dis  ",
         "operator": "greater",
-        "value": 3.5621405565453523
+        "value": 5.065400123596191
+      },
+      {
+        "feature": "zn",
+        "operator": "less_or_equal",
+        "value": 65.0
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 4.5
+      },
+      {
+        "feature": "rad",
+        "operator": "greater",
+        "value": 3.5
       },
       {
         "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
+        "value": 0.43800000846385956
       },
       {
         "feature": "crim ",
         "operator": "greater",
-        "value": 5.072005065673313
-      }
-    ],
-    "output": 398.0
-  },
-  {
-    "conditions": [
-      {
-        "feature": "zn",
-        "operator": "less_or_equal",
-        "value": 79.79601622969174
-      },
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 13.532074198307129
-      },
-      {
-        "feature": "rad",
-        "operator": "greater",
-        "value": 12.690465950691186
-      },
-      {
-        "feature": "indus",
-        "operator": "less_or_equal",
-        "value": 18.340015597013206
-      },
-      {
-        "feature": "dis  ",
-        "operator": "greater",
-        "value": 13.459441866071845
-      },
-      {
-        "feature": "nox ",
-        "operator": "less_or_equal",
-        "value": 0.16393199655673832
-      },
-      {
-        "feature": "crim ",
-        "operator": "greater",
-        "value": 5.072005065673313
+        "value": 0.042990000918507576
       }
     ],
     "output": 411.0
@@ -2492,44 +2372,84 @@
   {
     "conditions": [
       {
-        "feature": "zn",
-        "operator": "less_or_equal",
-        "value": 94.67323854400155
-      },
-      {
-        "feature": "zn",
-        "operator": "greater",
-        "value": 79.79601622969174
-      },
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 13.532074198307129
-      },
-      {
-        "feature": "rad",
-        "operator": "greater",
-        "value": 12.690465950691186
-      },
-      {
         "feature": "indus",
         "operator": "less_or_equal",
-        "value": 18.340015597013206
+        "value": 4.150000095367432
       },
       {
         "feature": "dis  ",
         "operator": "greater",
-        "value": 3.5621405565453523
+        "value": 5.065400123596191
+      },
+      {
+        "feature": "zn",
+        "operator": "less_or_equal",
+        "value": 65.0
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 16.0
+      },
+      {
+        "feature": "rad",
+        "operator": "greater",
+        "value": 4.5
       },
       {
         "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
+        "value": 0.43800000846385956
       },
       {
         "feature": "crim ",
         "operator": "greater",
-        "value": 5.072005065673313
+        "value": 0.042990000918507576
+      }
+    ],
+    "output": 398.0
+  },
+  {
+    "conditions": [
+      {
+        "feature": "indus",
+        "operator": "less_or_equal",
+        "value": 4.150000095367432
+      },
+      {
+        "feature": "dis  ",
+        "operator": "greater",
+        "value": 5.065400123596191
+      },
+      {
+        "feature": "zn",
+        "operator": "less_or_equal",
+        "value": 75.0
+      },
+      {
+        "feature": "zn",
+        "operator": "greater",
+        "value": 65.0
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 16.0
+      },
+      {
+        "feature": "rad",
+        "operator": "greater",
+        "value": 3.5
+      },
+      {
+        "feature": "nox ",
+        "operator": "less_or_equal",
+        "value": 0.43800000846385956
+      },
+      {
+        "feature": "crim ",
+        "operator": "greater",
+        "value": 0.042990000918507576
       }
     ],
     "output": 358.0
@@ -2537,44 +2457,44 @@
   {
     "conditions": [
       {
-        "feature": "zn",
-        "operator": "greater",
-        "value": 94.67323854400155
-      },
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 13.532074198307129
-      },
-      {
-        "feature": "rad",
-        "operator": "greater",
-        "value": 12.690465950691186
-      },
-      {
-        "feature": "age",
-        "operator": "less_or_equal",
-        "value": 144.6771904789321
-      },
-      {
         "feature": "indus",
         "operator": "less_or_equal",
-        "value": 18.340015597013206
+        "value": 4.150000095367432
       },
       {
         "feature": "dis  ",
         "operator": "greater",
-        "value": 3.5621405565453523
+        "value": 5.065400123596191
+      },
+      {
+        "feature": "b   ",
+        "operator": "less_or_equal",
+        "value": 389.84999084472656
+      },
+      {
+        "feature": "zn",
+        "operator": "greater",
+        "value": 75.0
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 16.0
+      },
+      {
+        "feature": "rad",
+        "operator": "greater",
+        "value": 3.5
       },
       {
         "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
+        "value": 0.43800000846385956
       },
       {
         "feature": "crim ",
         "operator": "greater",
-        "value": 5.072005065673313
+        "value": 0.042990000918507576
       }
     ],
     "output": 334.0
@@ -2582,44 +2502,44 @@
   {
     "conditions": [
       {
-        "feature": "zn",
-        "operator": "greater",
-        "value": 94.67323854400155
-      },
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 13.532074198307129
-      },
-      {
-        "feature": "rad",
-        "operator": "greater",
-        "value": 12.690465950691186
-      },
-      {
-        "feature": "age",
-        "operator": "greater",
-        "value": 144.6771904789321
-      },
-      {
         "feature": "indus",
         "operator": "less_or_equal",
-        "value": 18.340015597013206
+        "value": 4.150000095367432
       },
       {
         "feature": "dis  ",
         "operator": "greater",
-        "value": 3.5621405565453523
+        "value": 5.065400123596191
+      },
+      {
+        "feature": "b   ",
+        "operator": "greater",
+        "value": 389.84999084472656
+      },
+      {
+        "feature": "zn",
+        "operator": "greater",
+        "value": 75.0
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 16.0
+      },
+      {
+        "feature": "rad",
+        "operator": "greater",
+        "value": 3.5
       },
       {
         "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
+        "value": 0.43800000846385956
       },
       {
         "feature": "crim ",
         "operator": "greater",
-        "value": 5.072005065673313
+        "value": 0.042990000918507576
       }
     ],
     "output": 337.0
@@ -2627,49 +2547,44 @@
   {
     "conditions": [
       {
-        "feature": "lstat",
-        "operator": "less_or_equal",
-        "value": 23.417914461363864
-      },
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 13.532074198307129
-      },
-      {
-        "feature": "rad",
-        "operator": "greater",
-        "value": 12.690465950691186
-      },
-      {
         "feature": "indus",
         "operator": "less_or_equal",
-        "value": 40.83971161621318
+        "value": 26.69499969482422
       },
       {
         "feature": "indus",
         "operator": "greater",
-        "value": 18.340015597013206
+        "value": 4.150000095367432
       },
       {
         "feature": "dis  ",
         "operator": "less_or_equal",
-        "value": 7.3522294500528815
+        "value": 6.417050123214722
       },
       {
         "feature": "dis  ",
         "operator": "greater",
-        "value": 3.5621405565453523
+        "value": 5.065400123596191
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 16.0
+      },
+      {
+        "feature": "rad",
+        "operator": "greater",
+        "value": 3.5
       },
       {
         "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
+        "value": 0.41200000047683716
       },
       {
         "feature": "crim ",
         "operator": "greater",
-        "value": 5.072005065673313
+        "value": 0.042990000918507576
       }
     ],
     "output": 245.0
@@ -2677,64 +2592,54 @@
   {
     "conditions": [
       {
-        "feature": "zn",
+        "feature": "indus",
         "operator": "less_or_equal",
-        "value": 30.701179286745088
+        "value": 26.69499969482422
       },
       {
-        "feature": "lstat",
+        "feature": "indus",
         "operator": "greater",
-        "value": 23.417914461363864
+        "value": 4.150000095367432
+      },
+      {
+        "feature": "dis  ",
+        "operator": "less_or_equal",
+        "value": 6.417050123214722
+      },
+      {
+        "feature": "dis  ",
+        "operator": "greater",
+        "value": 5.065400123596191
       },
       {
         "feature": "b   ",
         "operator": "less_or_equal",
-        "value": 173.72083620495937
+        "value": 392.0500030517578
       },
       {
         "feature": "rad",
         "operator": "less_or_equal",
-        "value": 13.532074198307129
+        "value": 5.0
       },
       {
         "feature": "rad",
         "operator": "greater",
-        "value": 12.690465950691186
-      },
-      {
-        "feature": "indus",
-        "operator": "less_or_equal",
-        "value": 40.83971161621318
-      },
-      {
-        "feature": "indus",
-        "operator": "greater",
-        "value": 18.340015597013206
-      },
-      {
-        "feature": "rm ",
-        "operator": "less_or_equal",
-        "value": 1.6360064057574366
-      },
-      {
-        "feature": "dis  ",
-        "operator": "less_or_equal",
-        "value": 7.3522294500528815
-      },
-      {
-        "feature": "dis  ",
-        "operator": "greater",
-        "value": 3.5621405565453523
+        "value": 3.5
       },
       {
         "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
+        "value": 0.43800000846385956
+      },
+      {
+        "feature": "nox ",
+        "operator": "greater",
+        "value": 0.41200000047683716
       },
       {
         "feature": "crim ",
         "operator": "greater",
-        "value": 5.072005065673313
+        "value": 0.042990000918507576
       }
     ],
     "output": 305.0
@@ -2742,64 +2647,54 @@
   {
     "conditions": [
       {
-        "feature": "zn",
+        "feature": "indus",
         "operator": "less_or_equal",
-        "value": 30.701179286745088
+        "value": 26.69499969482422
       },
       {
-        "feature": "lstat",
+        "feature": "indus",
         "operator": "greater",
-        "value": 23.417914461363864
+        "value": 4.150000095367432
+      },
+      {
+        "feature": "dis  ",
+        "operator": "less_or_equal",
+        "value": 6.417050123214722
+      },
+      {
+        "feature": "dis  ",
+        "operator": "greater",
+        "value": 5.065400123596191
       },
       {
         "feature": "b   ",
         "operator": "less_or_equal",
-        "value": 173.72083620495937
+        "value": 392.0500030517578
       },
       {
         "feature": "rad",
         "operator": "less_or_equal",
-        "value": 13.532074198307129
+        "value": 6.5
       },
       {
         "feature": "rad",
         "operator": "greater",
-        "value": 12.690465950691186
-      },
-      {
-        "feature": "indus",
-        "operator": "less_or_equal",
-        "value": 40.83971161621318
-      },
-      {
-        "feature": "indus",
-        "operator": "greater",
-        "value": 18.340015597013206
-      },
-      {
-        "feature": "rm ",
-        "operator": "greater",
-        "value": 1.6360064057574366
-      },
-      {
-        "feature": "dis  ",
-        "operator": "less_or_equal",
-        "value": 7.3522294500528815
-      },
-      {
-        "feature": "dis  ",
-        "operator": "greater",
-        "value": 3.5621405565453523
+        "value": 5.0
       },
       {
         "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
+        "value": 0.43800000846385956
+      },
+      {
+        "feature": "nox ",
+        "operator": "greater",
+        "value": 0.41200000047683716
       },
       {
         "feature": "crim ",
         "operator": "greater",
-        "value": 5.072005065673313
+        "value": 0.042990000918507576
       }
     ],
     "output": 300.0
@@ -2807,59 +2702,54 @@
   {
     "conditions": [
       {
-        "feature": "zn",
+        "feature": "indus",
         "operator": "less_or_equal",
-        "value": 30.701179286745088
+        "value": 26.69499969482422
       },
       {
-        "feature": "lstat",
+        "feature": "indus",
         "operator": "greater",
-        "value": 23.417914461363864
+        "value": 4.150000095367432
+      },
+      {
+        "feature": "dis  ",
+        "operator": "less_or_equal",
+        "value": 5.45169997215271
+      },
+      {
+        "feature": "dis  ",
+        "operator": "greater",
+        "value": 5.065400123596191
       },
       {
         "feature": "b   ",
         "operator": "greater",
-        "value": 173.72083620495937
+        "value": 392.0500030517578
       },
       {
         "feature": "rad",
         "operator": "less_or_equal",
-        "value": 13.532074198307129
+        "value": 5.0
       },
       {
         "feature": "rad",
         "operator": "greater",
-        "value": 12.690465950691186
-      },
-      {
-        "feature": "indus",
-        "operator": "less_or_equal",
-        "value": 40.83971161621318
-      },
-      {
-        "feature": "indus",
-        "operator": "greater",
-        "value": 18.340015597013206
-      },
-      {
-        "feature": "dis  ",
-        "operator": "less_or_equal",
-        "value": 4.645343519957837
-      },
-      {
-        "feature": "dis  ",
-        "operator": "greater",
-        "value": 3.5621405565453523
+        "value": 3.5
       },
       {
         "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
+        "value": 0.43800000846385956
+      },
+      {
+        "feature": "nox ",
+        "operator": "greater",
+        "value": 0.41200000047683716
       },
       {
         "feature": "crim ",
         "operator": "greater",
-        "value": 5.072005065673313
+        "value": 0.042990000918507576
       }
     ],
     "output": 281.0
@@ -2867,59 +2757,54 @@
   {
     "conditions": [
       {
-        "feature": "zn",
+        "feature": "indus",
         "operator": "less_or_equal",
-        "value": 30.701179286745088
+        "value": 26.69499969482422
       },
       {
-        "feature": "lstat",
+        "feature": "indus",
         "operator": "greater",
-        "value": 23.417914461363864
+        "value": 4.150000095367432
+      },
+      {
+        "feature": "dis  ",
+        "operator": "less_or_equal",
+        "value": 6.417050123214722
+      },
+      {
+        "feature": "dis  ",
+        "operator": "greater",
+        "value": 5.45169997215271
       },
       {
         "feature": "b   ",
         "operator": "greater",
-        "value": 173.72083620495937
+        "value": 392.0500030517578
       },
       {
         "feature": "rad",
         "operator": "less_or_equal",
-        "value": 13.532074198307129
+        "value": 5.0
       },
       {
         "feature": "rad",
         "operator": "greater",
-        "value": 12.690465950691186
-      },
-      {
-        "feature": "indus",
-        "operator": "less_or_equal",
-        "value": 40.83971161621318
-      },
-      {
-        "feature": "indus",
-        "operator": "greater",
-        "value": 18.340015597013206
-      },
-      {
-        "feature": "dis  ",
-        "operator": "less_or_equal",
-        "value": 7.102669338502521
-      },
-      {
-        "feature": "dis  ",
-        "operator": "greater",
-        "value": 4.645343519957837
+        "value": 3.5
       },
       {
         "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
+        "value": 0.43800000846385956
+      },
+      {
+        "feature": "nox ",
+        "operator": "greater",
+        "value": 0.41200000047683716
       },
       {
         "feature": "crim ",
         "operator": "greater",
-        "value": 5.072005065673313
+        "value": 0.042990000918507576
       }
     ],
     "output": 289.0
@@ -2927,59 +2812,54 @@
   {
     "conditions": [
       {
-        "feature": "zn",
+        "feature": "indus",
         "operator": "less_or_equal",
-        "value": 30.701179286745088
+        "value": 26.69499969482422
       },
       {
-        "feature": "lstat",
+        "feature": "indus",
         "operator": "greater",
-        "value": 23.417914461363864
+        "value": 4.150000095367432
+      },
+      {
+        "feature": "dis  ",
+        "operator": "less_or_equal",
+        "value": 6.417050123214722
+      },
+      {
+        "feature": "dis  ",
+        "operator": "greater",
+        "value": 5.065400123596191
       },
       {
         "feature": "b   ",
         "operator": "greater",
-        "value": 173.72083620495937
+        "value": 392.0500030517578
       },
       {
         "feature": "rad",
         "operator": "less_or_equal",
-        "value": 13.532074198307129
+        "value": 6.5
       },
       {
         "feature": "rad",
         "operator": "greater",
-        "value": 12.690465950691186
-      },
-      {
-        "feature": "indus",
-        "operator": "less_or_equal",
-        "value": 40.83971161621318
-      },
-      {
-        "feature": "indus",
-        "operator": "greater",
-        "value": 18.340015597013206
-      },
-      {
-        "feature": "dis  ",
-        "operator": "less_or_equal",
-        "value": 7.3522294500528815
-      },
-      {
-        "feature": "dis  ",
-        "operator": "greater",
-        "value": 7.102669338502521
+        "value": 5.0
       },
       {
         "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
+        "value": 0.43800000846385956
+      },
+      {
+        "feature": "nox ",
+        "operator": "greater",
+        "value": 0.41200000047683716
       },
       {
         "feature": "crim ",
         "operator": "greater",
-        "value": 5.072005065673313
+        "value": 0.042990000918507576
       }
     ],
     "output": 300.0
@@ -2987,54 +2867,49 @@
   {
     "conditions": [
       {
-        "feature": "zn",
-        "operator": "greater",
-        "value": 30.701179286745088
-      },
-      {
-        "feature": "lstat",
-        "operator": "greater",
-        "value": 23.417914461363864
-      },
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 13.532074198307129
-      },
-      {
-        "feature": "rad",
-        "operator": "greater",
-        "value": 12.690465950691186
-      },
-      {
         "feature": "indus",
         "operator": "less_or_equal",
-        "value": 40.83971161621318
+        "value": 26.69499969482422
       },
       {
         "feature": "indus",
         "operator": "greater",
-        "value": 18.340015597013206
+        "value": 4.150000095367432
       },
       {
         "feature": "dis  ",
         "operator": "less_or_equal",
-        "value": 7.3522294500528815
+        "value": 6.417050123214722
       },
       {
         "feature": "dis  ",
         "operator": "greater",
-        "value": 3.5621405565453523
+        "value": 5.065400123596191
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 16.0
+      },
+      {
+        "feature": "rad",
+        "operator": "greater",
+        "value": 6.5
       },
       {
         "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
+        "value": 0.43800000846385956
+      },
+      {
+        "feature": "nox ",
+        "operator": "greater",
+        "value": 0.41200000047683716
       },
       {
         "feature": "crim ",
         "operator": "greater",
-        "value": 5.072005065673313
+        "value": 0.042990000918507576
       }
     ],
     "output": 329.0
@@ -3042,134 +2917,44 @@
   {
     "conditions": [
       {
-        "feature": "b   ",
-        "operator": "less_or_equal",
-        "value": 143.05350073025608
-      },
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 13.532074198307129
-      },
-      {
-        "feature": "rad",
-        "operator": "greater",
-        "value": 12.690465950691186
-      },
-      {
         "feature": "indus",
         "operator": "less_or_equal",
-        "value": 14.560072276105032
+        "value": 26.69499969482422
       },
       {
         "feature": "indus",
         "operator": "greater",
-        "value": 18.340015597013206
+        "value": 4.150000095367432
       },
       {
         "feature": "dis  ",
         "operator": "greater",
-        "value": 7.3522294500528815
+        "value": 6.417050123214722
       },
-      {
-        "feature": "nox ",
-        "operator": "less_or_equal",
-        "value": 0.16393199655673832
-      },
-      {
-        "feature": "crim ",
-        "operator": "greater",
-        "value": 5.072005065673313
-      }
-    ],
-    "output": 300.0
-  },
-  {
-    "conditions": [
-      {
-        "feature": "b   ",
-        "operator": "greater",
-        "value": 143.05350073025608
-      },
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 13.532074198307129
-      },
-      {
-        "feature": "rad",
-        "operator": "greater",
-        "value": 12.690465950691186
-      },
-      {
-        "feature": "indus",
-        "operator": "less_or_equal",
-        "value": 14.560072276105032
-      },
-      {
-        "feature": "indus",
-        "operator": "greater",
-        "value": 18.340015597013206
-      },
-      {
-        "feature": "dis  ",
-        "operator": "greater",
-        "value": 7.3522294500528815
-      },
-      {
-        "feature": "nox ",
-        "operator": "less_or_equal",
-        "value": 0.16393199655673832
-      },
-      {
-        "feature": "crim ",
-        "operator": "greater",
-        "value": 5.072005065673313
-      }
-    ],
-    "output": 293.0
-  },
-  {
-    "conditions": [
       {
         "feature": "zn",
         "operator": "less_or_equal",
-        "value": 8.757274797753885
+        "value": 26.0
       },
       {
         "feature": "rad",
         "operator": "less_or_equal",
-        "value": 13.532074198307129
+        "value": 5.5
       },
       {
         "feature": "rad",
         "operator": "greater",
-        "value": 12.690465950691186
-      },
-      {
-        "feature": "indus",
-        "operator": "less_or_equal",
-        "value": 40.83971161621318
-      },
-      {
-        "feature": "indus",
-        "operator": "greater",
-        "value": 18.340015597013206
-      },
-      {
-        "feature": "dis  ",
-        "operator": "greater",
-        "value": 7.3522294500528815
+        "value": 3.5
       },
       {
         "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
+        "value": 0.43800000846385956
       },
       {
         "feature": "crim ",
         "operator": "greater",
-        "value": 5.072005065673313
+        "value": 0.042990000918507576
       }
     ],
     "output": 345.0
@@ -3177,44 +2962,44 @@
   {
     "conditions": [
       {
-        "feature": "zn",
-        "operator": "greater",
-        "value": 8.757274797753885
-      },
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 13.532074198307129
-      },
-      {
-        "feature": "rad",
-        "operator": "greater",
-        "value": 12.690465950691186
-      },
-      {
         "feature": "indus",
         "operator": "less_or_equal",
-        "value": 40.83971161621318
+        "value": 26.69499969482422
       },
       {
         "feature": "indus",
         "operator": "greater",
-        "value": 18.340015597013206
+        "value": 4.150000095367432
       },
       {
         "feature": "dis  ",
         "operator": "greater",
-        "value": 7.3522294500528815
+        "value": 6.417050123214722
+      },
+      {
+        "feature": "zn",
+        "operator": "less_or_equal",
+        "value": 26.0
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 16.0
+      },
+      {
+        "feature": "rad",
+        "operator": "greater",
+        "value": 5.5
       },
       {
         "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
+        "value": 0.43800000846385956
       },
       {
         "feature": "crim ",
         "operator": "greater",
-        "value": 5.072005065673313
+        "value": 0.042990000918507576
       }
     ],
     "output": 330.0
@@ -3222,44 +3007,144 @@
   {
     "conditions": [
       {
-        "feature": "b   ",
+        "feature": "indus",
         "operator": "less_or_equal",
-        "value": 79.2880376047372
-      },
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 13.532074198307129
-      },
-      {
-        "feature": "rad",
-        "operator": "greater",
-        "value": 12.690465950691186
+        "value": 26.69499969482422
       },
       {
         "feature": "indus",
-        "operator": "less_or_equal",
-        "value": 40.83971161621318
+        "operator": "greater",
+        "value": 4.150000095367432
       },
       {
         "feature": "dis  ",
         "operator": "greater",
-        "value": 2.624987328185192
+        "value": 6.417050123214722
+      },
+      {
+        "feature": "b   ",
+        "operator": "less_or_equal",
+        "value": 385.80499267578125
+      },
+      {
+        "feature": "zn",
+        "operator": "greater",
+        "value": 26.0
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 16.0
+      },
+      {
+        "feature": "rad",
+        "operator": "greater",
+        "value": 3.5
       },
       {
         "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
+        "value": 0.43800000846385956
+      },
+      {
+        "feature": "crim ",
+        "operator": "greater",
+        "value": 0.042990000918507576
+      }
+    ],
+    "output": 300.0
+  },
+  {
+    "conditions": [
+      {
+        "feature": "indus",
+        "operator": "less_or_equal",
+        "value": 26.69499969482422
+      },
+      {
+        "feature": "indus",
+        "operator": "greater",
+        "value": 4.150000095367432
+      },
+      {
+        "feature": "dis  ",
+        "operator": "greater",
+        "value": 6.417050123214722
+      },
+      {
+        "feature": "b   ",
+        "operator": "greater",
+        "value": 385.80499267578125
+      },
+      {
+        "feature": "zn",
+        "operator": "greater",
+        "value": 26.0
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 16.0
+      },
+      {
+        "feature": "rad",
+        "operator": "greater",
+        "value": 3.5
+      },
+      {
+        "feature": "nox ",
+        "operator": "less_or_equal",
+        "value": 0.43800000846385956
+      },
+      {
+        "feature": "crim ",
+        "operator": "greater",
+        "value": 0.042990000918507576
+      }
+    ],
+    "output": 293.0
+  },
+  {
+    "conditions": [
+      {
+        "feature": "indus",
+        "operator": "less_or_equal",
+        "value": 26.69499969482422
+      },
+      {
+        "feature": "dis  ",
+        "operator": "greater",
+        "value": 2.8589000701904297
+      },
+      {
+        "feature": "b   ",
+        "operator": "less_or_equal",
+        "value": 372.82000732421875
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 16.0
+      },
+      {
+        "feature": "rad",
+        "operator": "greater",
+        "value": 3.5
+      },
+      {
+        "feature": "nox ",
+        "operator": "less_or_equal",
+        "value": 0.582999974489212
       },
       {
         "feature": "nox ",
         "operator": "greater",
-        "value": 0.6758556791521022
+        "value": 0.43800000846385956
       },
       {
         "feature": "crim ",
         "operator": "less_or_equal",
-        "value": 5.043807987285914
+        "value": 0.06284000165760517
       }
     ],
     "output": 430.0
@@ -3267,59 +3152,114 @@
   {
     "conditions": [
       {
-        "feature": "zn",
+        "feature": "indus",
         "operator": "less_or_equal",
-        "value": 53.76087717964961
+        "value": 6.0249998569488525
+      },
+      {
+        "feature": "dis  ",
+        "operator": "greater",
+        "value": 2.8589000701904297
       },
       {
         "feature": "b   ",
         "operator": "greater",
-        "value": 79.2880376047372
+        "value": 372.82000732421875
+      },
+      {
+        "feature": "zn",
+        "operator": "less_or_equal",
+        "value": 47.5
       },
       {
         "feature": "rad",
         "operator": "less_or_equal",
-        "value": 13.532074198307129
+        "value": 16.0
       },
       {
         "feature": "rad",
         "operator": "greater",
-        "value": 12.690465950691186
-      },
-      {
-        "feature": "age",
-        "operator": "less_or_equal",
-        "value": 11.261632890875285
-      },
-      {
-        "feature": "indus",
-        "operator": "less_or_equal",
-        "value": 13.418215051351936
-      },
-      {
-        "feature": "dis  ",
-        "operator": "less_or_equal",
-        "value": 7.96771762984149
-      },
-      {
-        "feature": "dis  ",
-        "operator": "greater",
-        "value": 2.624987328185192
+        "value": 3.5
       },
       {
         "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
+        "value": 0.4409500062465668
       },
       {
         "feature": "nox ",
         "operator": "greater",
-        "value": 0.6758556791521022
+        "value": 0.43800000846385956
       },
       {
         "feature": "crim ",
         "operator": "less_or_equal",
-        "value": 5.043807987285914
+        "value": 0.06284000165760517
+      },
+      {
+        "feature": "age",
+        "operator": "less_or_equal",
+        "value": 71.85000228881836
+      }
+    ],
+    "output": 243.0
+  },
+  {
+    "conditions": [
+      {
+        "feature": "indus",
+        "operator": "less_or_equal",
+        "value": 6.0249998569488525
+      },
+      {
+        "feature": "dis  ",
+        "operator": "greater",
+        "value": 2.8589000701904297
+      },
+      {
+        "feature": "ptratio",
+        "operator": "less_or_equal",
+        "value": 16.649999618530273
+      },
+      {
+        "feature": "b   ",
+        "operator": "greater",
+        "value": 372.82000732421875
+      },
+      {
+        "feature": "zn",
+        "operator": "less_or_equal",
+        "value": 47.5
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 16.0
+      },
+      {
+        "feature": "rad",
+        "operator": "greater",
+        "value": 3.5
+      },
+      {
+        "feature": "nox ",
+        "operator": "less_or_equal",
+        "value": 0.582999974489212
+      },
+      {
+        "feature": "nox ",
+        "operator": "greater",
+        "value": 0.4409500062465668
+      },
+      {
+        "feature": "crim ",
+        "operator": "less_or_equal",
+        "value": 0.06284000165760517
+      },
+      {
+        "feature": "age",
+        "operator": "less_or_equal",
+        "value": 71.85000228881836
       }
     ],
     "output": 216.0
@@ -3327,59 +3267,59 @@
   {
     "conditions": [
       {
-        "feature": "zn",
+        "feature": "indus",
         "operator": "less_or_equal",
-        "value": 53.76087717964961
+        "value": 6.0249998569488525
+      },
+      {
+        "feature": "dis  ",
+        "operator": "greater",
+        "value": 2.8589000701904297
+      },
+      {
+        "feature": "ptratio",
+        "operator": "greater",
+        "value": 16.649999618530273
       },
       {
         "feature": "b   ",
         "operator": "greater",
-        "value": 79.2880376047372
+        "value": 372.82000732421875
+      },
+      {
+        "feature": "zn",
+        "operator": "less_or_equal",
+        "value": 47.5
       },
       {
         "feature": "rad",
         "operator": "less_or_equal",
-        "value": 13.532074198307129
+        "value": 16.0
       },
       {
         "feature": "rad",
         "operator": "greater",
-        "value": 12.690465950691186
-      },
-      {
-        "feature": "age",
-        "operator": "less_or_equal",
-        "value": 11.261632890875285
-      },
-      {
-        "feature": "indus",
-        "operator": "less_or_equal",
-        "value": 13.418215051351936
-      },
-      {
-        "feature": "dis  ",
-        "operator": "less_or_equal",
-        "value": 1.744277408977768
-      },
-      {
-        "feature": "dis  ",
-        "operator": "greater",
-        "value": 2.624987328185192
+        "value": 3.5
       },
       {
         "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
+        "value": 0.4934999942779541
       },
       {
         "feature": "nox ",
         "operator": "greater",
-        "value": 0.6758556791521022
+        "value": 0.4409500062465668
       },
       {
         "feature": "crim ",
         "operator": "less_or_equal",
-        "value": 5.043807987285914
+        "value": 0.06284000165760517
+      },
+      {
+        "feature": "age",
+        "operator": "less_or_equal",
+        "value": 71.85000228881836
       }
     ],
     "output": 222.0
@@ -3387,59 +3327,59 @@
   {
     "conditions": [
       {
-        "feature": "zn",
+        "feature": "indus",
         "operator": "less_or_equal",
-        "value": 53.76087717964961
+        "value": 6.0249998569488525
+      },
+      {
+        "feature": "dis  ",
+        "operator": "greater",
+        "value": 2.8589000701904297
+      },
+      {
+        "feature": "ptratio",
+        "operator": "greater",
+        "value": 16.649999618530273
       },
       {
         "feature": "b   ",
         "operator": "greater",
-        "value": 79.2880376047372
+        "value": 372.82000732421875
+      },
+      {
+        "feature": "zn",
+        "operator": "less_or_equal",
+        "value": 47.5
       },
       {
         "feature": "rad",
         "operator": "less_or_equal",
-        "value": 13.532074198307129
+        "value": 16.0
       },
       {
         "feature": "rad",
         "operator": "greater",
-        "value": 12.690465950691186
-      },
-      {
-        "feature": "age",
-        "operator": "less_or_equal",
-        "value": 11.261632890875285
-      },
-      {
-        "feature": "indus",
-        "operator": "less_or_equal",
-        "value": 13.418215051351936
-      },
-      {
-        "feature": "dis  ",
-        "operator": "less_or_equal",
-        "value": 7.96771762984149
-      },
-      {
-        "feature": "dis  ",
-        "operator": "greater",
-        "value": 2.624987328185192
+        "value": 3.5
       },
       {
         "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
+        "value": 0.582999974489212
       },
       {
         "feature": "nox ",
         "operator": "greater",
-        "value": 0.6758556791521022
+        "value": 0.4934999942779541
       },
       {
         "feature": "crim ",
         "operator": "less_or_equal",
-        "value": 5.043807987285914
+        "value": 0.06284000165760517
+      },
+      {
+        "feature": "age",
+        "operator": "less_or_equal",
+        "value": 71.85000228881836
       }
     ],
     "output": 224.0
@@ -3447,109 +3387,54 @@
   {
     "conditions": [
       {
-        "feature": "zn",
-        "operator": "less_or_equal",
-        "value": 53.76087717964961
-      },
-      {
-        "feature": "b   ",
-        "operator": "greater",
-        "value": 79.2880376047372
-      },
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 13.532074198307129
-      },
-      {
-        "feature": "rad",
-        "operator": "greater",
-        "value": 12.690465950691186
-      },
-      {
-        "feature": "age",
-        "operator": "less_or_equal",
-        "value": 11.261632890875285
-      },
-      {
         "feature": "indus",
         "operator": "less_or_equal",
-        "value": 13.418215051351936
+        "value": 6.0249998569488525
       },
       {
         "feature": "dis  ",
         "operator": "greater",
-        "value": 7.96771762984149
-      },
-      {
-        "feature": "nox ",
-        "operator": "less_or_equal",
-        "value": 0.16393199655673832
-      },
-      {
-        "feature": "nox ",
-        "operator": "greater",
-        "value": 0.6758556791521022
-      },
-      {
-        "feature": "crim ",
-        "operator": "less_or_equal",
-        "value": 5.043807987285914
-      }
-    ],
-    "output": 243.0
-  },
-  {
-    "conditions": [
-      {
-        "feature": "zn",
-        "operator": "less_or_equal",
-        "value": 53.76087717964961
+        "value": 2.8589000701904297
       },
       {
         "feature": "b   ",
         "operator": "greater",
-        "value": 79.2880376047372
+        "value": 372.82000732421875
+      },
+      {
+        "feature": "zn",
+        "operator": "less_or_equal",
+        "value": 47.5
       },
       {
         "feature": "rad",
         "operator": "less_or_equal",
-        "value": 13.532074198307129
+        "value": 16.0
       },
       {
         "feature": "rad",
         "operator": "greater",
-        "value": 12.690465950691186
-      },
-      {
-        "feature": "age",
-        "operator": "greater",
-        "value": 11.261632890875285
-      },
-      {
-        "feature": "indus",
-        "operator": "less_or_equal",
-        "value": 13.418215051351936
-      },
-      {
-        "feature": "dis  ",
-        "operator": "greater",
-        "value": 2.624987328185192
+        "value": 3.5
       },
       {
         "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
+        "value": 0.582999974489212
       },
       {
         "feature": "nox ",
         "operator": "greater",
-        "value": 0.6758556791521022
+        "value": 0.43800000846385956
       },
       {
         "feature": "crim ",
         "operator": "less_or_equal",
-        "value": 5.043807987285914
+        "value": 0.06284000165760517
+      },
+      {
+        "feature": "age",
+        "operator": "greater",
+        "value": 71.85000228881836
       }
     ],
     "output": 296.0
@@ -3557,59 +3442,59 @@
   {
     "conditions": [
       {
-        "feature": "zn",
-        "operator": "less_or_equal",
-        "value": 53.76087717964961
-      },
-      {
-        "feature": "lstat",
-        "operator": "less_or_equal",
-        "value": 20.713627049712823
-      },
-      {
-        "feature": "b   ",
-        "operator": "greater",
-        "value": 79.2880376047372
-      },
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 13.532074198307129
-      },
-      {
-        "feature": "rad",
-        "operator": "greater",
-        "value": 12.690465950691186
-      },
-      {
         "feature": "indus",
         "operator": "less_or_equal",
-        "value": 40.83971161621318
+        "value": 26.69499969482422
       },
       {
         "feature": "indus",
         "operator": "greater",
-        "value": 13.418215051351936
+        "value": 6.0249998569488525
       },
       {
         "feature": "dis  ",
         "operator": "greater",
-        "value": 2.624987328185192
+        "value": 2.8589000701904297
+      },
+      {
+        "feature": "b   ",
+        "operator": "greater",
+        "value": 372.82000732421875
+      },
+      {
+        "feature": "lstat",
+        "operator": "less_or_equal",
+        "value": 5.184999942779541
+      },
+      {
+        "feature": "zn",
+        "operator": "less_or_equal",
+        "value": 47.5
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 16.0
+      },
+      {
+        "feature": "rad",
+        "operator": "greater",
+        "value": 3.5
       },
       {
         "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
+        "value": 0.582999974489212
       },
       {
         "feature": "nox ",
         "operator": "greater",
-        "value": 0.6758556791521022
+        "value": 0.43800000846385956
       },
       {
         "feature": "crim ",
         "operator": "less_or_equal",
-        "value": 5.043807987285914
+        "value": 0.06284000165760517
       }
     ],
     "output": 254.0
@@ -3617,64 +3502,64 @@
   {
     "conditions": [
       {
-        "feature": "zn",
-        "operator": "less_or_equal",
-        "value": 53.76087717964961
-      },
-      {
-        "feature": "lstat",
-        "operator": "greater",
-        "value": 20.713627049712823
-      },
-      {
-        "feature": "b   ",
-        "operator": "greater",
-        "value": 79.2880376047372
-      },
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 13.532074198307129
-      },
-      {
-        "feature": "rad",
-        "operator": "greater",
-        "value": 12.690465950691186
-      },
-      {
         "feature": "indus",
         "operator": "less_or_equal",
-        "value": 40.83971161621318
+        "value": 26.69499969482422
       },
       {
         "feature": "indus",
         "operator": "greater",
-        "value": 13.418215051351936
+        "value": 6.0249998569488525
       },
       {
-        "feature": "rm ",
+        "feature": "dis  ",
         "operator": "less_or_equal",
-        "value": 2.34040039872137
+        "value": 3.3635499477386475
       },
       {
         "feature": "dis  ",
         "operator": "greater",
-        "value": 2.624987328185192
+        "value": 2.8589000701904297
+      },
+      {
+        "feature": "b   ",
+        "operator": "greater",
+        "value": 372.82000732421875
+      },
+      {
+        "feature": "lstat",
+        "operator": "greater",
+        "value": 5.184999942779541
+      },
+      {
+        "feature": "zn",
+        "operator": "less_or_equal",
+        "value": 47.5
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 16.0
+      },
+      {
+        "feature": "rad",
+        "operator": "greater",
+        "value": 3.5
       },
       {
         "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
+        "value": 0.582999974489212
       },
       {
         "feature": "nox ",
         "operator": "greater",
-        "value": 0.6758556791521022
+        "value": 0.43800000846385956
       },
       {
         "feature": "crim ",
         "operator": "less_or_equal",
-        "value": 5.043807987285914
+        "value": 0.06284000165760517
       }
     ],
     "output": 276.0
@@ -3682,64 +3567,59 @@
   {
     "conditions": [
       {
-        "feature": "zn",
-        "operator": "less_or_equal",
-        "value": 53.76087717964961
-      },
-      {
-        "feature": "lstat",
-        "operator": "greater",
-        "value": 20.713627049712823
-      },
-      {
-        "feature": "b   ",
-        "operator": "greater",
-        "value": 79.2880376047372
-      },
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 13.532074198307129
-      },
-      {
-        "feature": "rad",
-        "operator": "greater",
-        "value": 12.690465950691186
-      },
-      {
         "feature": "indus",
         "operator": "less_or_equal",
-        "value": 40.83971161621318
+        "value": 26.69499969482422
       },
       {
         "feature": "indus",
         "operator": "greater",
-        "value": 13.418215051351936
-      },
-      {
-        "feature": "rm ",
-        "operator": "greater",
-        "value": 2.34040039872137
+        "value": 6.0249998569488525
       },
       {
         "feature": "dis  ",
         "operator": "greater",
-        "value": 2.624987328185192
+        "value": 3.3635499477386475
+      },
+      {
+        "feature": "b   ",
+        "operator": "greater",
+        "value": 372.82000732421875
+      },
+      {
+        "feature": "lstat",
+        "operator": "greater",
+        "value": 5.184999942779541
+      },
+      {
+        "feature": "zn",
+        "operator": "less_or_equal",
+        "value": 47.5
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 16.0
+      },
+      {
+        "feature": "rad",
+        "operator": "greater",
+        "value": 3.5
       },
       {
         "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
+        "value": 0.582999974489212
       },
       {
         "feature": "nox ",
         "operator": "greater",
-        "value": 0.6758556791521022
+        "value": 0.43800000846385956
       },
       {
         "feature": "crim ",
         "operator": "less_or_equal",
-        "value": 5.043807987285914
+        "value": 0.06284000165760517
       }
     ],
     "output": 270.0
@@ -3747,49 +3627,49 @@
   {
     "conditions": [
       {
-        "feature": "zn",
-        "operator": "greater",
-        "value": 53.76087717964961
-      },
-      {
-        "feature": "b   ",
-        "operator": "greater",
-        "value": 79.2880376047372
-      },
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 13.532074198307129
-      },
-      {
-        "feature": "rad",
-        "operator": "greater",
-        "value": 12.690465950691186
-      },
-      {
         "feature": "indus",
         "operator": "less_or_equal",
-        "value": 40.83971161621318
+        "value": 26.69499969482422
       },
       {
         "feature": "dis  ",
         "operator": "greater",
-        "value": 2.624987328185192
+        "value": 2.8589000701904297
+      },
+      {
+        "feature": "b   ",
+        "operator": "greater",
+        "value": 372.82000732421875
+      },
+      {
+        "feature": "zn",
+        "operator": "greater",
+        "value": 47.5
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 16.0
+      },
+      {
+        "feature": "rad",
+        "operator": "greater",
+        "value": 3.5
       },
       {
         "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
+        "value": 0.582999974489212
       },
       {
         "feature": "nox ",
         "operator": "greater",
-        "value": 0.6758556791521022
+        "value": 0.43800000846385956
       },
       {
         "feature": "crim ",
         "operator": "less_or_equal",
-        "value": 5.043807987285914
+        "value": 0.06284000165760517
       }
     ],
     "output": 370.0
@@ -3797,44 +3677,44 @@
   {
     "conditions": [
       {
-        "feature": "zn",
-        "operator": "less_or_equal",
-        "value": 7.269552669626791
-      },
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 13.532074198307129
-      },
-      {
-        "feature": "rad",
-        "operator": "greater",
-        "value": 12.690465950691186
-      },
-      {
         "feature": "indus",
         "operator": "less_or_equal",
-        "value": 40.83971161621318
+        "value": 26.69499969482422
       },
       {
         "feature": "dis  ",
         "operator": "greater",
-        "value": 2.624987328185192
+        "value": 2.8589000701904297
+      },
+      {
+        "feature": "zn",
+        "operator": "less_or_equal",
+        "value": 16.25
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 16.0
+      },
+      {
+        "feature": "rad",
+        "operator": "greater",
+        "value": 3.5
       },
       {
         "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
+        "value": 0.47450000047683716
       },
       {
         "feature": "nox ",
         "operator": "greater",
-        "value": 0.6758556791521022
+        "value": 0.43800000846385956
       },
       {
         "feature": "crim ",
         "operator": "greater",
-        "value": 5.043807987285914
+        "value": 0.06284000165760517
       }
     ],
     "output": 430.0
@@ -3842,49 +3722,49 @@
   {
     "conditions": [
       {
-        "feature": "zn",
-        "operator": "less_or_equal",
-        "value": 7.269552669626791
-      },
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 10.59266237984054
-      },
-      {
-        "feature": "rad",
-        "operator": "greater",
-        "value": 12.690465950691186
-      },
-      {
         "feature": "indus",
         "operator": "less_or_equal",
-        "value": 40.83971161621318
-      },
-      {
-        "feature": "ptratio",
-        "operator": "less_or_equal",
-        "value": 9.003736701549068
+        "value": 26.69499969482422
       },
       {
         "feature": "dis  ",
         "operator": "greater",
-        "value": 2.624987328185192
+        "value": 2.8589000701904297
+      },
+      {
+        "feature": "ptratio",
+        "operator": "less_or_equal",
+        "value": 19.40000057220459
+      },
+      {
+        "feature": "zn",
+        "operator": "less_or_equal",
+        "value": 16.25
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 4.5
+      },
+      {
+        "feature": "rad",
+        "operator": "greater",
+        "value": 3.5
       },
       {
         "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
+        "value": 0.5015000104904175
       },
       {
         "feature": "nox ",
         "operator": "greater",
-        "value": 0.6758556791521022
+        "value": 0.47450000047683716
       },
       {
         "feature": "crim ",
         "operator": "greater",
-        "value": 5.043807987285914
+        "value": 0.06284000165760517
       }
     ],
     "output": 277.0
@@ -3892,49 +3772,49 @@
   {
     "conditions": [
       {
-        "feature": "zn",
-        "operator": "less_or_equal",
-        "value": 7.269552669626791
-      },
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 13.532074198307129
-      },
-      {
-        "feature": "rad",
-        "operator": "greater",
-        "value": 12.690465950691186
-      },
-      {
         "feature": "indus",
         "operator": "less_or_equal",
-        "value": 40.83971161621318
-      },
-      {
-        "feature": "ptratio",
-        "operator": "less_or_equal",
-        "value": 9.003736701549068
+        "value": 26.69499969482422
       },
       {
         "feature": "dis  ",
         "operator": "greater",
-        "value": 2.624987328185192
+        "value": 2.8589000701904297
+      },
+      {
+        "feature": "ptratio",
+        "operator": "less_or_equal",
+        "value": 19.40000057220459
+      },
+      {
+        "feature": "zn",
+        "operator": "less_or_equal",
+        "value": 16.25
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 16.0
+      },
+      {
+        "feature": "rad",
+        "operator": "greater",
+        "value": 4.5
       },
       {
         "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
+        "value": 0.5015000104904175
       },
       {
         "feature": "nox ",
         "operator": "greater",
-        "value": 0.6758556791521022
+        "value": 0.47450000047683716
       },
       {
         "feature": "crim ",
         "operator": "greater",
-        "value": 5.043807987285914
+        "value": 0.06284000165760517
       }
     ],
     "output": 279.0
@@ -3942,49 +3822,49 @@
   {
     "conditions": [
       {
-        "feature": "zn",
-        "operator": "less_or_equal",
-        "value": 7.269552669626791
-      },
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 13.532074198307129
-      },
-      {
-        "feature": "rad",
-        "operator": "greater",
-        "value": 12.690465950691186
-      },
-      {
         "feature": "indus",
         "operator": "less_or_equal",
-        "value": 40.83971161621318
-      },
-      {
-        "feature": "ptratio",
-        "operator": "greater",
-        "value": 9.003736701549068
+        "value": 26.69499969482422
       },
       {
         "feature": "dis  ",
         "operator": "greater",
-        "value": 2.624987328185192
+        "value": 2.8589000701904297
+      },
+      {
+        "feature": "ptratio",
+        "operator": "greater",
+        "value": 19.40000057220459
+      },
+      {
+        "feature": "zn",
+        "operator": "less_or_equal",
+        "value": 16.25
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 16.0
+      },
+      {
+        "feature": "rad",
+        "operator": "greater",
+        "value": 3.5
       },
       {
         "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
+        "value": 0.5015000104904175
       },
       {
         "feature": "nox ",
         "operator": "greater",
-        "value": 0.6758556791521022
+        "value": 0.47450000047683716
       },
       {
         "feature": "crim ",
         "operator": "greater",
-        "value": 5.043807987285914
+        "value": 0.06284000165760517
       }
     ],
     "output": 287.0
@@ -3992,44 +3872,49 @@
   {
     "conditions": [
       {
-        "feature": "zn",
-        "operator": "less_or_equal",
-        "value": 7.269552669626791
-      },
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 13.532074198307129
-      },
-      {
-        "feature": "rad",
-        "operator": "greater",
-        "value": 12.690465950691186
-      },
-      {
         "feature": "indus",
         "operator": "less_or_equal",
-        "value": 15.78067875566899
+        "value": 11.894999980926514
       },
       {
         "feature": "dis  ",
         "operator": "greater",
-        "value": 2.624987328185192
+        "value": 2.8589000701904297
+      },
+      {
+        "feature": "zn",
+        "operator": "less_or_equal",
+        "value": 16.25
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 16.0
+      },
+      {
+        "feature": "rad",
+        "operator": "greater",
+        "value": 3.5
       },
       {
         "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.04456700516932621
+        "value": 0.582999974489212
       },
       {
         "feature": "nox ",
         "operator": "greater",
-        "value": 0.6758556791521022
+        "value": 0.5015000104904175
+      },
+      {
+        "feature": "crim ",
+        "operator": "less_or_equal",
+        "value": 0.07925499975681305
       },
       {
         "feature": "crim ",
         "operator": "greater",
-        "value": 5.043807987285914
+        "value": 0.06284000165760517
       }
     ],
     "output": 296.0
@@ -4037,154 +3922,49 @@
   {
     "conditions": [
       {
-        "feature": "zn",
-        "operator": "less_or_equal",
-        "value": 7.269552669626791
-      },
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 13.532074198307129
-      },
-      {
-        "feature": "rad",
-        "operator": "greater",
-        "value": 12.690465950691186
-      },
-      {
         "feature": "indus",
         "operator": "less_or_equal",
-        "value": 5.556459393660038
-      },
-      {
-        "feature": "indus",
-        "operator": "greater",
-        "value": 15.78067875566899
+        "value": 11.894999980926514
       },
       {
         "feature": "dis  ",
         "operator": "greater",
-        "value": 2.624987328185192
+        "value": 2.8589000701904297
+      },
+      {
+        "feature": "zn",
+        "operator": "less_or_equal",
+        "value": 16.25
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 16.0
+      },
+      {
+        "feature": "rad",
+        "operator": "greater",
+        "value": 3.5
       },
       {
         "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.04456700516932621
+        "value": 0.582999974489212
       },
       {
         "feature": "nox ",
         "operator": "greater",
-        "value": 0.6758556791521022
+        "value": 0.5015000104904175
+      },
+      {
+        "feature": "crim ",
+        "operator": "less_or_equal",
+        "value": 0.23505499958992004
       },
       {
         "feature": "crim ",
         "operator": "greater",
-        "value": 5.043807987285914
-      }
-    ],
-    "output": 307.0
-  },
-  {
-    "conditions": [
-      {
-        "feature": "zn",
-        "operator": "less_or_equal",
-        "value": 7.269552669626791
-      },
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 13.532074198307129
-      },
-      {
-        "feature": "rad",
-        "operator": "greater",
-        "value": 12.690465950691186
-      },
-      {
-        "feature": "indus",
-        "operator": "less_or_equal",
-        "value": 40.83971161621318
-      },
-      {
-        "feature": "indus",
-        "operator": "greater",
-        "value": 15.78067875566899
-      },
-      {
-        "feature": "dis  ",
-        "operator": "greater",
-        "value": 2.624987328185192
-      },
-      {
-        "feature": "nox ",
-        "operator": "less_or_equal",
-        "value": 0.04456700516932621
-      },
-      {
-        "feature": "nox ",
-        "operator": "greater",
-        "value": 0.6758556791521022
-      },
-      {
-        "feature": "crim ",
-        "operator": "greater",
-        "value": 5.043807987285914
-      }
-    ],
-    "output": 304.0
-  },
-  {
-    "conditions": [
-      {
-        "feature": "zn",
-        "operator": "less_or_equal",
-        "value": 7.269552669626791
-      },
-      {
-        "feature": "zn",
-        "operator": "greater",
-        "value": 7.607671194241287
-      },
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 13.532074198307129
-      },
-      {
-        "feature": "rad",
-        "operator": "greater",
-        "value": 12.690465950691186
-      },
-      {
-        "feature": "indus",
-        "operator": "less_or_equal",
-        "value": 40.83971161621318
-      },
-      {
-        "feature": "indus",
-        "operator": "greater",
-        "value": 15.78067875566899
-      },
-      {
-        "feature": "dis  ",
-        "operator": "greater",
-        "value": 2.624987328185192
-      },
-      {
-        "feature": "nox ",
-        "operator": "less_or_equal",
-        "value": 0.04456700516932621
-      },
-      {
-        "feature": "nox ",
-        "operator": "greater",
-        "value": 0.6758556791521022
-      },
-      {
-        "feature": "crim ",
-        "operator": "greater",
-        "value": 5.043807987285914
+        "value": 0.07925499975681305
       }
     ],
     "output": 311.0
@@ -4192,44 +3972,144 @@
   {
     "conditions": [
       {
-        "feature": "zn",
-        "operator": "less_or_equal",
-        "value": 7.269552669626791
-      },
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 13.532074198307129
-      },
-      {
-        "feature": "rad",
-        "operator": "greater",
-        "value": 12.690465950691186
-      },
-      {
         "feature": "indus",
         "operator": "less_or_equal",
-        "value": 40.83971161621318
+        "value": 9.019999980926514
       },
       {
         "feature": "dis  ",
         "operator": "greater",
-        "value": 2.624987328185192
+        "value": 2.8589000701904297
+      },
+      {
+        "feature": "zn",
+        "operator": "less_or_equal",
+        "value": 16.25
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 16.0
+      },
+      {
+        "feature": "rad",
+        "operator": "greater",
+        "value": 3.5
       },
       {
         "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
+        "value": 0.582999974489212
       },
       {
         "feature": "nox ",
         "operator": "greater",
-        "value": 0.6758556791521022
+        "value": 0.5015000104904175
       },
       {
         "feature": "crim ",
         "operator": "greater",
-        "value": 5.043807987285914
+        "value": 0.23505499958992004
+      }
+    ],
+    "output": 307.0
+  },
+  {
+    "conditions": [
+      {
+        "feature": "indus",
+        "operator": "less_or_equal",
+        "value": 11.894999980926514
+      },
+      {
+        "feature": "indus",
+        "operator": "greater",
+        "value": 9.019999980926514
+      },
+      {
+        "feature": "dis  ",
+        "operator": "greater",
+        "value": 2.8589000701904297
+      },
+      {
+        "feature": "zn",
+        "operator": "less_or_equal",
+        "value": 16.25
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 16.0
+      },
+      {
+        "feature": "rad",
+        "operator": "greater",
+        "value": 3.5
+      },
+      {
+        "feature": "nox ",
+        "operator": "less_or_equal",
+        "value": 0.582999974489212
+      },
+      {
+        "feature": "nox ",
+        "operator": "greater",
+        "value": 0.5015000104904175
+      },
+      {
+        "feature": "crim ",
+        "operator": "greater",
+        "value": 0.23505499958992004
+      }
+    ],
+    "output": 304.0
+  },
+  {
+    "conditions": [
+      {
+        "feature": "indus",
+        "operator": "less_or_equal",
+        "value": 26.69499969482422
+      },
+      {
+        "feature": "indus",
+        "operator": "greater",
+        "value": 11.894999980926514
+      },
+      {
+        "feature": "dis  ",
+        "operator": "greater",
+        "value": 2.8589000701904297
+      },
+      {
+        "feature": "zn",
+        "operator": "less_or_equal",
+        "value": 16.25
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 16.0
+      },
+      {
+        "feature": "rad",
+        "operator": "greater",
+        "value": 3.5
+      },
+      {
+        "feature": "nox ",
+        "operator": "less_or_equal",
+        "value": 0.582999974489212
+      },
+      {
+        "feature": "nox ",
+        "operator": "greater",
+        "value": 0.5015000104904175
+      },
+      {
+        "feature": "crim ",
+        "operator": "greater",
+        "value": 0.06284000165760517
       }
     ],
     "output": 276.0
@@ -4237,54 +4117,49 @@
   {
     "conditions": [
       {
-        "feature": "zn",
-        "operator": "greater",
-        "value": 7.269552669626791
-      },
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 13.532074198307129
-      },
-      {
-        "feature": "rad",
-        "operator": "greater",
-        "value": 12.690465950691186
-      },
-      {
         "feature": "indus",
         "operator": "less_or_equal",
-        "value": 19.65249477744534
+        "value": 3.649999976158142
       },
       {
-        "feature": "ptratio",
+        "feature": "dis  ",
         "operator": "less_or_equal",
-        "value": 5.667135136062524
+        "value": 3.5999499559402466
       },
       {
         "feature": "dis  ",
         "operator": "greater",
-        "value": 2.624987328185192
+        "value": 2.8589000701904297
+      },
+      {
+        "feature": "zn",
+        "operator": "greater",
+        "value": 16.25
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 16.0
+      },
+      {
+        "feature": "rad",
+        "operator": "greater",
+        "value": 3.5
       },
       {
         "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
+        "value": 0.582999974489212
       },
       {
         "feature": "nox ",
         "operator": "greater",
-        "value": 0.6758556791521022
-      },
-      {
-        "feature": "crim ",
-        "operator": "less_or_equal",
-        "value": 4.930358132563862
+        "value": 0.43800000846385956
       },
       {
         "feature": "crim ",
         "operator": "greater",
-        "value": 5.043807987285914
+        "value": 0.06284000165760517
       }
     ],
     "output": 222.0
@@ -4292,49 +4167,49 @@
   {
     "conditions": [
       {
-        "feature": "zn",
-        "operator": "greater",
-        "value": 7.269552669626791
-      },
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 13.532074198307129
-      },
-      {
-        "feature": "rad",
-        "operator": "greater",
-        "value": 12.690465950691186
-      },
-      {
         "feature": "indus",
         "operator": "less_or_equal",
-        "value": 19.65249477744534
+        "value": 3.649999976158142
       },
       {
-        "feature": "ptratio",
+        "feature": "dis  ",
         "operator": "less_or_equal",
-        "value": 5.667135136062524
+        "value": 6.81660008430481
       },
       {
         "feature": "dis  ",
         "operator": "greater",
-        "value": 2.624987328185192
+        "value": 3.5999499559402466
+      },
+      {
+        "feature": "zn",
+        "operator": "greater",
+        "value": 16.25
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 16.0
+      },
+      {
+        "feature": "rad",
+        "operator": "greater",
+        "value": 3.5
       },
       {
         "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
+        "value": 0.582999974489212
       },
       {
         "feature": "nox ",
         "operator": "greater",
-        "value": 0.6758556791521022
+        "value": 0.43800000846385956
       },
       {
         "feature": "crim ",
         "operator": "greater",
-        "value": 5.043807987285914
+        "value": 0.06284000165760517
       }
     ],
     "output": 216.0
@@ -4342,169 +4217,54 @@
   {
     "conditions": [
       {
-        "feature": "zn",
-        "operator": "greater",
-        "value": 7.269552669626791
-      },
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 13.532074198307129
-      },
-      {
-        "feature": "rad",
-        "operator": "greater",
-        "value": 12.690465950691186
-      },
-      {
         "feature": "indus",
         "operator": "less_or_equal",
-        "value": 40.83971161621318
+        "value": 26.69499969482422
       },
       {
         "feature": "indus",
         "operator": "greater",
-        "value": 19.65249477744534
+        "value": 3.649999976158142
       },
       {
-        "feature": "ptratio",
+        "feature": "dis  ",
         "operator": "less_or_equal",
-        "value": 5.667135136062524
+        "value": 5.800950050354004
       },
       {
         "feature": "dis  ",
         "operator": "greater",
-        "value": 2.624987328185192
+        "value": 2.8589000701904297
       },
-      {
-        "feature": "nox ",
-        "operator": "less_or_equal",
-        "value": 0.16393199655673832
-      },
-      {
-        "feature": "nox ",
-        "operator": "greater",
-        "value": 0.6758556791521022
-      },
-      {
-        "feature": "crim ",
-        "operator": "greater",
-        "value": 5.043807987285914
-      }
-    ],
-    "output": 243.0
-  },
-  {
-    "conditions": [
       {
         "feature": "zn",
         "operator": "greater",
-        "value": 7.269552669626791
+        "value": 16.25
       },
       {
         "feature": "rad",
         "operator": "less_or_equal",
-        "value": 13.532074198307129
+        "value": 16.0
       },
       {
         "feature": "rad",
         "operator": "greater",
-        "value": 12.690465950691186
-      },
-      {
-        "feature": "indus",
-        "operator": "less_or_equal",
-        "value": 40.83971161621318
-      },
-      {
-        "feature": "indus",
-        "operator": "greater",
-        "value": 19.65249477744534
-      },
-      {
-        "feature": "ptratio",
-        "operator": "less_or_equal",
-        "value": 5.667135136062524
-      },
-      {
-        "feature": "dis  ",
-        "operator": "greater",
-        "value": 2.624987328185192
+        "value": 3.5
       },
       {
         "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
+        "value": 0.5109999924898148
       },
       {
         "feature": "nox ",
         "operator": "greater",
-        "value": 0.6758556791521022
+        "value": 0.43800000846385956
       },
       {
         "feature": "crim ",
         "operator": "greater",
-        "value": 5.043807987285914
-      }
-    ],
-    "output": 264.0
-  },
-  {
-    "conditions": [
-      {
-        "feature": "zn",
-        "operator": "greater",
-        "value": 7.269552669626791
-      },
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 13.532074198307129
-      },
-      {
-        "feature": "rad",
-        "operator": "greater",
-        "value": 12.690465950691186
-      },
-      {
-        "feature": "indus",
-        "operator": "less_or_equal",
-        "value": 40.83971161621318
-      },
-      {
-        "feature": "indus",
-        "operator": "greater",
-        "value": 19.65249477744534
-      },
-      {
-        "feature": "ptratio",
-        "operator": "less_or_equal",
-        "value": 5.667135136062524
-      },
-      {
-        "feature": "ptratio",
-        "operator": "greater",
-        "value": 30.082162874408553
-      },
-      {
-        "feature": "dis  ",
-        "operator": "greater",
-        "value": 2.624987328185192
-      },
-      {
-        "feature": "nox ",
-        "operator": "less_or_equal",
-        "value": 0.16393199655673832
-      },
-      {
-        "feature": "nox ",
-        "operator": "greater",
-        "value": 0.6758556791521022
-      },
-      {
-        "feature": "crim ",
-        "operator": "greater",
-        "value": 5.043807987285914
+        "value": 0.06284000165760517
       }
     ],
     "output": 254.0
@@ -4512,169 +4272,54 @@
   {
     "conditions": [
       {
-        "feature": "zn",
-        "operator": "greater",
-        "value": 7.269552669626791
-      },
-      {
-        "feature": "rad",
+        "feature": "indus",
         "operator": "less_or_equal",
-        "value": 13.532074198307129
-      },
-      {
-        "feature": "rad",
-        "operator": "greater",
-        "value": 12.690465950691186
+        "value": 26.69499969482422
       },
       {
         "feature": "indus",
-        "operator": "less_or_equal",
-        "value": 40.83971161621318
+        "operator": "greater",
+        "value": 3.649999976158142
       },
       {
-        "feature": "ptratio",
-        "operator": "greater",
-        "value": 5.667135136062524
+        "feature": "dis  ",
+        "operator": "less_or_equal",
+        "value": 5.800950050354004
       },
       {
         "feature": "dis  ",
         "operator": "greater",
-        "value": 2.624987328185192
+        "value": 2.8589000701904297
+      },
+      {
+        "feature": "zn",
+        "operator": "greater",
+        "value": 16.25
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 16.0
+      },
+      {
+        "feature": "rad",
+        "operator": "greater",
+        "value": 3.5
       },
       {
         "feature": "nox ",
         "operator": "less_or_equal",
-        "value": 0.16393199655673832
+        "value": 0.582999974489212
       },
       {
         "feature": "nox ",
         "operator": "greater",
-        "value": 0.6758556791521022
+        "value": 0.5109999924898148
       },
       {
         "feature": "crim ",
         "operator": "greater",
-        "value": 5.043807987285914
-      }
-    ],
-    "output": 284.0
-  },
-  {
-    "conditions": [
-      {
-        "feature": "zn",
-        "operator": "less_or_equal",
-        "value": 2.028712180725829
-      },
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 13.532074198307129
-      },
-      {
-        "feature": "indus",
-        "operator": "less_or_equal",
-        "value": 9.182691598129832
-      },
-      {
-        "feature": "ptratio",
-        "operator": "less_or_equal",
-        "value": 16.630253512133663
-      },
-      {
-        "feature": "nox ",
-        "operator": "greater",
-        "value": 0.16393199655673832
-      }
-    ],
-    "output": 391.0
-  },
-  {
-    "conditions": [
-      {
-        "feature": "zn",
-        "operator": "less_or_equal",
-        "value": 2.028712180725829
-      },
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 13.532074198307129
-      },
-      {
-        "feature": "indus",
-        "operator": "less_or_equal",
-        "value": 40.83971161621318
-      },
-      {
-        "feature": "indus",
-        "operator": "greater",
-        "value": 9.182691598129832
-      },
-      {
-        "feature": "ptratio",
-        "operator": "less_or_equal",
-        "value": 16.630253512133663
-      },
-      {
-        "feature": "nox ",
-        "operator": "greater",
-        "value": 0.16393199655673832
-      }
-    ],
-    "output": 403.0
-  },
-  {
-    "conditions": [
-      {
-        "feature": "zn",
-        "operator": "less_or_equal",
-        "value": 2.028712180725829
-      },
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 13.532074198307129
-      },
-      {
-        "feature": "indus",
-        "operator": "less_or_equal",
-        "value": 40.83971161621318
-      },
-      {
-        "feature": "ptratio",
-        "operator": "greater",
-        "value": 16.630253512133663
-      },
-      {
-        "feature": "nox ",
-        "operator": "greater",
-        "value": 0.16393199655673832
-      }
-    ],
-    "output": 437.0
-  },
-  {
-    "conditions": [
-      {
-        "feature": "zn",
-        "operator": "greater",
-        "value": 2.028712180725829
-      },
-      {
-        "feature": "rad",
-        "operator": "less_or_equal",
-        "value": 13.532074198307129
-      },
-      {
-        "feature": "indus",
-        "operator": "less_or_equal",
-        "value": 40.83971161621318
-      },
-      {
-        "feature": "nox ",
-        "operator": "greater",
-        "value": 0.16393199655673832
+        "value": 0.06284000165760517
       }
     ],
     "output": 264.0
@@ -4682,14 +4327,224 @@
   {
     "conditions": [
       {
-        "feature": "rad",
+        "feature": "indus",
         "operator": "less_or_equal",
-        "value": 13.532074198307129
+        "value": 26.69499969482422
       },
       {
         "feature": "indus",
         "operator": "greater",
-        "value": 40.83971161621318
+        "value": 3.649999976158142
+      },
+      {
+        "feature": "dis  ",
+        "operator": "less_or_equal",
+        "value": 6.81660008430481
+      },
+      {
+        "feature": "dis  ",
+        "operator": "greater",
+        "value": 5.800950050354004
+      },
+      {
+        "feature": "zn",
+        "operator": "greater",
+        "value": 16.25
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 16.0
+      },
+      {
+        "feature": "rad",
+        "operator": "greater",
+        "value": 3.5
+      },
+      {
+        "feature": "nox ",
+        "operator": "less_or_equal",
+        "value": 0.582999974489212
+      },
+      {
+        "feature": "nox ",
+        "operator": "greater",
+        "value": 0.43800000846385956
+      },
+      {
+        "feature": "crim ",
+        "operator": "greater",
+        "value": 0.06284000165760517
+      }
+    ],
+    "output": 243.0
+  },
+  {
+    "conditions": [
+      {
+        "feature": "indus",
+        "operator": "less_or_equal",
+        "value": 26.69499969482422
+      },
+      {
+        "feature": "dis  ",
+        "operator": "greater",
+        "value": 6.81660008430481
+      },
+      {
+        "feature": "zn",
+        "operator": "greater",
+        "value": 16.25
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 16.0
+      },
+      {
+        "feature": "rad",
+        "operator": "greater",
+        "value": 3.5
+      },
+      {
+        "feature": "nox ",
+        "operator": "less_or_equal",
+        "value": 0.582999974489212
+      },
+      {
+        "feature": "nox ",
+        "operator": "greater",
+        "value": 0.43800000846385956
+      },
+      {
+        "feature": "crim ",
+        "operator": "greater",
+        "value": 0.06284000165760517
+      }
+    ],
+    "output": 284.0
+  },
+  {
+    "conditions": [
+      {
+        "feature": "nox ",
+        "operator": "greater",
+        "value": 0.582999974489212
+      },
+      {
+        "feature": "indus",
+        "operator": "less_or_equal",
+        "value": 6.829999804496765
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 16.0
+      }
+    ],
+    "output": 264.0
+  },
+  {
+    "conditions": [
+      {
+        "feature": "nox ",
+        "operator": "greater",
+        "value": 0.582999974489212
+      },
+      {
+        "feature": "indus",
+        "operator": "less_or_equal",
+        "value": 26.69499969482422
+      },
+      {
+        "feature": "indus",
+        "operator": "greater",
+        "value": 6.829999804496765
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 4.5
+      }
+    ],
+    "output": 437.0
+  },
+  {
+    "conditions": [
+      {
+        "feature": "nox ",
+        "operator": "less_or_equal",
+        "value": 0.5949999988079071
+      },
+      {
+        "feature": "nox ",
+        "operator": "greater",
+        "value": 0.582999974489212
+      },
+      {
+        "feature": "indus",
+        "operator": "less_or_equal",
+        "value": 26.69499969482422
+      },
+      {
+        "feature": "indus",
+        "operator": "greater",
+        "value": 6.829999804496765
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 16.0
+      },
+      {
+        "feature": "rad",
+        "operator": "greater",
+        "value": 4.5
+      }
+    ],
+    "output": 391.0
+  },
+  {
+    "conditions": [
+      {
+        "feature": "nox ",
+        "operator": "greater",
+        "value": 0.5949999988079071
+      },
+      {
+        "feature": "indus",
+        "operator": "less_or_equal",
+        "value": 26.69499969482422
+      },
+      {
+        "feature": "indus",
+        "operator": "greater",
+        "value": 6.829999804496765
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 16.0
+      },
+      {
+        "feature": "rad",
+        "operator": "greater",
+        "value": 4.5
+      }
+    ],
+    "output": 403.0
+  },
+  {
+    "conditions": [
+      {
+        "feature": "indus",
+        "operator": "greater",
+        "value": 26.69499969482422
+      },
+      {
+        "feature": "rad",
+        "operator": "less_or_equal",
+        "value": 16.0
       }
     ],
     "output": 711.0
@@ -4699,7 +4554,7 @@
       {
         "feature": "rad",
         "operator": "greater",
-        "value": 13.532074198307129
+        "value": 16.0
       }
     ],
     "output": 666.0

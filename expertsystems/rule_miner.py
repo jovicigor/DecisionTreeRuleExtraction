@@ -26,7 +26,7 @@ def extract_rules(tree, feature_columns, scaler):
         if tree_.feature[node] != _tree.TREE_UNDEFINED:
             name = feature_name[node]
             threshold = tree_.threshold[node]
-            threshold = scale_back(scaler, feature_columns, name, threshold)
+            # threshold = scale_back(scaler, feature_columns, name, threshold)
 
             if node == 0:
                 pathto[node] = []
