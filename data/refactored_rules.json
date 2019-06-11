@@ -1,0 +1,3068 @@
+{
+  "subrules": [
+    {
+      "name": "SUBRULE_0",
+      "conditions": [
+        {
+          "lower_value": 3.5,
+          "operator": "between",
+          "higher_value": 16.0,
+          "feature": "rad"
+        },
+        {
+          "feature": "dis  ",
+          "operator": "greater",
+          "value": 2.8589000701904297
+        }
+      ]
+    },
+    {
+      "name": "SUBRULE_1",
+      "conditions": [
+        {
+          "feature": "dis  ",
+          "operator": "greater",
+          "value": 6.243250131607056
+        },
+        {
+          "value": 3.5,
+          "feature": "rad",
+          "operator": "less_or_equal"
+        }
+      ]
+    },
+    {
+      "name": "SUBRULE_2",
+      "conditions": [
+        {
+          "operator": "less_or_equal",
+          "value": 0.582999974489212,
+          "feature": "nox "
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 26.69499969482422,
+          "feature": "indus"
+        }
+      ]
+    },
+    {
+      "name": "SUBRULE_3",
+      "conditions": [
+        {
+          "operator": "less_or_equal",
+          "value": 0.43800000846385956,
+          "feature": "nox "
+        },
+        {
+          "operator": "greater",
+          "value": 0.042990000918507576,
+          "feature": "crim "
+        }
+      ]
+    },
+    {
+      "name": "SUBRULE_4",
+      "conditions": [
+        {
+          "lower_value": 3.5,
+          "operator": "between",
+          "higher_value": 16.0,
+          "feature": "rad"
+        },
+        {
+          "higher_value": 26.69499969482422,
+          "operator": "between",
+          "lower_value": 4.150000095367432,
+          "feature": "indus"
+        }
+      ]
+    },
+    {
+      "name": "SUBRULE_5",
+      "conditions": [
+        {
+          "operator": "between",
+          "higher_value": 0.582999974489212,
+          "lower_value": 0.43800000846385956,
+          "feature": "nox "
+        },
+        {
+          "operator": "greater",
+          "value": 372.82000732421875,
+          "feature": "b   "
+        }
+      ]
+    },
+    {
+      "name": "SUBRULE_6",
+      "conditions": [
+        {
+          "value": 16.25,
+          "operator": "less_or_equal",
+          "feature": "zn"
+        },
+        {
+          "operator": "greater",
+          "value": 0.06284000165760517,
+          "feature": "crim "
+        }
+      ]
+    },
+    {
+      "name": "SUBRULE_7",
+      "conditions": [
+        {
+          "value": 0.042990000918507576,
+          "operator": "less_or_equal",
+          "feature": "crim "
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 0.43800000846385956,
+          "feature": "nox "
+        }
+      ]
+    },
+    {
+      "name": "SUBRULE_8",
+      "conditions": [
+        {
+          "value": 20.40000057220459,
+          "feature": "ptratio",
+          "operator": "less_or_equal"
+        },
+        {
+          "operator": "greater",
+          "value": 0.020099999383091927,
+          "feature": "crim "
+        }
+      ]
+    },
+    {
+      "name": "SUBRULE_9",
+      "conditions": [
+        {
+          "operator": "less_or_equal",
+          "value": 26.69499969482422,
+          "feature": "indus"
+        },
+        {
+          "operator": "less_or_equal",
+          "feature": "chas",
+          "value": 0.5
+        }
+      ]
+    },
+    {
+      "name": "SUBRULE_10",
+      "conditions": [
+        {
+          "operator": "between",
+          "higher_value": 0.582999974489212,
+          "lower_value": 0.43800000846385956,
+          "feature": "nox "
+        },
+        {
+          "operator": "greater",
+          "value": 0.06284000165760517,
+          "feature": "crim "
+        }
+      ]
+    },
+    {
+      "name": "SUBRULE_11",
+      "conditions": [
+        {
+          "value": 0.06284000165760517,
+          "operator": "less_or_equal",
+          "feature": "crim "
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 47.5,
+          "feature": "zn"
+        }
+      ]
+    },
+    {
+      "name": "SUBRULE_12",
+      "conditions": [
+        {
+          "operator": "greater",
+          "value": 26.34999942779541,
+          "feature": "medv"
+        },
+        {
+          "operator": "greater",
+          "feature": "b   ",
+          "value": 392.8399963378906
+        }
+      ]
+    },
+    {
+      "name": "SUBRULE_13",
+      "conditions": [
+        {
+          "lower_value": 2.5,
+          "operator": "between",
+          "feature": "rad",
+          "higher_value": 3.5
+        },
+        {
+          "feature": "dis  ",
+          "operator": "between",
+          "higher_value": 6.243250131607056,
+          "lower_value": 3.513650059700012
+        }
+      ]
+    },
+    {
+      "name": "SUBRULE_14",
+      "conditions": [
+        {
+          "operator": "less_or_equal",
+          "value": 26.34999942779541,
+          "feature": "medv"
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 82.5,
+          "feature": "zn"
+        }
+      ]
+    }
+  ],
+  "rules": [
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_9"
+        },
+        {
+          "feature": "ptratio",
+          "value": 16.549999713897705,
+          "operator": "less_or_equal"
+        },
+        {
+          "feature": "rad",
+          "value": 2.5,
+          "operator": "less_or_equal"
+        },
+        {
+          "feature": "dis  ",
+          "value": 4.528550148010254,
+          "operator": "less_or_equal"
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 0.5769999921321869,
+          "feature": "nox "
+        }
+      ],
+      "output": 296.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_9"
+        },
+        {
+          "operator": "greater",
+          "feature": "ptratio",
+          "value": 16.549999713897705
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 0.5769999921321869,
+          "feature": "nox "
+        },
+        {
+          "value": 1.5,
+          "feature": "rad",
+          "operator": "less_or_equal"
+        },
+        {
+          "feature": "dis  ",
+          "operator": "less_or_equal",
+          "value": 3.458449959754944
+        }
+      ],
+      "output": 273.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_9"
+        },
+        {
+          "operator": "greater",
+          "feature": "ptratio",
+          "value": 16.549999713897705
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 0.5769999921321869,
+          "feature": "nox "
+        },
+        {
+          "higher_value": 2.5,
+          "operator": "between",
+          "lower_value": 1.5,
+          "feature": "rad"
+        },
+        {
+          "feature": "dis  ",
+          "operator": "less_or_equal",
+          "value": 3.458449959754944
+        }
+      ],
+      "output": 270.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_9"
+        },
+        {
+          "operator": "greater",
+          "feature": "ptratio",
+          "value": 16.549999713897705
+        },
+        {
+          "feature": "rad",
+          "value": 2.5,
+          "operator": "less_or_equal"
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 0.5769999921321869,
+          "feature": "nox "
+        },
+        {
+          "feature": "dis  ",
+          "operator": "between",
+          "lower_value": 3.458449959754944,
+          "higher_value": 4.528550148010254
+        }
+      ],
+      "output": 276.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_9"
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 0.4350000023841858,
+          "feature": "nox "
+        },
+        {
+          "feature": "dis  ",
+          "operator": "between",
+          "lower_value": 4.528550148010254,
+          "higher_value": 6.243250131607056
+        },
+        {
+          "feature": "rad",
+          "value": 2.5,
+          "operator": "less_or_equal"
+        }
+      ],
+      "output": 265.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_9"
+        },
+        {
+          "operator": "between",
+          "higher_value": 0.5769999921321869,
+          "lower_value": 0.4350000023841858,
+          "feature": "nox "
+        },
+        {
+          "feature": "dis  ",
+          "operator": "between",
+          "lower_value": 4.528550148010254,
+          "higher_value": 6.243250131607056
+        },
+        {
+          "feature": "rad",
+          "value": 2.5,
+          "operator": "less_or_equal"
+        }
+      ],
+      "output": 242.0
+    },
+    {
+      "conditions": [
+        {
+          "operator": "greater",
+          "feature": "chas",
+          "value": 0.5
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 26.69499969482422,
+          "feature": "indus"
+        },
+        {
+          "feature": "dis  ",
+          "value": 6.243250131607056,
+          "operator": "less_or_equal"
+        },
+        {
+          "feature": "rad",
+          "value": 2.5,
+          "operator": "less_or_equal"
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 0.5769999921321869,
+          "feature": "nox "
+        }
+      ],
+      "output": 198.0
+    },
+    {
+      "conditions": [
+        {
+          "feature": "dis  ",
+          "operator": "less_or_equal",
+          "value": 3.513650059700012
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 26.69499969482422,
+          "feature": "indus"
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 0.5769999921321869,
+          "feature": "nox "
+        },
+        {
+          "operator": "between",
+          "lower_value": 2.5,
+          "feature": "rad",
+          "higher_value": 3.5
+        }
+      ],
+      "output": 193.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_13"
+        },
+        {
+          "value": 28.699999809265137,
+          "operator": "less_or_equal",
+          "feature": "medv"
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 0.45350000262260437,
+          "feature": "nox "
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 5.699999809265137,
+          "feature": "indus"
+        }
+      ],
+      "output": 247.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_13"
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 0.45350000262260437,
+          "feature": "nox "
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 5.699999809265137,
+          "feature": "indus"
+        },
+        {
+          "operator": "greater",
+          "value": 28.699999809265137,
+          "feature": "medv"
+        }
+      ],
+      "output": 252.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_13"
+        },
+        {
+          "higher_value": 26.69499969482422,
+          "operator": "between",
+          "lower_value": 5.699999809265137,
+          "feature": "indus"
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 0.45350000262260437,
+          "feature": "nox "
+        }
+      ],
+      "output": 233.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_13"
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 26.69499969482422,
+          "feature": "indus"
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 5.954999923706055,
+          "feature": "lstat"
+        },
+        {
+          "operator": "between",
+          "higher_value": 0.5769999921321869,
+          "lower_value": 0.45350000262260437,
+          "feature": "nox "
+        }
+      ],
+      "output": 222.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_13"
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 26.69499969482422,
+          "feature": "indus"
+        },
+        {
+          "operator": "between",
+          "higher_value": 0.5769999921321869,
+          "lower_value": 0.45350000262260437,
+          "feature": "nox "
+        },
+        {
+          "operator": "greater",
+          "value": 5.954999923706055,
+          "feature": "lstat"
+        }
+      ],
+      "output": 223.0
+    },
+    {
+      "conditions": [
+        {
+          "operator": "between",
+          "higher_value": 0.582999974489212,
+          "lower_value": 0.5769999921321869,
+          "feature": "nox "
+        },
+        {
+          "feature": "rad",
+          "operator": "less_or_equal",
+          "value": 3.5
+        },
+        {
+          "feature": "dis  ",
+          "value": 6.243250131607056,
+          "operator": "less_or_equal"
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 26.69499969482422,
+          "feature": "indus"
+        }
+      ],
+      "output": 188.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_2"
+        },
+        {
+          "subrule": "SUBRULE_1"
+        },
+        {
+          "value": 0.020099999383091927,
+          "operator": "less_or_equal",
+          "feature": "crim "
+        },
+        {
+          "value": 17.34999942779541,
+          "operator": "less_or_equal",
+          "feature": "age"
+        },
+        {
+          "value": 20.40000057220459,
+          "feature": "ptratio",
+          "operator": "less_or_equal"
+        }
+      ],
+      "output": 402.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_1"
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 26.69499969482422,
+          "feature": "indus"
+        },
+        {
+          "value": 15.699999809265137,
+          "feature": "ptratio",
+          "operator": "less_or_equal"
+        },
+        {
+          "value": 0.020099999383091927,
+          "operator": "less_or_equal",
+          "feature": "crim "
+        },
+        {
+          "value": 17.34999942779541,
+          "operator": "greater",
+          "feature": "age"
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 0.3945000022649765,
+          "feature": "nox "
+        }
+      ],
+      "output": 300.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_1"
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 26.69499969482422,
+          "feature": "indus"
+        },
+        {
+          "value": 15.699999809265137,
+          "feature": "ptratio",
+          "operator": "less_or_equal"
+        },
+        {
+          "value": 0.020099999383091927,
+          "operator": "less_or_equal",
+          "feature": "crim "
+        },
+        {
+          "operator": "between",
+          "lower_value": 17.34999942779541,
+          "higher_value": 35.04999923706055,
+          "feature": "age"
+        },
+        {
+          "operator": "between",
+          "higher_value": 0.582999974489212,
+          "lower_value": 0.3945000022649765,
+          "feature": "nox "
+        }
+      ],
+      "output": 285.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_1"
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 26.69499969482422,
+          "feature": "indus"
+        },
+        {
+          "value": 15.699999809265137,
+          "feature": "ptratio",
+          "operator": "less_or_equal"
+        },
+        {
+          "operator": "greater",
+          "feature": "age",
+          "value": 35.04999923706055
+        },
+        {
+          "value": 0.020099999383091927,
+          "operator": "less_or_equal",
+          "feature": "crim "
+        },
+        {
+          "operator": "between",
+          "higher_value": 0.582999974489212,
+          "lower_value": 0.3945000022649765,
+          "feature": "nox "
+        }
+      ],
+      "output": 284.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_1"
+        },
+        {
+          "operator": "between",
+          "feature": "ptratio",
+          "lower_value": 15.699999809265137,
+          "higher_value": 20.40000057220459
+        },
+        {
+          "value": 1.5699999928474426,
+          "operator": "less_or_equal",
+          "feature": "indus"
+        },
+        {
+          "value": 0.020099999383091927,
+          "operator": "less_or_equal",
+          "feature": "crim "
+        },
+        {
+          "value": 17.34999942779541,
+          "operator": "greater",
+          "feature": "age"
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 0.582999974489212,
+          "feature": "nox "
+        }
+      ],
+      "output": 216.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_1"
+        },
+        {
+          "operator": "between",
+          "feature": "ptratio",
+          "lower_value": 15.699999809265137,
+          "higher_value": 20.40000057220459
+        },
+        {
+          "value": 6.8420000076293945,
+          "feature": "rm ",
+          "operator": "less_or_equal"
+        },
+        {
+          "higher_value": 26.69499969482422,
+          "operator": "between",
+          "lower_value": 1.5699999928474426,
+          "feature": "indus"
+        },
+        {
+          "value": 0.020099999383091927,
+          "operator": "less_or_equal",
+          "feature": "crim "
+        },
+        {
+          "value": 17.34999942779541,
+          "operator": "greater",
+          "feature": "age"
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 0.582999974489212,
+          "feature": "nox "
+        }
+      ],
+      "output": 241.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_1"
+        },
+        {
+          "value": 6.8420000076293945,
+          "feature": "rm ",
+          "operator": "greater"
+        },
+        {
+          "operator": "between",
+          "feature": "ptratio",
+          "lower_value": 15.699999809265137,
+          "higher_value": 20.40000057220459
+        },
+        {
+          "higher_value": 26.69499969482422,
+          "operator": "between",
+          "lower_value": 1.5699999928474426,
+          "feature": "indus"
+        },
+        {
+          "value": 0.020099999383091927,
+          "operator": "less_or_equal",
+          "feature": "crim "
+        },
+        {
+          "value": 17.34999942779541,
+          "operator": "greater",
+          "feature": "age"
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 0.582999974489212,
+          "feature": "nox "
+        }
+      ],
+      "output": 244.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_2"
+        },
+        {
+          "subrule": "SUBRULE_8"
+        },
+        {
+          "subrule": "SUBRULE_1"
+        },
+        {
+          "value": 15.5,
+          "feature": "age",
+          "operator": "less_or_equal"
+        }
+      ],
+      "output": 402.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_8"
+        },
+        {
+          "subrule": "SUBRULE_1"
+        },
+        {
+          "value": 6.245499849319458,
+          "feature": "rm ",
+          "operator": "less_or_equal"
+        },
+        {
+          "operator": "between",
+          "higher_value": 38.35000038146973,
+          "feature": "age",
+          "lower_value": 15.5
+        },
+        {
+          "value": 4.850000023841858,
+          "operator": "less_or_equal",
+          "feature": "indus"
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 0.582999974489212,
+          "feature": "nox "
+        }
+      ],
+      "output": 315.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_8"
+        },
+        {
+          "subrule": "SUBRULE_1"
+        },
+        {
+          "operator": "between",
+          "feature": "rm ",
+          "higher_value": 6.66100001335144,
+          "lower_value": 6.245499849319458
+        },
+        {
+          "operator": "between",
+          "higher_value": 38.35000038146973,
+          "feature": "age",
+          "lower_value": 15.5
+        },
+        {
+          "value": 4.850000023841858,
+          "operator": "less_or_equal",
+          "feature": "indus"
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 0.582999974489212,
+          "feature": "nox "
+        }
+      ],
+      "output": 313.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_8"
+        },
+        {
+          "subrule": "SUBRULE_1"
+        },
+        {
+          "value": 6.66100001335144,
+          "feature": "rm ",
+          "operator": "less_or_equal"
+        },
+        {
+          "operator": "between",
+          "higher_value": 38.35000038146973,
+          "feature": "age",
+          "lower_value": 15.5
+        },
+        {
+          "higher_value": 26.69499969482422,
+          "operator": "between",
+          "lower_value": 4.850000023841858,
+          "feature": "indus"
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 0.582999974489212,
+          "feature": "nox "
+        }
+      ],
+      "output": 304.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_2"
+        },
+        {
+          "subrule": "SUBRULE_8"
+        },
+        {
+          "subrule": "SUBRULE_1"
+        },
+        {
+          "value": 6.66100001335144,
+          "feature": "rm ",
+          "operator": "greater"
+        },
+        {
+          "value": 28.449999809265137,
+          "operator": "less_or_equal",
+          "feature": "medv"
+        },
+        {
+          "operator": "between",
+          "higher_value": 38.35000038146973,
+          "feature": "age",
+          "lower_value": 15.5
+        }
+      ],
+      "output": 335.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_2"
+        },
+        {
+          "subrule": "SUBRULE_8"
+        },
+        {
+          "subrule": "SUBRULE_1"
+        },
+        {
+          "value": 6.66100001335144,
+          "feature": "rm ",
+          "operator": "greater"
+        },
+        {
+          "operator": "between",
+          "lower_value": 28.449999809265137,
+          "higher_value": 38.44999885559082,
+          "feature": "medv"
+        },
+        {
+          "operator": "between",
+          "higher_value": 38.35000038146973,
+          "feature": "age",
+          "lower_value": 15.5
+        }
+      ],
+      "output": 329.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_2"
+        },
+        {
+          "subrule": "SUBRULE_8"
+        },
+        {
+          "subrule": "SUBRULE_1"
+        },
+        {
+          "value": 6.66100001335144,
+          "feature": "rm ",
+          "operator": "greater"
+        },
+        {
+          "value": 38.44999885559082,
+          "operator": "greater",
+          "feature": "medv"
+        },
+        {
+          "operator": "between",
+          "higher_value": 38.35000038146973,
+          "feature": "age",
+          "lower_value": 15.5
+        }
+      ],
+      "output": 348.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_2"
+        },
+        {
+          "operator": "between",
+          "higher_value": 56.0,
+          "feature": "age",
+          "lower_value": 38.35000038146973
+        },
+        {
+          "feature": "dis  ",
+          "operator": "between",
+          "lower_value": 6.243250131607056,
+          "higher_value": 7.141800165176392
+        },
+        {
+          "feature": "rad",
+          "operator": "less_or_equal",
+          "value": 3.5
+        },
+        {
+          "operator": "between",
+          "higher_value": 0.06186500005424023,
+          "lower_value": 0.020099999383091927,
+          "feature": "crim "
+        },
+        {
+          "value": 20.40000057220459,
+          "feature": "ptratio",
+          "operator": "less_or_equal"
+        }
+      ],
+      "output": 348.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_2"
+        },
+        {
+          "operator": "between",
+          "higher_value": 56.0,
+          "feature": "age",
+          "lower_value": 38.35000038146973
+        },
+        {
+          "feature": "rad",
+          "operator": "less_or_equal",
+          "value": 3.5
+        },
+        {
+          "feature": "dis  ",
+          "operator": "greater",
+          "value": 7.141800165176392
+        },
+        {
+          "value": 20.40000057220459,
+          "feature": "ptratio",
+          "operator": "less_or_equal"
+        },
+        {
+          "operator": "between",
+          "higher_value": 0.06186500005424023,
+          "lower_value": 0.020099999383091927,
+          "feature": "crim "
+        }
+      ],
+      "output": 352.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_2"
+        },
+        {
+          "subrule": "SUBRULE_1"
+        },
+        {
+          "operator": "between",
+          "higher_value": 56.0,
+          "feature": "age",
+          "lower_value": 38.35000038146973
+        },
+        {
+          "operator": "greater",
+          "value": 0.06186500005424023,
+          "feature": "crim "
+        },
+        {
+          "value": 20.40000057220459,
+          "feature": "ptratio",
+          "operator": "less_or_equal"
+        }
+      ],
+      "output": 335.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_2"
+        },
+        {
+          "subrule": "SUBRULE_8"
+        },
+        {
+          "subrule": "SUBRULE_1"
+        },
+        {
+          "operator": "greater",
+          "feature": "age",
+          "value": 56.0
+        }
+      ],
+      "output": 422.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_2"
+        },
+        {
+          "subrule": "SUBRULE_1"
+        },
+        {
+          "operator": "greater",
+          "value": 20.40000057220459,
+          "feature": "ptratio"
+        }
+      ],
+      "output": 469.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_2"
+        },
+        {
+          "value": 17.5,
+          "feature": "ptratio",
+          "operator": "less_or_equal"
+        },
+        {
+          "lower_value": 3.5,
+          "operator": "between",
+          "higher_value": 5.5,
+          "feature": "rad"
+        },
+        {
+          "feature": "rm ",
+          "operator": "less_or_equal",
+          "value": 7.356499910354614
+        },
+        {
+          "feature": "dis  ",
+          "operator": "less_or_equal",
+          "value": 2.8589000701904297
+        }
+      ],
+      "output": 296.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_2"
+        },
+        {
+          "higher_value": 19.649999618530273,
+          "operator": "between",
+          "lower_value": 17.5,
+          "feature": "ptratio"
+        },
+        {
+          "lower_value": 3.5,
+          "operator": "between",
+          "higher_value": 5.5,
+          "feature": "rad"
+        },
+        {
+          "feature": "rm ",
+          "operator": "less_or_equal",
+          "value": 7.356499910354614
+        },
+        {
+          "feature": "dis  ",
+          "operator": "less_or_equal",
+          "value": 2.8589000701904297
+        }
+      ],
+      "output": 304.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_2"
+        },
+        {
+          "feature": "ptratio",
+          "operator": "less_or_equal",
+          "value": 19.649999618530273
+        },
+        {
+          "feature": "rm ",
+          "operator": "greater",
+          "value": 7.356499910354614
+        },
+        {
+          "lower_value": 3.5,
+          "operator": "between",
+          "higher_value": 5.5,
+          "feature": "rad"
+        },
+        {
+          "feature": "dis  ",
+          "operator": "less_or_equal",
+          "value": 2.8589000701904297
+        }
+      ],
+      "output": 264.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_2"
+        },
+        {
+          "feature": "dis  ",
+          "operator": "less_or_equal",
+          "value": 2.8589000701904297
+        },
+        {
+          "lower_value": 3.5,
+          "operator": "between",
+          "higher_value": 5.5,
+          "feature": "rad"
+        },
+        {
+          "operator": "greater",
+          "feature": "ptratio",
+          "value": 19.649999618530273
+        }
+      ],
+      "output": 384.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_2"
+        },
+        {
+          "feature": "dis  ",
+          "operator": "less_or_equal",
+          "value": 2.8589000701904297
+        },
+        {
+          "operator": "between",
+          "higher_value": 16.0,
+          "feature": "rad",
+          "lower_value": 5.5
+        }
+      ],
+      "output": 432.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_14"
+        },
+        {
+          "subrule": "SUBRULE_0"
+        },
+        {
+          "subrule": "SUBRULE_7"
+        },
+        {
+          "feature": "ptratio",
+          "value": 16.350000381469727,
+          "operator": "less_or_equal"
+        },
+        {
+          "value": 4.730000019073486,
+          "operator": "less_or_equal",
+          "feature": "indus"
+        }
+      ],
+      "output": 337.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_14"
+        },
+        {
+          "subrule": "SUBRULE_0"
+        },
+        {
+          "subrule": "SUBRULE_7"
+        },
+        {
+          "feature": "ptratio",
+          "value": 16.350000381469727,
+          "operator": "less_or_equal"
+        },
+        {
+          "higher_value": 26.69499969482422,
+          "operator": "between",
+          "lower_value": 4.730000019073486,
+          "feature": "indus"
+        }
+      ],
+      "output": 329.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_14"
+        },
+        {
+          "subrule": "SUBRULE_0"
+        },
+        {
+          "subrule": "SUBRULE_7"
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 26.69499969482422,
+          "feature": "indus"
+        },
+        {
+          "operator": "between",
+          "higher_value": 16.800000190734863,
+          "feature": "ptratio",
+          "lower_value": 16.350000381469727
+        }
+      ],
+      "output": 293.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_14"
+        },
+        {
+          "subrule": "SUBRULE_0"
+        },
+        {
+          "subrule": "SUBRULE_7"
+        },
+        {
+          "operator": "greater",
+          "feature": "ptratio",
+          "value": 16.800000190734863
+        },
+        {
+          "value": 3.4350000619888306,
+          "operator": "less_or_equal",
+          "feature": "indus"
+        }
+      ],
+      "output": 280.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_14"
+        },
+        {
+          "subrule": "SUBRULE_0"
+        },
+        {
+          "subrule": "SUBRULE_7"
+        },
+        {
+          "higher_value": 26.69499969482422,
+          "operator": "between",
+          "lower_value": 3.4350000619888306,
+          "feature": "indus"
+        },
+        {
+          "operator": "greater",
+          "feature": "ptratio",
+          "value": 16.800000190734863
+        }
+      ],
+      "output": 281.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_0"
+        },
+        {
+          "subrule": "SUBRULE_7"
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 26.69499969482422,
+          "feature": "indus"
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 26.34999942779541,
+          "feature": "medv"
+        },
+        {
+          "operator": "greater",
+          "value": 82.5,
+          "feature": "zn"
+        }
+      ],
+      "output": 351.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_0"
+        },
+        {
+          "subrule": "SUBRULE_7"
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 26.69499969482422,
+          "feature": "indus"
+        },
+        {
+          "value": 4.1549999713897705,
+          "operator": "less_or_equal",
+          "feature": "lstat"
+        },
+        {
+          "operator": "less_or_equal",
+          "feature": "b   ",
+          "value": 392.8399963378906
+        },
+        {
+          "operator": "greater",
+          "value": 26.34999942779541,
+          "feature": "medv"
+        }
+      ],
+      "output": 224.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_0"
+        },
+        {
+          "subrule": "SUBRULE_7"
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 26.69499969482422,
+          "feature": "indus"
+        },
+        {
+          "operator": "greater",
+          "value": 4.1549999713897705,
+          "feature": "lstat"
+        },
+        {
+          "operator": "less_or_equal",
+          "feature": "b   ",
+          "value": 392.8399963378906
+        },
+        {
+          "operator": "greater",
+          "value": 26.34999942779541,
+          "feature": "medv"
+        }
+      ],
+      "output": 187.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_12"
+        },
+        {
+          "subrule": "SUBRULE_0"
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 26.69499969482422,
+          "feature": "indus"
+        },
+        {
+          "value": 0.013460000045597553,
+          "operator": "less_or_equal",
+          "feature": "crim "
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 0.43800000846385956,
+          "feature": "nox "
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 5.049999952316284,
+          "feature": "lstat"
+        }
+      ],
+      "output": 226.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_12"
+        },
+        {
+          "subrule": "SUBRULE_0"
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 0.8900000303983688,
+          "feature": "indus"
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 0.43800000846385956,
+          "feature": "nox "
+        },
+        {
+          "operator": "between",
+          "higher_value": 0.02467000065371394,
+          "lower_value": 0.013460000045597553,
+          "feature": "crim "
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 5.049999952316284,
+          "feature": "lstat"
+        }
+      ],
+      "output": 255.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_12"
+        },
+        {
+          "subrule": "SUBRULE_0"
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 0.43800000846385956,
+          "feature": "nox "
+        },
+        {
+          "operator": "between",
+          "higher_value": 0.02467000065371394,
+          "lower_value": 0.013460000045597553,
+          "feature": "crim "
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 5.049999952316284,
+          "feature": "lstat"
+        },
+        {
+          "higher_value": 26.69499969482422,
+          "operator": "between",
+          "lower_value": 0.8900000303983688,
+          "feature": "indus"
+        }
+      ],
+      "output": 256.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_12"
+        },
+        {
+          "subrule": "SUBRULE_0"
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 26.69499969482422,
+          "feature": "indus"
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 0.43800000846385956,
+          "feature": "nox "
+        },
+        {
+          "operator": "between",
+          "higher_value": 0.042990000918507576,
+          "lower_value": 0.02467000065371394,
+          "feature": "crim "
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 5.049999952316284,
+          "feature": "lstat"
+        }
+      ],
+      "output": 245.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_12"
+        },
+        {
+          "subrule": "SUBRULE_0"
+        },
+        {
+          "subrule": "SUBRULE_7"
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 26.69499969482422,
+          "feature": "indus"
+        },
+        {
+          "operator": "greater",
+          "value": 5.049999952316284,
+          "feature": "lstat"
+        }
+      ],
+      "output": 281.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_3"
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 26.69499969482422,
+          "feature": "indus"
+        },
+        {
+          "feature": "dis  ",
+          "operator": "between",
+          "higher_value": 5.065400123596191,
+          "lower_value": 2.8589000701904297
+        },
+        {
+          "lower_value": 3.5,
+          "operator": "between",
+          "higher_value": 16.0,
+          "feature": "rad"
+        }
+      ],
+      "output": 398.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_3"
+        },
+        {
+          "lower_value": 3.5,
+          "operator": "between",
+          "higher_value": 16.0,
+          "feature": "rad"
+        },
+        {
+          "value": 4.150000095367432,
+          "operator": "less_or_equal",
+          "feature": "indus"
+        },
+        {
+          "value": 65.0,
+          "operator": "less_or_equal",
+          "feature": "zn"
+        },
+        {
+          "feature": "dis  ",
+          "operator": "greater",
+          "value": 5.065400123596191
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 5.294999837875366,
+          "feature": "lstat"
+        }
+      ],
+      "output": 398.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_3"
+        },
+        {
+          "operator": "greater",
+          "value": 5.294999837875366,
+          "feature": "lstat"
+        },
+        {
+          "lower_value": 3.5,
+          "operator": "between",
+          "higher_value": 16.0,
+          "feature": "rad"
+        },
+        {
+          "value": 4.150000095367432,
+          "operator": "less_or_equal",
+          "feature": "indus"
+        },
+        {
+          "value": 65.0,
+          "operator": "less_or_equal",
+          "feature": "zn"
+        },
+        {
+          "feature": "dis  ",
+          "operator": "greater",
+          "value": 5.065400123596191
+        }
+      ],
+      "output": 411.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_3"
+        },
+        {
+          "value": 65.0,
+          "operator": "greater",
+          "feature": "zn"
+        },
+        {
+          "value": 4.150000095367432,
+          "operator": "less_or_equal",
+          "feature": "indus"
+        },
+        {
+          "lower_value": 3.5,
+          "operator": "between",
+          "feature": "rad",
+          "higher_value": 4.5
+        },
+        {
+          "feature": "dis  ",
+          "operator": "between",
+          "higher_value": 8.598599910736084,
+          "lower_value": 5.065400123596191
+        }
+      ],
+      "output": 337.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_3"
+        },
+        {
+          "value": 65.0,
+          "operator": "greater",
+          "feature": "zn"
+        },
+        {
+          "value": 4.150000095367432,
+          "operator": "less_or_equal",
+          "feature": "indus"
+        },
+        {
+          "lower_value": 3.5,
+          "operator": "between",
+          "feature": "rad",
+          "higher_value": 4.5
+        },
+        {
+          "feature": "dis  ",
+          "operator": "greater",
+          "value": 8.598599910736084
+        }
+      ],
+      "output": 334.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_3"
+        },
+        {
+          "value": 65.0,
+          "operator": "greater",
+          "feature": "zn"
+        },
+        {
+          "value": 4.150000095367432,
+          "operator": "less_or_equal",
+          "feature": "indus"
+        },
+        {
+          "feature": "dis  ",
+          "operator": "greater",
+          "value": 5.065400123596191
+        },
+        {
+          "operator": "between",
+          "higher_value": 16.0,
+          "feature": "rad",
+          "lower_value": 4.5
+        }
+      ],
+      "output": 358.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_4"
+        },
+        {
+          "subrule": "SUBRULE_3"
+        },
+        {
+          "feature": "dis  ",
+          "operator": "between",
+          "higher_value": 5.202000141143799,
+          "lower_value": 5.065400123596191
+        }
+      ],
+      "output": 245.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_3"
+        },
+        {
+          "operator": "less_or_equal",
+          "feature": "zn",
+          "value": 32.0
+        },
+        {
+          "feature": "dis  ",
+          "operator": "between",
+          "higher_value": 6.417050123214722,
+          "lower_value": 5.202000141143799
+        },
+        {
+          "lower_value": 3.5,
+          "operator": "between",
+          "higher_value": 5.0,
+          "feature": "rad"
+        },
+        {
+          "higher_value": 26.69499969482422,
+          "operator": "between",
+          "lower_value": 4.150000095367432,
+          "feature": "indus"
+        },
+        {
+          "operator": "less_or_equal",
+          "feature": "b   ",
+          "value": 392.0500030517578
+        }
+      ],
+      "output": 305.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_3"
+        },
+        {
+          "operator": "between",
+          "higher_value": 16.0,
+          "feature": "rad",
+          "lower_value": 5.0
+        },
+        {
+          "operator": "less_or_equal",
+          "feature": "zn",
+          "value": 32.0
+        },
+        {
+          "feature": "dis  ",
+          "operator": "between",
+          "higher_value": 6.417050123214722,
+          "lower_value": 5.202000141143799
+        },
+        {
+          "higher_value": 26.69499969482422,
+          "operator": "between",
+          "lower_value": 4.150000095367432,
+          "feature": "indus"
+        },
+        {
+          "operator": "less_or_equal",
+          "feature": "b   ",
+          "value": 392.0500030517578
+        }
+      ],
+      "output": 300.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_4"
+        },
+        {
+          "operator": "less_or_equal",
+          "feature": "zn",
+          "value": 32.0
+        },
+        {
+          "operator": "greater",
+          "feature": "b   ",
+          "value": 392.0500030517578
+        },
+        {
+          "feature": "dis  ",
+          "operator": "between",
+          "higher_value": 6.328050136566162,
+          "lower_value": 5.202000141143799
+        },
+        {
+          "operator": "greater",
+          "value": 0.042990000918507576,
+          "feature": "crim "
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 0.43150000274181366,
+          "feature": "nox "
+        }
+      ],
+      "output": 281.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_4"
+        },
+        {
+          "operator": "less_or_equal",
+          "feature": "zn",
+          "value": 32.0
+        },
+        {
+          "operator": "greater",
+          "feature": "b   ",
+          "value": 392.0500030517578
+        },
+        {
+          "feature": "dis  ",
+          "operator": "between",
+          "higher_value": 6.328050136566162,
+          "lower_value": 5.202000141143799
+        },
+        {
+          "operator": "greater",
+          "value": 0.042990000918507576,
+          "feature": "crim "
+        },
+        {
+          "operator": "between",
+          "higher_value": 0.43800000846385956,
+          "lower_value": 0.43150000274181366,
+          "feature": "nox "
+        }
+      ],
+      "output": 289.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_3"
+        },
+        {
+          "subrule": "SUBRULE_4"
+        },
+        {
+          "operator": "less_or_equal",
+          "feature": "zn",
+          "value": 32.0
+        },
+        {
+          "operator": "greater",
+          "feature": "b   ",
+          "value": 392.0500030517578
+        },
+        {
+          "feature": "dis  ",
+          "operator": "between",
+          "higher_value": 6.417050123214722,
+          "lower_value": 6.328050136566162
+        }
+      ],
+      "output": 300.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_4"
+        },
+        {
+          "subrule": "SUBRULE_3"
+        },
+        {
+          "feature": "dis  ",
+          "operator": "between",
+          "higher_value": 6.417050123214722,
+          "lower_value": 5.202000141143799
+        },
+        {
+          "operator": "greater",
+          "value": 32.0,
+          "feature": "zn"
+        }
+      ],
+      "output": 329.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_3"
+        },
+        {
+          "subrule": "SUBRULE_4"
+        },
+        {
+          "feature": "ptratio",
+          "operator": "less_or_equal",
+          "value": 19.0
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 26.0,
+          "feature": "zn"
+        },
+        {
+          "feature": "dis  ",
+          "operator": "greater",
+          "value": 6.417050123214722
+        }
+      ],
+      "output": 345.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_3"
+        },
+        {
+          "subrule": "SUBRULE_4"
+        },
+        {
+          "operator": "greater",
+          "feature": "ptratio",
+          "value": 19.0
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 26.0,
+          "feature": "zn"
+        },
+        {
+          "feature": "dis  ",
+          "operator": "greater",
+          "value": 6.417050123214722
+        }
+      ],
+      "output": 330.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_4"
+        },
+        {
+          "operator": "greater",
+          "value": 26.0,
+          "feature": "zn"
+        },
+        {
+          "feature": "dis  ",
+          "operator": "greater",
+          "value": 6.417050123214722
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 0.43800000846385956,
+          "feature": "nox "
+        },
+        {
+          "operator": "between",
+          "higher_value": 0.07439999841153622,
+          "lower_value": 0.042990000918507576,
+          "feature": "crim "
+        }
+      ],
+      "output": 293.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_4"
+        },
+        {
+          "operator": "greater",
+          "value": 26.0,
+          "feature": "zn"
+        },
+        {
+          "operator": "greater",
+          "value": 0.07439999841153622,
+          "feature": "crim "
+        },
+        {
+          "feature": "dis  ",
+          "operator": "greater",
+          "value": 6.417050123214722
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 0.43800000846385956,
+          "feature": "nox "
+        }
+      ],
+      "output": 300.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_0"
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 26.69499969482422,
+          "feature": "indus"
+        },
+        {
+          "value": 372.82000732421875,
+          "operator": "less_or_equal",
+          "feature": "b   "
+        },
+        {
+          "value": 0.06284000165760517,
+          "operator": "less_or_equal",
+          "feature": "crim "
+        },
+        {
+          "operator": "between",
+          "higher_value": 0.582999974489212,
+          "lower_value": 0.43800000846385956,
+          "feature": "nox "
+        }
+      ],
+      "output": 430.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_11"
+        },
+        {
+          "subrule": "SUBRULE_5"
+        },
+        {
+          "value": 71.85000228881836,
+          "feature": "age",
+          "operator": "less_or_equal"
+        },
+        {
+          "value": 6.0249998569488525,
+          "operator": "less_or_equal",
+          "feature": "indus"
+        },
+        {
+          "lower_value": 3.5,
+          "operator": "between",
+          "feature": "rad",
+          "higher_value": 4.5
+        },
+        {
+          "feature": "dis  ",
+          "operator": "greater",
+          "value": 2.8589000701904297
+        }
+      ],
+      "output": 243.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_11"
+        },
+        {
+          "subrule": "SUBRULE_5"
+        },
+        {
+          "value": 71.85000228881836,
+          "feature": "age",
+          "operator": "less_or_equal"
+        },
+        {
+          "value": 6.0249998569488525,
+          "operator": "less_or_equal",
+          "feature": "indus"
+        },
+        {
+          "feature": "ptratio",
+          "value": 16.649999618530273,
+          "operator": "less_or_equal"
+        },
+        {
+          "operator": "between",
+          "higher_value": 16.0,
+          "feature": "rad",
+          "lower_value": 4.5
+        },
+        {
+          "feature": "dis  ",
+          "operator": "greater",
+          "value": 2.8589000701904297
+        }
+      ],
+      "output": 216.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_11"
+        },
+        {
+          "subrule": "SUBRULE_5"
+        },
+        {
+          "value": 71.85000228881836,
+          "feature": "age",
+          "operator": "less_or_equal"
+        },
+        {
+          "operator": "greater",
+          "feature": "ptratio",
+          "value": 16.649999618530273
+        },
+        {
+          "value": 6.0249998569488525,
+          "operator": "less_or_equal",
+          "feature": "indus"
+        },
+        {
+          "operator": "between",
+          "higher_value": 16.0,
+          "feature": "rad",
+          "lower_value": 4.5
+        },
+        {
+          "value": 25.200000762939453,
+          "operator": "less_or_equal",
+          "feature": "medv"
+        },
+        {
+          "feature": "dis  ",
+          "operator": "greater",
+          "value": 2.8589000701904297
+        }
+      ],
+      "output": 224.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_11"
+        },
+        {
+          "subrule": "SUBRULE_5"
+        },
+        {
+          "value": 25.200000762939453,
+          "operator": "greater",
+          "feature": "medv"
+        },
+        {
+          "value": 71.85000228881836,
+          "feature": "age",
+          "operator": "less_or_equal"
+        },
+        {
+          "operator": "greater",
+          "feature": "ptratio",
+          "value": 16.649999618530273
+        },
+        {
+          "value": 6.0249998569488525,
+          "operator": "less_or_equal",
+          "feature": "indus"
+        },
+        {
+          "operator": "between",
+          "higher_value": 16.0,
+          "feature": "rad",
+          "lower_value": 4.5
+        },
+        {
+          "feature": "dis  ",
+          "operator": "greater",
+          "value": 2.8589000701904297
+        }
+      ],
+      "output": 222.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_11"
+        },
+        {
+          "subrule": "SUBRULE_0"
+        },
+        {
+          "subrule": "SUBRULE_5"
+        },
+        {
+          "operator": "greater",
+          "value": 71.85000228881836,
+          "feature": "age"
+        },
+        {
+          "value": 6.0249998569488525,
+          "operator": "less_or_equal",
+          "feature": "indus"
+        }
+      ],
+      "output": 296.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_0"
+        },
+        {
+          "subrule": "SUBRULE_5"
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 47.5,
+          "feature": "zn"
+        },
+        {
+          "value": 6.599999904632568,
+          "feature": "rm ",
+          "operator": "less_or_equal"
+        },
+        {
+          "value": 0.044269999489188194,
+          "operator": "less_or_equal",
+          "feature": "crim "
+        },
+        {
+          "higher_value": 26.69499969482422,
+          "operator": "between",
+          "lower_value": 6.0249998569488525,
+          "feature": "indus"
+        }
+      ],
+      "output": 270.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_0"
+        },
+        {
+          "subrule": "SUBRULE_5"
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 47.5,
+          "feature": "zn"
+        },
+        {
+          "value": 6.599999904632568,
+          "feature": "rm ",
+          "operator": "less_or_equal"
+        },
+        {
+          "higher_value": 26.69499969482422,
+          "operator": "between",
+          "lower_value": 6.0249998569488525,
+          "feature": "indus"
+        },
+        {
+          "operator": "between",
+          "higher_value": 0.06284000165760517,
+          "lower_value": 0.044269999489188194,
+          "feature": "crim "
+        }
+      ],
+      "output": 276.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_11"
+        },
+        {
+          "subrule": "SUBRULE_0"
+        },
+        {
+          "subrule": "SUBRULE_5"
+        },
+        {
+          "value": 6.599999904632568,
+          "feature": "rm ",
+          "operator": "greater"
+        },
+        {
+          "higher_value": 26.69499969482422,
+          "operator": "between",
+          "lower_value": 6.0249998569488525,
+          "feature": "indus"
+        }
+      ],
+      "output": 254.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_0"
+        },
+        {
+          "subrule": "SUBRULE_5"
+        },
+        {
+          "operator": "greater",
+          "value": 47.5,
+          "feature": "zn"
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 26.69499969482422,
+          "feature": "indus"
+        },
+        {
+          "value": 0.06284000165760517,
+          "operator": "less_or_equal",
+          "feature": "crim "
+        }
+      ],
+      "output": 370.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_6"
+        },
+        {
+          "subrule": "SUBRULE_0"
+        },
+        {
+          "operator": "between",
+          "higher_value": 0.582999974489212,
+          "lower_value": 0.43800000846385956,
+          "feature": "nox "
+        },
+        {
+          "value": 3.6450001001358032,
+          "operator": "less_or_equal",
+          "feature": "indus"
+        }
+      ],
+      "output": 430.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_6"
+        },
+        {
+          "feature": "ptratio",
+          "operator": "less_or_equal",
+          "value": 19.40000057220459
+        },
+        {
+          "higher_value": 26.69499969482422,
+          "operator": "between",
+          "lower_value": 3.6450001001358032,
+          "feature": "indus"
+        },
+        {
+          "operator": "between",
+          "higher_value": 0.5015000104904175,
+          "lower_value": 0.43800000846385956,
+          "feature": "nox "
+        },
+        {
+          "lower_value": 3.5,
+          "operator": "between",
+          "feature": "rad",
+          "higher_value": 4.5
+        },
+        {
+          "feature": "dis  ",
+          "operator": "greater",
+          "value": 2.8589000701904297
+        }
+      ],
+      "output": 277.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_6"
+        },
+        {
+          "feature": "ptratio",
+          "operator": "less_or_equal",
+          "value": 19.40000057220459
+        },
+        {
+          "higher_value": 26.69499969482422,
+          "operator": "between",
+          "lower_value": 3.6450001001358032,
+          "feature": "indus"
+        },
+        {
+          "operator": "between",
+          "higher_value": 0.5015000104904175,
+          "lower_value": 0.43800000846385956,
+          "feature": "nox "
+        },
+        {
+          "operator": "between",
+          "higher_value": 16.0,
+          "feature": "rad",
+          "lower_value": 4.5
+        },
+        {
+          "feature": "dis  ",
+          "operator": "greater",
+          "value": 2.8589000701904297
+        }
+      ],
+      "output": 279.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_0"
+        },
+        {
+          "subrule": "SUBRULE_6"
+        },
+        {
+          "higher_value": 26.69499969482422,
+          "operator": "between",
+          "lower_value": 3.6450001001358032,
+          "feature": "indus"
+        },
+        {
+          "operator": "greater",
+          "feature": "ptratio",
+          "value": 19.40000057220459
+        },
+        {
+          "operator": "between",
+          "higher_value": 0.5015000104904175,
+          "lower_value": 0.43800000846385956,
+          "feature": "nox "
+        }
+      ],
+      "output": 287.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_6"
+        },
+        {
+          "subrule": "SUBRULE_0"
+        },
+        {
+          "operator": "between",
+          "higher_value": 0.582999974489212,
+          "lower_value": 0.5015000104904175,
+          "feature": "nox "
+        },
+        {
+          "lower_value": 3.6450001001358032,
+          "operator": "between",
+          "higher_value": 5.125,
+          "feature": "indus"
+        }
+      ],
+      "output": 296.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_6"
+        },
+        {
+          "lower_value": 3.5,
+          "operator": "between",
+          "higher_value": 16.0,
+          "feature": "rad"
+        },
+        {
+          "operator": "between",
+          "higher_value": 0.5410000085830688,
+          "lower_value": 0.5015000104904175,
+          "feature": "nox "
+        },
+        {
+          "feature": "dis  ",
+          "operator": "between",
+          "higher_value": 5.079200029373169,
+          "lower_value": 2.8589000701904297
+        },
+        {
+          "operator": "between",
+          "higher_value": 11.894999980926514,
+          "lower_value": 5.125,
+          "feature": "indus"
+        }
+      ],
+      "output": 307.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_6"
+        },
+        {
+          "lower_value": 3.5,
+          "operator": "between",
+          "higher_value": 16.0,
+          "feature": "rad"
+        },
+        {
+          "operator": "between",
+          "higher_value": 0.582999974489212,
+          "lower_value": 0.5410000085830688,
+          "feature": "nox "
+        },
+        {
+          "feature": "dis  ",
+          "operator": "between",
+          "higher_value": 5.079200029373169,
+          "lower_value": 2.8589000701904297
+        },
+        {
+          "operator": "between",
+          "higher_value": 11.894999980926514,
+          "lower_value": 5.125,
+          "feature": "indus"
+        }
+      ],
+      "output": 304.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_6"
+        },
+        {
+          "lower_value": 3.5,
+          "operator": "between",
+          "higher_value": 16.0,
+          "feature": "rad"
+        },
+        {
+          "operator": "between",
+          "higher_value": 0.582999974489212,
+          "lower_value": 0.5015000104904175,
+          "feature": "nox "
+        },
+        {
+          "feature": "dis  ",
+          "operator": "greater",
+          "value": 5.079200029373169
+        },
+        {
+          "operator": "between",
+          "higher_value": 11.894999980926514,
+          "lower_value": 5.125,
+          "feature": "indus"
+        }
+      ],
+      "output": 311.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_6"
+        },
+        {
+          "subrule": "SUBRULE_0"
+        },
+        {
+          "operator": "between",
+          "higher_value": 0.582999974489212,
+          "lower_value": 0.5015000104904175,
+          "feature": "nox "
+        },
+        {
+          "higher_value": 26.69499969482422,
+          "operator": "between",
+          "lower_value": 11.894999980926514,
+          "feature": "indus"
+        }
+      ],
+      "output": 276.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_0"
+        },
+        {
+          "subrule": "SUBRULE_10"
+        },
+        {
+          "feature": "ptratio",
+          "operator": "less_or_equal",
+          "value": 19.050000190734863
+        },
+        {
+          "value": 16.25,
+          "operator": "greater",
+          "feature": "zn"
+        },
+        {
+          "feature": "rm ",
+          "operator": "less_or_equal",
+          "value": 7.115999937057495
+        },
+        {
+          "value": 3.649999976158142,
+          "operator": "less_or_equal",
+          "feature": "indus"
+        }
+      ],
+      "output": 216.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_0"
+        },
+        {
+          "subrule": "SUBRULE_10"
+        },
+        {
+          "feature": "ptratio",
+          "operator": "less_or_equal",
+          "value": 19.050000190734863
+        },
+        {
+          "feature": "rm ",
+          "operator": "greater",
+          "value": 7.115999937057495
+        },
+        {
+          "value": 16.25,
+          "operator": "greater",
+          "feature": "zn"
+        },
+        {
+          "value": 3.649999976158142,
+          "operator": "less_or_equal",
+          "feature": "indus"
+        }
+      ],
+      "output": 222.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_0"
+        },
+        {
+          "subrule": "SUBRULE_10"
+        },
+        {
+          "feature": "ptratio",
+          "operator": "less_or_equal",
+          "value": 19.050000190734863
+        },
+        {
+          "higher_value": 26.69499969482422,
+          "operator": "between",
+          "lower_value": 3.649999976158142,
+          "feature": "indus"
+        },
+        {
+          "operator": "between",
+          "higher_value": 30.0,
+          "lower_value": 16.25,
+          "feature": "zn"
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 10.319999933242798,
+          "feature": "lstat"
+        }
+      ],
+      "output": 264.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_0"
+        },
+        {
+          "subrule": "SUBRULE_10"
+        },
+        {
+          "feature": "ptratio",
+          "operator": "less_or_equal",
+          "value": 19.050000190734863
+        },
+        {
+          "higher_value": 26.69499969482422,
+          "operator": "between",
+          "lower_value": 3.649999976158142,
+          "feature": "indus"
+        },
+        {
+          "value": 30.0,
+          "operator": "greater",
+          "feature": "zn"
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 10.319999933242798,
+          "feature": "lstat"
+        }
+      ],
+      "output": 254.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_0"
+        },
+        {
+          "subrule": "SUBRULE_10"
+        },
+        {
+          "feature": "ptratio",
+          "operator": "less_or_equal",
+          "value": 19.050000190734863
+        },
+        {
+          "higher_value": 26.69499969482422,
+          "operator": "between",
+          "lower_value": 3.649999976158142,
+          "feature": "indus"
+        },
+        {
+          "operator": "greater",
+          "value": 10.319999933242798,
+          "feature": "lstat"
+        },
+        {
+          "value": 16.25,
+          "operator": "greater",
+          "feature": "zn"
+        }
+      ],
+      "output": 243.0
+    },
+    {
+      "conditions": [
+        {
+          "subrule": "SUBRULE_0"
+        },
+        {
+          "subrule": "SUBRULE_10"
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 26.69499969482422,
+          "feature": "indus"
+        },
+        {
+          "operator": "greater",
+          "feature": "ptratio",
+          "value": 19.050000190734863
+        },
+        {
+          "value": 16.25,
+          "operator": "greater",
+          "feature": "zn"
+        }
+      ],
+      "output": 284.0
+    },
+    {
+      "conditions": [
+        {
+          "operator": "greater",
+          "value": 0.582999974489212,
+          "feature": "nox "
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 26.69499969482422,
+          "feature": "indus"
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 10.0,
+          "feature": "zn"
+        },
+        {
+          "value": 4.5,
+          "feature": "rad",
+          "operator": "less_or_equal"
+        }
+      ],
+      "output": 437.0
+    },
+    {
+      "conditions": [
+        {
+          "operator": "greater",
+          "value": 0.582999974489212,
+          "feature": "nox "
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 10.0,
+          "feature": "zn"
+        },
+        {
+          "operator": "between",
+          "higher_value": 16.0,
+          "feature": "rad",
+          "lower_value": 4.5
+        },
+        {
+          "value": 14.634999752044678,
+          "operator": "less_or_equal",
+          "feature": "indus"
+        }
+      ],
+      "output": 391.0
+    },
+    {
+      "conditions": [
+        {
+          "operator": "greater",
+          "value": 0.582999974489212,
+          "feature": "nox "
+        },
+        {
+          "higher_value": 26.69499969482422,
+          "operator": "between",
+          "lower_value": 14.634999752044678,
+          "feature": "indus"
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 10.0,
+          "feature": "zn"
+        },
+        {
+          "operator": "between",
+          "higher_value": 16.0,
+          "feature": "rad",
+          "lower_value": 4.5
+        }
+      ],
+      "output": 403.0
+    },
+    {
+      "conditions": [
+        {
+          "operator": "greater",
+          "value": 0.582999974489212,
+          "feature": "nox "
+        },
+        {
+          "operator": "less_or_equal",
+          "value": 26.69499969482422,
+          "feature": "indus"
+        },
+        {
+          "feature": "rad",
+          "value": 16.0,
+          "operator": "less_or_equal"
+        },
+        {
+          "operator": "greater",
+          "value": 10.0,
+          "feature": "zn"
+        }
+      ],
+      "output": 264.0
+    },
+    {
+      "conditions": [
+        {
+          "feature": "rad",
+          "value": 16.0,
+          "operator": "less_or_equal"
+        },
+        {
+          "operator": "greater",
+          "value": 26.69499969482422,
+          "feature": "indus"
+        }
+      ],
+      "output": 711.0
+    },
+    {
+      "conditions": [
+        {
+          "operator": "greater",
+          "feature": "rad",
+          "value": 16.0
+        }
+      ],
+      "output": 666.0
+    }
+  ]
+}

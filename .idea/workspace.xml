@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a7c5221-581e-4dc1-b2a9-fae3e0c08bad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/data/human_readable_rules.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/human_readable_rules.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/e/0ea98b415c0a9f25ce918636729c4ee0675e326a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/b/bbeca1c28530f1278b7fda6beff21360b55eadd8" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/b/bbeca1c28530f1278b7fda6beff21360b55eadd8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/4/d432861bbaefe334e287e4bf09ef535c5545680e" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/4/d432861bbaefe334e287e4bf09ef535c5545680e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/simplified_rules.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/simplified_rules.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/expertsystems/human_readable_rules.py" beforeDir="false" afterPath="$PROJECT_DIR$/expertsystems/human_readable_rules.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/expertsystems/simplify_rules.py" beforeDir="false" afterPath="$PROJECT_DIR$/expertsystems/simplify_rules.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/expertsystems/extract_fuzzy_rules.py" beforeDir="false" afterPath="$PROJECT_DIR$/expertsystems/refactor_rules.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,72 +19,25 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/expertsystems$human_readable_rules.coverage" NAME="human_readable_rules Coverage Results" MODIFIED="1559382411682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/expertsystems" />
+    <SUITE FILE_PATH="coverage/expertsystems$human_readable_rules.coverage" NAME="human_readable_rules Coverage Results" MODIFIED="1559382439027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/expertsystems" />
     <SUITE FILE_PATH="coverage/expertsystems$training.coverage" NAME="training Coverage Results" MODIFIED="1559379352396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/expertsystems" />
     <SUITE FILE_PATH="coverage/expertsystems$trainer.coverage" NAME="trainer Coverage Results" MODIFIED="1559379339983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/expertsystems" />
     <SUITE FILE_PATH="coverage/expertsystems$expolre_fuzzy.coverage" NAME="expolre_fuzzy Coverage Results" MODIFIED="1559293801435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/expertsystems" />
     <SUITE FILE_PATH="coverage/expertsystems$extract_fuzzy_rules.coverage" NAME="extract_fuzzy_rules Coverage Results" MODIFIED="1559379148315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/expertsystems" />
-    <SUITE FILE_PATH="coverage/expertsystems$extracting_ranges.coverage" NAME="extracting_ranges Coverage Results" MODIFIED="1559382398640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/expertsystems" />
+    <SUITE FILE_PATH="coverage/expertsystems$refactor_rules.coverage" NAME="refactor_rules Coverage Results" MODIFIED="1559566643056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/expertsystems" />
+    <SUITE FILE_PATH="coverage/expertsystems$extracting_ranges.coverage" NAME="extracting_ranges Coverage Results" MODIFIED="1559559268062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/expertsystems" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-816739954">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="csv" value="5" />
-          <entry key="java" value="1" />
-          <entry key="json" value="19" />
-          <entry key="md" value="2" />
-          <entry key="png" value="1" />
-          <entry key="py" value="29" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CSV" value="5" />
-          <entry key="Image" value="1" />
-          <entry key="JAVA" value="1" />
-          <entry key="JSON" value="17" />
-          <entry key="Markdown" value="2" />
-          <entry key="Python" value="29" />
-          <entry key="Scratch" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="18" />
-          <entry key="json" value="150" />
-          <entry key="md" value="410" />
-          <entry key="py" value="5860" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Markdown" value="410" />
-          <entry key="PLAIN_TEXT" value="18" />
-          <entry key="Python" value="5860" />
-          <entry key="Scratch" value="150" />
-        </counts>
-      </usages-collector>
-    </session>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/expertsystems/simplify_rules.py">
+        <entry file="file://$PROJECT_DIR$/expertsystems/refactor_rules.py">
           <provider selected="true" editor-type-id="live-pycharm">
             <state>
-              <first_editor relative-caret-position="-84">
-                <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+              <first_editor relative-caret-position="226">
+                <caret line="54" column="28" lean-forward="true" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
               </first_editor>
               <second_editor relative-caret-position="-105" />
             </state>
@@ -88,25 +45,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/expertsystems/human_readable_rules.py">
-          <provider selected="true" editor-type-id="live-pycharm">
-            <state>
-              <first_editor relative-caret-position="218">
-                <caret line="33" column="83" selection-start-line="33" selection-start-column="83" selection-end-line="33" selection-end-column="83" />
-                <folding>
-                  <element signature="e#0#11#0" expanded="true" />
-                </folding>
-              </first_editor>
-              <second_editor relative-caret-position="-105" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/human_readable_rules.csv">
+        <entry file="file://$PROJECT_DIR$/data/refactored_rules.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
+            <state relative-caret-position="348">
+              <caret line="123" column="9" lean-forward="true" selection-start-line="123" selection-start-column="9" selection-end-line="123" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -123,19 +65,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>scale_</find>
-      <find>zn</find>
-      <find>dis</find>
-      <find>chas</find>
-      <find>nox</find>
-      <find>ptratio</find>
-      <find>tax</find>
-      <find>&quot;</find>
       <find>b</find>
       <find>conditions</find>
       <find>rad</find>
       <find>THEN</find>
       <find>t</find>
+      <find>IF indus IS LESS OR EQUAL THAN 26.695 AND IF ptratio IS LESS OR EQUAL</find>
+      <find>IF indus IS LESS OR EQUAL THAN 26.695 AND IF rad IS IN RANGE (2.5, 3.5]</find>
+      <find>IF indus IS LESS OR EQUAL THAN 26.695 AND IF dis IS IN RANGE (3.5137, 6.2433] AND IF rad IS IN RANGE (2.5, 3.5] AND IF</find>
+      <find>IF indus IS LESS OR EQUAL THAN 26.695 AND IF rad IS LESS O</find>
+      <find>IF indus IS LESS OR EQUAL THAN 26.695 AND IF dis IS IN RANGE (3.5137, 6.2433] AND IF rad IS IN RANGE (2.5, 3.5] A</find>
+      <find>rule</find>
+      <find>{}</find>
+      <find>wrong</find>
+      <find>should be string</find>
+      <find>IF indus IS LESS OR EQUAL THAN 26.695 AND IF ptratio IS GREATER THAN 16.55 AND IF chas IS LESS OR EQUAL THAN 0.5 AND</find>
+      <find>403.0</find>
+      <find>SUBRULE_8309</find>
+      <find>264.0</find>
+      <find>SUBRULE_10972</find>
+      <find>SUBRULE_7649</find>
+      <find>403</find>
+      <find>711.0</find>
+      <find>SUBRULE_16412</find>
+      <find>281.0</find>
+      <find>281</find>
+      <find>rules</find>
+      <find>296.0</find>
+      <find>337.0</find>
+      <find>subrule_name</find>
+      <find>SUBRULE_7</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
@@ -143,16 +102,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GradleLocalSettings">
-    <option name="projectSyncType">
-      <map>
-        <entry key="$PROJECT_DIR$/../comigo-backend" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../demo" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../fuzzlr-backend" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../sw" value="PREVIEW" />
-      </map>
-    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -165,28 +114,33 @@
         <option value="$PROJECT_DIR$/expertsystems/extracting_ranges.py" />
         <option value="$PROJECT_DIR$/expertsystems/extract_fuzzy_rules.py" />
         <option value="$PROJECT_DIR$/expertsystems/main.py" />
-        <option value="$PROJECT_DIR$/Readme.md" />
         <option value="$PROJECT_DIR$/expertsystems/rule_miner.py" />
         <option value="$PROJECT_DIR$/data/extracted_rules.json" />
         <option value="$PROJECT_DIR$/data/feature_ranges.json" />
         <option value="$PROJECT_DIR$/expertsystems/trainer.py" />
-        <option value="$PROJECT_DIR$/expertsystems/simplify_rules.py" />
-        <option value="$PROJECT_DIR$/data/simplified_rules.json" />
+        <option value="$PROJECT_DIR$/Readme.md" />
         <option value="$PROJECT_DIR$/expertsystems/human_readable_rules.py" />
+        <option value="$PROJECT_DIR$/expertsystems/simplify_rules.py" />
+        <option value="$PROJECT_DIR$/djubre/processed.csv" />
+        <option value="$PROJECT_DIR$/djubre/logs.py" />
+        <option value="$PROJECT_DIR$/djubre/value_counts.csv" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/idea.properties" />
+        <option value="$PROJECT_DIR$/data/simplified_rules.json" />
+        <option value="$PROJECT_DIR$/expertsystems/test.py" />
+        <option value="$PROJECT_DIR$/djubre/smth.json" />
+        <option value="$PROJECT_DIR$/djubre/resource_to_listings.py" />
+        <option value="$PROJECT_DIR$/data/mappings.json" />
+        <option value="$PROJECT_DIR$/expertsystems/refactor_rules.py" />
+        <option value="$PROJECT_DIR$/data/refactored_rules.json" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="245" />
-    <option name="y" value="147" />
-    <option name="width" value="1203" />
-    <option name="height" value="778" />
+    <option name="x" value="443" />
+    <option name="y" value="73" />
+    <option name="width" value="1921" />
+    <option name="height" value="920" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -194,8 +148,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -213,22 +165,36 @@
               <item name="expertsystems" type="462c0819:PsiDirectoryNode" />
               <item name="expertsystems" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="expertsystems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="humanreada&#9;FILE&#9;file:///Users/igorjovic/IdeaProjects/expertsystems/expertsystems/human_readable_rules.py&#10;main&#9;FILE&#9;file:///Users/igorjovic/IdeaProjects/expertsystems/expertsystems/main.py&#10;bost&#9;FILE&#9;file:///Users/igorjovic/IdeaProjects/expertsystems/data/boston_housing.csv&#10;extrac&#9;FILE&#9;file:///Users/igorjovic/IdeaProjects/expertsystems/data/extracted_rules.json&#10;extra&#9;FILE&#9;file:///Users/igorjovic/IdeaProjects/expertsystems/data/extracted_rules.json&#10;scratch&#9;ACTION&#9;NewScratchFile" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="readme&#9;FILE&#9;file:///Users/igorjovic/IdeaProjects/expertsystems/Readme.md&#10;humanreada&#9;FILE&#9;file:///Users/igorjovic/IdeaProjects/expertsystems/expertsystems/human_readable_rules.py&#10;main&#9;FILE&#9;file:///Users/igorjovic/IdeaProjects/expertsystems/expertsystems/main.py&#10;bost&#9;FILE&#9;file:///Users/igorjovic/IdeaProjects/expertsystems/data/boston_housing.csv&#10;extrac&#9;FILE&#9;file:///Users/igorjovic/IdeaProjects/expertsystems/data/extracted_rules.json&#10;extra&#9;FILE&#9;file:///Users/igorjovic/IdeaProjects/expertsystems/data/extracted_rules.json&#10;scratch&#9;ACTION&#9;NewScratchFile" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559382391197" />
-    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSON" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559569713555" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA&#10;JSON" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/djubre" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/expertsystems" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -242,8 +208,30 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.human_readable_rules">
-    <configuration name="extract_fuzzy_rules" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.refactor_rules">
+    <configuration name="logs" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="expertsystems" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/djubre" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/djubre/logs.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="refactor_rules" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="expertsystems" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -256,7 +244,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/expertsystems/extract_fuzzy_rules.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/expertsystems/refactor_rules.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -265,7 +253,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="extracting_ranges" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="resource_to_listings" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="expertsystems" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/djubre" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/djubre/resource_to_listings.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="simplify_rules" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="expertsystems" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -279,50 +289,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/expertsystems/simplify_rules.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="human_readable_rules" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="expertsystems" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/expertsystems" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/expertsystems/human_readable_rules.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="trainer" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="expertsystems" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/expertsystems" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/expertsystems/trainer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -353,20 +319,12 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <list>
-      <item itemvalue="Python.training" />
-      <item itemvalue="Python.extracting_ranges" />
-      <item itemvalue="Python.extract_fuzzy_rules" />
-      <item itemvalue="Python.trainer" />
-      <item itemvalue="Python.human_readable_rules" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.human_readable_rules" />
-        <item itemvalue="Python.extracting_ranges" />
-        <item itemvalue="Python.training" />
-        <item itemvalue="Python.trainer" />
-        <item itemvalue="Python.extract_fuzzy_rules" />
+        <item itemvalue="Python.refactor_rules" />
+        <item itemvalue="Python.resource_to_listings" />
+        <item itemvalue="Python.simplify_rules" />
+        <item itemvalue="Python.logs" />
       </list>
     </recent_temporary>
   </component>
@@ -384,18 +342,27 @@
       <workItem from="1559142466923" duration="5588000" />
       <workItem from="1559154133293" duration="1916000" />
       <workItem from="1559292920700" duration="10961000" />
-      <workItem from="1559378089450" duration="4125000" />
+      <workItem from="1559378089450" duration="15315000" />
+      <workItem from="1559575903300" duration="2648000" />
+      <workItem from="1559649687466" duration="2361000" />
+      <workItem from="1559658505644" duration="26000" />
+      <workItem from="1559658548926" duration="4966000" />
+      <workItem from="1559732626311" duration="22982000" />
+      <workItem from="1559827888884" duration="5000" />
+      <workItem from="1559891566113" duration="4610000" />
+      <workItem from="1560150444811" duration="4871000" />
+      <workItem from="1560170849737" duration="6734000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31632000" />
+    <option name="totallyTimeSpent" value="92025000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="245" y="147" width="1203" height="778" extended-state="0" />
+    <frame x="443" y="73" width="1921" height="920" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17743325" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19957425" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -403,18 +370,19 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32915717" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36880466" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.48063782" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49960536" weight="0.3263158" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49960536" visible="true" weight="0.3442029" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.34661835" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.31778425" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2091195" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50039464" side_tool="true" weight="0.36691728" />
       <window_info anchor="bottom" id="SonarLint" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32944608" />
+      <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -427,7 +395,45 @@
       <window_info anchor="right" id="Database" order="9" />
       <window_info anchor="right" id="Palette&#9;" order="10" />
       <window_info anchor="right" id="Theme Preview" order="11" />
+      <window_info anchor="right" id="Maven" order="12" />
+      <window_info anchor="right" id="make" order="13" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20271143" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32850242" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36811593" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.48019323" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.21062802" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="SonarLint" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32944608" />
+      <window_info anchor="right" id="make" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="R Packages" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="R Graphics" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="SciView" order="9" weight="0.32916266" />
+      <window_info anchor="right" id="Database" order="10" />
+      <window_info anchor="right" id="Palette&#9;" order="11" />
+      <window_info anchor="right" id="Theme Preview" order="12" />
+      <window_info anchor="right" id="Maven" order="13" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -442,53 +448,67 @@
       </list>
     </option>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/djubre/logs.py</url>
+          <line>67</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/expertsystems$refactor_rules.coverage" NAME="refactor_rules Coverage Results" MODIFIED="1560255929346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/expertsystems" />
+    <SUITE FILE_PATH="coverage/expertsystems$resource_to_listings.coverage" NAME="resource_to_listings Coverage Results" MODIFIED="1560254878540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/djubre" />
+    <SUITE FILE_PATH="coverage/expertsystems$simplify_rules.coverage" NAME="simplify_rules Coverage Results" MODIFIED="1559733408973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/expertsystems" />
+    <SUITE FILE_PATH="coverage/expertsystems$logs.coverage" NAME="logs Coverage Results" MODIFIED="1559661065223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/djubre" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>len(feature_columns) == len(scaler.mean_)</expression-string>
+        <expression-string>new_rules</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>scaler</expression-string>
+        <expression-string>list(json.apply(lambda row: row['listing_id']))</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>tree_.children_left[node]</expression-string>
+        <expression-string>list(group.apply(lambda row: row['listing_id'], axis=1))</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>node</expression-string>
+        <expression-string>list(group.apply(lambda row: row['listing_id']))</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>pathto[node]</expression-string>
+        <expression-string>mapping</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>pathto</expression-string>
+        <expression-string>group</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>condition</expression-string>
+        <expression-string>rule_conditions.issuperset(subrule_conditions)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>output_classes[0]</expression-string>
+        <expression-string>rule_conditions - subrule_conditions</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>np.arange(0, 11)</expression-string>
+        <expression-string>rule_conditions</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -504,13 +524,6 @@
             <caret line="935" column="8" selection-start-line="935" selection-start-column="8" selection-end-line="935" selection-end-column="8" />
           </first_editor>
           <second_editor relative-caret-position="-105" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/iris.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="57" selection-start-column="50" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -578,23 +591,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="30">
-            <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/extracted_rules.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/expertsystems/rule_miner.py">
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
@@ -642,19 +638,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/expertsystems/extract_fuzzy_rules.py">
-      <provider selected="true" editor-type-id="live-pycharm">
-        <state>
-          <first_editor relative-caret-position="195">
-            <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-            <folding>
-              <marker date="1559304106164" expanded="true" signature="161:596" ph="..." />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/venv/expert-systems/lib/python3.7/site-packages/pandas/core/internals/construction.py">
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
@@ -665,40 +648,207 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/simplified_rules.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2164">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+    <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="60">
+            <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/djubre/logs.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="275" selection-start-line="1" selection-start-column="275" selection-end-line="1" selection-end-column="275" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/djubre/processed.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="152">
+          <caret line="389" column="103" selection-start-line="389" selection-start-column="103" selection-end-line="389" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/djubre/value_counts.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="29" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/extracted_rules.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/human_readable_rules.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="118" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expertsystems/DEPRECATED_extract_fuzzy_rules.py" />
     <entry file="file://$PROJECT_DIR$/expertsystems/simplify_rules.py">
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
-          <first_editor relative-caret-position="-84">
-            <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <first_editor>
+            <caret column="11" selection-start-column="11" selection-end-column="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/iris.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state>
+          <caret column="57" selection-start-column="50" selection-end-column="57" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expertsystems/human_readable_rules.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="285">
+            <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/IntelliJIdea2019.1/python_stubs/359197173/builtins.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="195">
+            <caret line="4339" column="8" selection-start-line="4339" selection-start-column="8" selection-end-line="4339" selection-end-column="8" />
           </first_editor>
           <second_editor relative-caret-position="-105" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/human_readable_rules.csv">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/idea.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
+        <state relative-caret-position="30">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/expertsystems/human_readable_rules.py">
+    <entry file="file://$PROJECT_DIR$/expertsystems/test.py">
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
-          <first_editor relative-caret-position="218">
-            <caret line="33" column="83" selection-start-line="33" selection-start-column="83" selection-end-line="33" selection-end-column="83" />
+          <first_editor relative-caret-position="300">
+            <caret line="20" selection-start-line="20" selection-end-line="20" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/djubre/smth.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/djubre/logs.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="-94">
+            <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
             <folding>
               <element signature="e#0#11#0" expanded="true" />
             </folding>
           </first_editor>
           <second_editor relative-caret-position="-105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/djubre/resource_to_listings.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="180">
+            <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <folding>
+              <element signature="e#0#11#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/mappings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="47" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/simplified_rules.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/venv/expert-systems/lib/python3.7/site-packages/pandas/io/json/json.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="-1268">
+            <caret line="228" column="4" selection-start-line="228" selection-start-column="4" selection-end-line="228" selection-end-column="4" />
+          </first_editor>
+          <second_editor relative-caret-position="-105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expertsystems/refactor_rules.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="226">
+            <caret line="54" column="28" lean-forward="true" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
+          </first_editor>
+          <second_editor relative-caret-position="-105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/refactored_rules.json">
+      <provider editor-type-id="LargeFileEditor">
+        <state relative-caret-position="139">
+          <caret column="193490" selection-start-column="193490" selection-end-column="193490" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="123" column="9" lean-forward="true" selection-start-line="123" selection-start-column="9" selection-end-line="123" selection-end-column="9" />
         </state>
       </provider>
     </entry>
