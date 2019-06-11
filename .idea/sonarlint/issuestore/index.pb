@@ -1,6 +1,4 @@
 
-=
-data/iris.csv,a/b/abbb30dc812435b4ff4a7f4abe2c00f880d01a84
 N
 expertsystems/expolre_fuzzy.py,a/0/a080dcbb49d930e2a5d1893aefb6bd2df248060f
 H
@@ -27,13 +25,5 @@ U
 %expertsystems/human_readable_rules.py,f/d/fd4a87bc999d833480aea3ee519dfa81fc192cc8
 O
 expertsystems/refactor_rules.py,b/e/be97c6b80c780029dd90438866053aecd0c70ce3
-?
-djubre/logs.csv,3/0/30b1a4ee77cb5f0c8c0d405cc715c0e56ac741e5
-D
-djubre/processed.csv,4/1/417d21b7a7cf913d25598cfb2488c4922936b500
->
-djubre/logs.py,d/d/dd98f598f0331ef2b040cbf69746a19f335161ce
-G
-djubre/value_counts.csv,4/d/4d45e896e0332ca397164e0b7befe2c289170204
 J
 data/refactored_rules.json,8/6/86caf58c3c6cdd3f3ad1ee55c7a7ba292d1e73e3
