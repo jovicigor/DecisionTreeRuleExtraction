@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a7c5221-581e-4dc1-b2a9-fae3e0c08bad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/apartments_sale.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/0/30b1a4ee77cb5f0c8c0d405cc715c0e56ac741e5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/1/417d21b7a7cf913d25598cfb2488c4922936b500" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/d/4d45e896e0332ca397164e0b7befe2c289170204" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/b/abbb30dc812435b4ff4a7f4abe2c00f880d01a84" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/d/dd98f598f0331ef2b040cbf69746a19f335161ce" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/extracted_rules.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/extracted_rules.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/human_readable_rules.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/human_readable_rules.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/iris.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/refactored_rules.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/refactored_rules.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/simplified_rules.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/simplified_rules.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/expertsystems/trainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/expertsystems/trainer.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,8 +59,8 @@
         <entry file="file://$PROJECT_DIR$/Readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="156">
-                <caret line="17" column="78" selection-start-line="17" selection-start-column="78" selection-end-line="17" selection-end-column="78" />
+              <first_editor relative-caret-position="376">
+                <caret line="36" column="30" lean-forward="true" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
               </first_editor>
               <second_editor />
             </state>
@@ -420,18 +406,18 @@
       <workItem from="1559891566113" duration="4610000" />
       <workItem from="1560150444811" duration="4871000" />
       <workItem from="1560170849737" duration="9349000" />
-      <workItem from="1560260394835" duration="1818000" />
+      <workItem from="1560260394835" duration="2571000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96458000" />
+    <option name="totallyTimeSpent" value="97211000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1155" y="44" width="1921" height="920" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20170303" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20170303" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -440,12 +426,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49960536" weight="0.3263158" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960536" visible="true" weight="0.3442029" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960536" weight="0.3442029" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.34661835" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2089372" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2089372" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50039464" side_tool="true" weight="0.36691728" />
       <window_info anchor="bottom" id="SonarLint" order="10" />
@@ -854,8 +840,8 @@
     <entry file="file://$PROJECT_DIR$/Readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="156">
-            <caret line="17" column="78" selection-start-line="17" selection-start-column="78" selection-end-line="17" selection-end-column="78" />
+          <first_editor relative-caret-position="376">
+            <caret line="36" column="30" lean-forward="true" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
           </first_editor>
           <second_editor />
         </state>
