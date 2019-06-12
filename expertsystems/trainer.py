@@ -11,7 +11,7 @@ def train_decision_tree(df: pd.DataFrame, target_column: str, feature_columns: l
 
     # x = scaler.fit_transform(x)
 
-    classifier = DecisionTreeRegressor()
+    classifier = DecisionTreeRegressor(max_depth=5)
     classifier.fit(x, y)
     classifier.predict(x)
 

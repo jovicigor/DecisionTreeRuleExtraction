@@ -27,3 +27,7 @@ O
 expertsystems/refactor_rules.py,b/e/be97c6b80c780029dd90438866053aecd0c70ce3
 J
 data/refactored_rules.json,8/6/86caf58c3c6cdd3f3ad1ee55c7a7ba292d1e73e3
+?
+requrements.txt,d/e/de577b6f9cebdc71df60f74508bb3112bf2e250a
+H
+data/apartments_sale.csv,3/b/3bfb2df34d3cc25d7406dc1436c9027b6bcfa25b
